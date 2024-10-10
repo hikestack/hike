@@ -41,6 +41,9 @@ importers:
       '@hikestack/logger':
         specifier: workspace:^
         version: link:../../packages/logger
+      '@hikestack/mail':
+        specifier: workspace:^
+        version: link:../../packages/mail
       '@nestjs/bullmq':
         specifier: ^10.2.1
         version: 10.2.1(@nestjs/common@10.4.1(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(@nestjs/core@10.4.1(@nestjs/common@10.4.1(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(reflect-metadata@0.2.2)(rxjs@7.8.1))(bullmq@5.12.10)
@@ -364,13 +367,34 @@ importers:
 
   apps/official:
     dependencies:
+      '@radix-ui/react-slot':
+        specifier: ^1.1.0
+        version: 1.1.0(@types/react@18.3.11)(react@18.3.1)
       '@scalar/api-reference-react':
         specifier: ^0.3.107
         version: 0.3.107(@hyperjump/browser@1.1.6)(postcss@8.4.47)(react@18.3.1)(tailwindcss@3.4.10)(typescript@5.5.4)
+      class-variance-authority:
+        specifier: ^0.7.0
+        version: 0.7.0
+      clsx:
+        specifier: ^2.1.1
+        version: 2.1.1
+      lucide-react:
+        specifier: ^0.428.0
+        version: 0.428.0(react@18.3.1)
       rspress:
         specifier: ^1.32.0
         version: 1.32.0(webpack@5.94.0)
+      tailwind-merge:
+        specifier: ^2.5.2
+        version: 2.5.2
+      tailwindcss-animate:
+        specifier: ^1.0.7
+        version: 1.0.7(tailwindcss@3.4.10)
     devDependencies:
+      '@rspress/shared':
+        specifier: ^1.32.0
+        version: 1.32.0
       '@types/node':
         specifier: ^16
         version: 16.18.112
@@ -380,6 +404,15 @@ importers:
       rspress-plugin-google-analytics:
         specifier: ^0.3.0
         version: 0.3.0(rspress@1.32.0(webpack@5.94.0))
+      tailwindcss:
+        specifier: ^3.4.10
+        version: 3.4.10
+      typedoc:
+        specifier: ^0.26.8
+        version: 0.26.8(typescript@5.5.4)
+      typedoc-plugin-markdown:
+        specifier: ^4.2.9
+        version: 4.2.9(typedoc@0.26.8(typescript@5.5.4))
 
   packages/client:
     dependencies:
@@ -399,12 +432,6 @@ importers:
         specifier: ^0.2.2
         version: 0.2.2
     devDependencies:
-      typedoc:
-        specifier: ^0.26.8
-        version: 0.26.8(typescript@5.5.4)
-      typedoc-plugin-markdown:
-        specifier: ^4.2.9
-        version: 4.2.9(typedoc@0.26.8(typescript@5.5.4))
       typescript:
         specifier: ^5.5.2
         version: 5.5.4
@@ -423,6 +450,21 @@ importers:
       winston:
         specifier: ^3.14.2
         version: 3.14.2
+
+  packages/mail:
+    devDependencies:
+      '@nestjs/common':
+        specifier: ^10.4.1
+        version: 10.4.1(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1)
+      '@nestjs/core':
+        specifier: ^10.4.1
+        version: 10.4.1(@nestjs/common@10.4.1(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(reflect-metadata@0.2.2)(rxjs@7.8.1)
+      nodemailer:
+        specifier: ^6.9.14
+        version: 6.9.14
+      typescript:
+        specifier: ^5.5.2
+        version: 5.5.4
 
   packages/sandbox:
     dependencies:
@@ -12541,7 +12583,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 22.7.4
+      '@types/node': 16.18.112
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
