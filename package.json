@@ -1,0 +1,31 @@
+{
+	"name": "@hikestack/monorepo",
+	"description": "A high-performance and scalable TypeScript tool set",
+	"private": true,
+	"scripts": {
+		"preinstall": "npx only-allow pnpm",
+		"generate": "pnpm --filter=@hikestack/* run generate",
+		"build": "pnpm --filter=@hikestack/* run build",
+		"clean": "pnpm --filter=@hikestack/* run clean",
+		"format": "pnpm biome format --write .",
+		"cs": "changeset",
+		"dedupe": "pnpm dedupe"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.3",
+		"@changesets/cli": "^2.27.8",
+		"autocannon": "^7.15.0",
+		"commitizen": "^4.3.0",
+		"cz-conventional-changelog": "^3.3.0",
+		"rimraf": "^6.0.1"
+	},
+	"packageManager": "pnpm@8.15.6",
+	"engines": {
+		"node": ">=18"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	}
+}
