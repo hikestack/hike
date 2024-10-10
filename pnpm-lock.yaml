@@ -38,6 +38,9 @@ importers:
       '@hey-api/openapi-ts':
         specifier: ^0.53.6
         version: 0.53.6(typescript@5.3.3)
+      '@hikestack/lock':
+        specifier: workspace:^
+        version: link:../../packages/lock
       '@hikestack/logger':
         specifier: workspace:^
         version: link:../../packages/logger
@@ -435,6 +438,27 @@ importers:
         specifier: ^0.2.2
         version: 0.2.2
     devDependencies:
+      typescript:
+        specifier: ^5.5.2
+        version: 5.5.4
+
+  packages/lock:
+    devDependencies:
+      '@nestjs/common':
+        specifier: ^10.4.1
+        version: 10.4.1(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1)
+      '@nestjs/core':
+        specifier: ^10.4.1
+        version: 10.4.1(@nestjs/common@10.4.1(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(reflect-metadata@0.2.2)(rxjs@7.8.1)
+      '@types/ioredis':
+        specifier: ^5.0.0
+        version: 5.0.0
+      ioredis:
+        specifier: ^5.4.1
+        version: 5.4.1
+      redlock:
+        specifier: 5.0.0-beta.2
+        version: 5.0.0-beta.2
       typescript:
         specifier: ^5.5.2
         version: 5.5.4
