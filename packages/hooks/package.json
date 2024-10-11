@@ -1,0 +1,36 @@
+{
+	"name": "@hikestack/hooks",
+	"version": "1.0.0",
+	"private": "true",
+	"license": "MIT",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		}
+	},
+	"scripts": {
+		"build": "tsc",
+		"clean": "rimraf dist && rimraf node_modules && rimraf tsconfig.tsbuildinfo",
+		"dev": "tsc -w --preserveWatchOutput --declarationMap"
+	},
+	"peerDependencies": {
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4.17.9",
+		"@types/node": "^22.7.5",
+		"@types/react": "^18.3.5",
+		"@types/react-dom": "^18.3.0",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-router-dom": "^6.26.2",
+		"typescript": "^5.5.2"
+	},
+	"dependencies": {
+		"lodash": "^4.17.21"
+	}
+}
