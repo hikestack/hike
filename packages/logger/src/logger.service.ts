@@ -4,26 +4,26 @@ import { MODULE_OPTIONS_TOKEN } from "./logger.module-definition";
 
 @Injectable()
 export class LoggerService implements ILogger {
-	protected readonly logger: ILogger;
+	protected readonly adapter: ILogger;
 	constructor(
 		@Inject(MODULE_OPTIONS_TOKEN)
 		private readonly options: LoggerModuleOptions,
 	) {
-		if (!this.options.logger) {
-			throw new Error("LoggerModuleOptions.logger is not defined");
+		if (!this.options.adapter) {
+			throw new Error("LoggerModuleOptions.adapter is not defined");
 		}
-		this.logger = this.options.logger;
+		this.adapter = this.options.adapter;
 	}
 
 	log(message: any, ...optionalParams: any[]) {
-		this.logger.log(message, ...optionalParams);
+		this.adapter.log(message, ...optionalParams);
 	}
 
 	error(message: any, ...optionalParams: any[]) {
-		this.logger.error(message, ...optionalParams);
+		this.adapter.error(message, ...optionalParams);
 	}
 
 	warn(message: any, ...optionalParams: any[]) {
-		this.logger.warn(message, ...optionalParams);
+		this.adapter.warn(message, ...optionalParams);
 	}
 }
