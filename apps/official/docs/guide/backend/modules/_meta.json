@@ -1,0 +1,1 @@
+["logger", "mail", "redis", "lock", "saga", "kysely", "prisma"]

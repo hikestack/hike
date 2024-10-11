@@ -1,0 +1,93 @@
+# Redis模块
+
+import { SourceCode, PackageManagerTabs } from 'rspress/theme';
+import { Button } from '@/components/ui/Button';
+import { FileCode2Icon, SquareArrowOutUpRightIcon  } from 'lucide-react'
+
+<div className="flex space-x-2 items-center">    
+    <a className="flex space-x-1 items-center" href="https://github.com/hikestack/hike/tree/main/packages/redis" target="_blank">
+        <Button variant="secondary" size="sm">      
+             <span>源码</span>
+            <FileCode2Icon className="w-4 h-4 ml-1" />
+        </Button>
+    </a>
+   
+    <a className="flex space-x-1 items-center" href="/official/reference/redis/globals">
+        <Button variant="secondary" size="sm">
+            <span>API 参考</span>
+            <SquareArrowOutUpRightIcon className="w-4 h-4 ml-1" />
+        </Button>
+    </a>
+</div>
+
+```RedisModule``` 是一个专为 NestJS 框架设计的模块，它使得在 NestJS 应用中集成和使用 Redis 变得简单和高效。这个模块在底层默认使用 [```ioredis```](https://github.com/redis/ioredis) 库来实现与 Redis 服务器的通信。
+
+## 安装
+
+<PackageManagerTabs command="install @hikestack/redis" />
+
+:::tip 提示
+安装对应适配器的依赖
+:::
+
+<PackageManagerTabs command="install ioredis" />
+
+## 使用
+
+导入并注册 ```RedisModule```
+
+```ts title="app.module.ts" {20-23}
+import path from "path";
+import { Module } from "@nestjs/common";
+import { RedisModule } from "@hikestack/redis";
+import { ConfigModule, ConfigService } from "@nestjs/config";
+
+@Module({
+	imports: [
+		ConfigModule.forRoot({
+			isGlobal: true,
+			cache: true,
+			envFilePath: [
+				path.resolve(
+					__dirname,
+					"..",
+					`env/${process.env.NODE_ENV || "development"}.env`,
+				),
+			],
+			load: configs,
+		}),
+		RedisModule.registerAsync({
+			inject: [ConfigService],
+			useFactory: (configService: ConfigService) => configService.get("redis"),
+		})
+	]
+})
+export class AppModule {}
+```
+
+使用构造函数注入
+
+```ts title="app.service.ts" {7}
+import { Injectable } from "@nestjs/common";
+import { RedisService } from "@hikestack/redis";
+
+@Injectable()
+export class AppService {
+	constructor(
+		private readonly redisService: RedisService,
+	) {}
+}
+```
+
+使用属性注入
+
+```ts title="app.service.ts" {6,7}
+import { Injectable, Inject } from "@nestjs/common";
+import { RedisService } from "@hikestack/redis";
+
+@Injectable()
+export class AppService {
+    @Inject(RedisService)
+	private readonly redisService: RedisService;
+}
+```

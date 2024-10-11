@@ -1,0 +1,95 @@
+# 邮件模块
+
+import { SourceCode, PackageManagerTabs } from 'rspress/theme';
+import { Button } from '@/components/ui/Button';
+import { FileCode2Icon, SquareArrowOutUpRightIcon  } from 'lucide-react'
+
+<div className="flex space-x-2 items-center">    
+    <a className="flex space-x-1 items-center" href="https://github.com/hikestack/hike/tree/main/packages/mail" target="_blank">
+        <Button variant="secondary" size="sm">      
+             <span>源码</span>
+            <FileCode2Icon className="w-4 h-4 ml-1" />
+        </Button>
+    </a>
+   
+    <a className="flex space-x-1 items-center" href="/official/reference/mail/globals">
+        <Button variant="secondary" size="sm">
+            <span>API 参考</span>
+            <SquareArrowOutUpRightIcon className="w-4 h-4 ml-1" />
+        </Button>
+    </a>
+</div>
+
+```MailModule``` 是一个为 NestJS 应用电子邮件发送功能的模块。它封装了常用的电子邮件库（如 [```nodemailer```](https://github.com/nodemailer/nodemailer)），并提供了易于使用的接口，使开发者能够在整个 NestJS 应用中统一和高效发送电子邮件。
+
+## 安装
+
+<PackageManagerTabs command="install @hikestack/mail" />
+
+:::tip 提示
+安装对应适配器的依赖
+:::
+
+<PackageManagerTabs command="install nodemailer" />
+
+## 使用
+
+导入并注册 ```MailModule```
+
+```ts title="app.module.ts" {20-25}
+import path from "path";
+import { Module } from "@nestjs/common";
+import { MailModule, NodemailerAdapter } from "@hikestack/mail";
+import { ConfigModule, ConfigService } from "@nestjs/config";
+
+@Module({
+	imports: [
+		ConfigModule.forRoot({
+			isGlobal: true,
+			cache: true,
+			envFilePath: [
+				path.resolve(
+					__dirname,
+					"..",
+					`env/${process.env.NODE_ENV || "development"}.env`,
+				),
+			],
+			load: configs,
+		}),
+		MailModule.registerAsync({
+			inject: [ConfigService],
+			useFactory: (configService: ConfigService) => ({
+				adapter: new NodemailerAdapter(configService.get("maill")),
+			}),
+		})
+	]
+})
+export class AppModule {}
+```
+
+使用构造函数注入
+
+```ts title="app.service.ts" {7}
+import { Injectable } from "@nestjs/common";
+import { MailService } from "@hikestack/mail";
+
+@Injectable()
+export class AppService {
+	constructor(
+		private readonly mailService: MailService,
+	) {}
+}
+```
+
+使用属性注入
+
+```ts title="app.service.ts" {6,7}
+import { Injectable, Inject } from "@nestjs/common";
+import { MailService } from "@hikestack/mail";
+
+@Injectable()
+export class AppService {
+    @Inject(MailService)
+	private readonly mailService: MailService;
+}
+```

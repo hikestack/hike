@@ -1,0 +1,32 @@
+{
+	"name": "@hikestack/official",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "rspress dev --port 9999",
+		"build": "rspress build",
+		"preview": "rspress preview",
+		"clean": "rimraf doc_build && rimraf node_modules && rimraf tsconfig.tsbuildinfo"
+	},
+	"dependencies": {
+		"@hikestack/hooks": "workspace:^",
+		"@radix-ui/react-slot": "^1.1.0",
+		"@scalar/api-reference-react": "^0.3.107",
+		"class-variance-authority": "^0.7.0",
+		"clsx": "^2.1.1",
+		"lucide-react": "^0.428.0",
+		"rspress": "^1.32.0",
+		"tailwind-merge": "^2.5.2",
+		"tailwindcss-animate": "^1.0.7"
+	},
+	"devDependencies": {
+		"@rspress/plugin-playground": "^1.33.0",
+		"@rspress/shared": "^1.32.0",
+		"@types/node": "^16",
+		"rspress-plugin-gh-pages": "^0.3.0",
+		"rspress-plugin-google-analytics": "^0.3.0",
+		"tailwindcss": "^3.4.10",
+		"typedoc": "^0.26.8",
+		"typedoc-plugin-markdown": "^4.2.9"
+	}
+}
