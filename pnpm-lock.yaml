@@ -50,6 +50,9 @@ importers:
       '@hikestack/mail':
         specifier: workspace:^
         version: link:../../packages/mail
+      '@hikestack/prisma':
+        specifier: workspace:^
+        version: link:../../packages/prisma
       '@hikestack/redis':
         specifier: workspace:^
         version: link:../../packages/redis
@@ -510,6 +513,21 @@ importers:
       nodemailer:
         specifier: ^6.9.14
         version: 6.9.14
+      typescript:
+        specifier: ^5.5.2
+        version: 5.5.4
+
+  packages/prisma:
+    devDependencies:
+      '@nestjs/common':
+        specifier: ^10.4.1
+        version: 10.4.1(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1)
+      '@nestjs/core':
+        specifier: ^10.4.1
+        version: 10.4.1(@nestjs/common@10.4.1(class-transformer@0.5.1)(class-validator@0.14.1)(reflect-metadata@0.2.2)(rxjs@7.8.1))(reflect-metadata@0.2.2)(rxjs@7.8.1)
+      '@prisma/client':
+        specifier: 5.19.0
+        version: 5.19.0(prisma@5.19.0)
       typescript:
         specifier: ^5.5.2
         version: 5.5.4
