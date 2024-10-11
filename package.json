@@ -1,6 +1,6 @@
 {
 	"name": "@hikestack/monorepo",
-	"description": "A high-performance and scalable TypeScript tool set",
+	"description": "A simple and scalable TypeScript tool set",
 	"private": true,
 	"scripts": {
 		"preinstall": "npx only-allow pnpm",
