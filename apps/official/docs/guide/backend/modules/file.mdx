@@ -1,0 +1,91 @@
+# 文件模块
+
+import { SourceCode, PackageManagerTabs } from 'rspress/theme';
+import { Button } from '@/components/ui/Button';
+import { FileCode2Icon, SquareArrowOutUpRightIcon  } from 'lucide-react'
+
+<div className="flex space-x-2 items-center">    
+    <a className="flex space-x-1 items-center" href="https://github.com/hikestack/hike/tree/main/packages/file" target="_blank">
+        <Button variant="secondary" size="sm">      
+             <span>源码</span>
+            <FileCode2Icon className="w-4 h-4 ml-1" />
+        </Button>
+    </a>
+   
+    <a className="flex space-x-1 items-center" href="/official/reference/file/globals">
+        <Button variant="secondary" size="sm">
+            <span>API 参考</span>
+            <SquareArrowOutUpRightIcon className="w-4 h-4 ml-1" />
+        </Button>
+    </a>
+</div>
+
+```FileModule``` 是一个为 NestJS 应用处理文件读写功能的模块。
+
+## 安装
+
+<PackageManagerTabs command="install @hikestack/file" />
+
+## 使用
+
+导入并注册 ```FileModule```
+
+```ts title="app.module.ts" {20-27}
+import path from "path";
+import { Module } from "@nestjs/common";
+import { FileModule, LocalFileSystemProvider } from "@hikestack/file";
+import { ConfigModule, ConfigService } from "@nestjs/config";
+
+@Module({
+	imports: [
+		ConfigModule.forRoot({
+			isGlobal: true,
+			cache: true,
+			envFilePath: [
+				path.resolve(
+					__dirname,
+					"..",
+					`env/${process.env.NODE_ENV || "development"}.env`,
+				),
+			],
+			load: configs,
+		}),
+		FileModule.registerAsync({
+			inject: [ConfigService],
+			useFactory: (configService: ConfigService) => ({
+				providers: {
+					local: new LocalFileSystemProvider(configService.get("file.local")),
+				},
+			}),
+		}),
+	]
+})
+export class AppModule {}
+```
+
+使用构造函数注入
+
+```ts title="app.service.ts" {7}
+import { Injectable } from "@nestjs/common";
+import { FileService } from "@hikestack/file";
+
+@Injectable()
+export class AppService {
+	constructor(
+		private readonly fileService: FileService,
+	) {}
+}
+```
+
+使用属性注入
+
+```ts title="app.service.ts" {6,7}
+import { Injectable, Inject } from "@nestjs/common";
+import { FileService } from "@hikestack/file";
+
+@Injectable()
+export class AppService {
+    @Inject(FileService)
+	private readonly fileService: FileService;
+}
+```

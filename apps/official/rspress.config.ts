@@ -53,6 +53,7 @@ export default defineConfig({
 		// }),
 		pluginTypedoc({
 			projects: [
+				"hooks",
 				"logger",
 				"mail",
 				"redis",
@@ -61,7 +62,7 @@ export default defineConfig({
 				"kysely",
 				"prisma",
 				"oauth",
-				"hooks",
+				"file",
 			].map((packageName) => ({
 				entryPoint: path.join(PACKAGES_DIR, packageName, "src", "index.ts"),
 				output: path.join(ROOT_DIR, "docs", "reference", packageName),

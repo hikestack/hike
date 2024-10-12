@@ -1,1 +1,1 @@
-["logger", "mail", "redis", "lock", "saga", "kysely", "prisma", "oauth"]
+["logger", "mail", "file", "redis", "lock", "saga", "kysely", "prisma", "oauth"]

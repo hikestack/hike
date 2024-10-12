@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[packages/redis/src/redis.service.ts:8](https://github.com/hikestack/hike/blob/06a9d1e14c74906090ab3c3c676c170cb9199e53/packages/redis/src/redis.service.ts#L8)
+[packages/redis/src/redis.service.ts:8](https://github.com/hikestack/hike/blob/be0a5d8b5244742be2e4135d1259238afe0eda85/packages/redis/src/redis.service.ts#L8)
 
 ## Properties
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[packages/redis/src/redis.service.ts:10](https://github.com/hikestack/hike/blob/06a9d1e14c74906090ab3c3c676c170cb9199e53/packages/redis/src/redis.service.ts#L10)
+[packages/redis/src/redis.service.ts:10](https://github.com/hikestack/hike/blob/be0a5d8b5244742be2e4135d1259238afe0eda85/packages/redis/src/redis.service.ts#L10)
 
 ***
 
@@ -130,6 +130,36 @@ not in `"normal"` mode, certain commands are not allowed.
 node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:117
 
 ## Methods
+
+### \[captureRejectionSymbol\]()?
+
+> `optional` **\[captureRejectionSymbol\]**\<`K`\>(`error`, `event`, ...`args`): `void`
+
+#### Type Parameters
+
+• **K**
+
+#### Parameters
+
+• **error**: `Error`
+
+• **event**: `string` \| `symbol`
+
+• ...**args**: `AnyRest`
+
+#### Returns
+
+`void`
+
+#### Inherited from
+
+`Redis.[captureRejectionSymbol]`
+
+#### Defined in
+
+node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/events.d.ts:136
+
+***
 
 ### acl()
 
@@ -920,11 +950,17 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/Commander.d.
 
 ### addListener()
 
-> **addListener**(`event`, `listener`): `this`
+> **addListener**\<`K`\>(`eventName`, `listener`): `this`
+
+Alias for `emitter.on(eventName, listener)`.
+
+#### Type Parameters
+
+• **K**
 
 #### Parameters
 
-• **event**: `string` \| `symbol`
+• **eventName**: `string` \| `symbol`
 
 • **listener**
 
@@ -932,13 +968,17 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/Commander.d.
 
 `this`
 
+#### Since
+
+v0.1.26
+
 #### Inherited from
 
 `Redis.addListener`
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:730
+node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/events.d.ts:597
 
 ***
 
@@ -7369,17 +7409,63 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 ### emit()
 
-> **emit**(`event`, ...`args`): `boolean`
+> **emit**\<`K`\>(`eventName`, ...`args`): `boolean`
+
+Synchronously calls each of the listeners registered for the event named `eventName`, in the order they were registered, passing the supplied arguments
+to each.
+
+Returns `true` if the event had listeners, `false` otherwise.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEmitter = new EventEmitter();
+
+// First listener
+myEmitter.on('event', function firstListener() {
+  console.log('Helloooo! first listener');
+});
+// Second listener
+myEmitter.on('event', function secondListener(arg1, arg2) {
+  console.log(`event with parameters ${arg1}, ${arg2} in second listener`);
+});
+// Third listener
+myEmitter.on('event', function thirdListener(...args) {
+  const parameters = args.join(', ');
+  console.log(`event with parameters ${parameters} in third listener`);
+});
+
+console.log(myEmitter.listeners('event'));
+
+myEmitter.emit('event', 1, 2, 3, 4, 5);
+
+// Prints:
+// [
+//   [Function: firstListener],
+//   [Function: secondListener],
+//   [Function: thirdListener]
+// ]
+// Helloooo! first listener
+// event with parameters 1, 2 in second listener
+// event with parameters 1, 2, 3, 4, 5 in third listener
+```
+
+#### Type Parameters
+
+• **K**
 
 #### Parameters
 
-• **event**: `string` \| `symbol`
+• **eventName**: `string` \| `symbol`
 
-• ...**args**: `any`[]
+• ...**args**: `AnyRest`
 
 #### Returns
 
 `boolean`
+
+#### Since
+
+v0.1.26
 
 #### Inherited from
 
@@ -7387,7 +7473,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:740
+node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/events.d.ts:859
 
 ***
 
@@ -7901,9 +7987,30 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 > **eventNames**(): (`string` \| `symbol`)[]
 
+Returns an array listing the events for which the emitter has registered
+listeners. The values in the array are strings or `Symbol`s.
+
+```js
+import { EventEmitter } from 'node:events';
+
+const myEE = new EventEmitter();
+myEE.on('foo', () => {});
+myEE.on('bar', () => {});
+
+const sym = Symbol('symbol');
+myEE.on(sym, () => {});
+
+console.log(myEE.eventNames());
+// Prints: [ 'foo', 'bar', Symbol(symbol) ]
+```
+
 #### Returns
 
 (`string` \| `symbol`)[]
+
+#### Since
+
+v6.0.0
 
 #### Inherited from
 
@@ -7911,7 +8018,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:745
+node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/events.d.ts:922
 
 ***
 
@@ -8933,7 +9040,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 #### Defined in
 
-[packages/redis/src/redis.service.ts:15](https://github.com/hikestack/hike/blob/06a9d1e14c74906090ab3c3c676c170cb9199e53/packages/redis/src/redis.service.ts#L15)
+[packages/redis/src/redis.service.ts:15](https://github.com/hikestack/hike/blob/be0a5d8b5244742be2e4135d1259238afe0eda85/packages/redis/src/redis.service.ts#L15)
 
 ***
 
@@ -11282,9 +11389,16 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 > **getMaxListeners**(): `number`
 
+Returns the current max listener value for the `EventEmitter` which is either
+set by `emitter.setMaxListeners(n)` or defaults to defaultMaxListeners.
+
 #### Returns
 
 `number`
+
+#### Since
+
+v1.0.0
 
 #### Inherited from
 
@@ -11292,7 +11406,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:737
+node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/events.d.ts:774
 
 ***
 
@@ -13877,15 +13991,33 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 ### listenerCount()
 
-> **listenerCount**(`type`): `number`
+> **listenerCount**\<`K`\>(`eventName`, `listener`?): `number`
+
+Returns the number of listeners listening for the event named `eventName`.
+If `listener` is provided, it will return how many times the listener is found
+in the list of the listeners of the event.
+
+#### Type Parameters
+
+• **K**
 
 #### Parameters
 
-• **type**: `string` \| `symbol`
+• **eventName**: `string` \| `symbol`
+
+The name of the event being listened for
+
+• **listener?**: `Function`
+
+The event handler function
 
 #### Returns
 
 `number`
+
+#### Since
+
+v3.2.0
 
 #### Inherited from
 
@@ -13893,21 +14025,39 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:741
+node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/events.d.ts:868
 
 ***
 
 ### listeners()
 
-> **listeners**(`event`): `Function`[]
+> **listeners**\<`K`\>(`eventName`): `Function`[]
+
+Returns a copy of the array of listeners for the event named `eventName`.
+
+```js
+server.on('connection', (stream) => {
+  console.log('someone connected!');
+});
+console.log(util.inspect(server.listeners('connection')));
+// Prints: [ [Function] ]
+```
+
+#### Type Parameters
+
+• **K**
 
 #### Parameters
 
-• **event**: `string` \| `symbol`
+• **eventName**: `string` \| `symbol`
 
 #### Returns
 
 `Function`[]
+
+#### Since
+
+v0.1.26
 
 #### Inherited from
 
@@ -13915,7 +14065,7 @@ node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:738
+node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/events.d.ts:787
 
 ***
 
@@ -16725,11 +16875,17 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 ### off()
 
-> **off**(`event`, `listener`): `this`
+> **off**\<`K`\>(`eventName`, `listener`): `this`
+
+Alias for `emitter.removeListener()`.
+
+#### Type Parameters
+
+• **K**
 
 #### Parameters
 
-• **event**: `string` \| `symbol`
+• **eventName**: `string` \| `symbol`
 
 • **listener**
 
@@ -16737,13 +16893,17 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 `this`
 
+#### Since
+
+v10.0.0
+
 #### Inherited from
 
 `Redis.off`
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:734
+node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/events.d.ts:747
 
 ***
 
@@ -16752,6 +16912,33 @@ node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:
 #### on(event, cb)
 
 > **on**(`event`, `cb`): `this`
+
+Adds the `listener` function to the end of the listeners array for the event
+named `eventName`. No checks are made to see if the `listener` has already
+been added. Multiple calls passing the same combination of `eventName` and
+`listener` will result in the `listener` being added, and called, multiple times.
+
+```js
+server.on('connection', (stream) => {
+  console.log('someone connected!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.on('foo', () => console.log('a'));
+myEE.prependListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
+```
 
 ##### Parameters
 
@@ -16762,6 +16949,10 @@ node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:
 ##### Returns
 
 `this`
+
+##### Since
+
+v0.1.101
 
 ##### Inherited from
 
@@ -16775,6 +16966,33 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:212
 
 > **on**(`event`, `cb`): `this`
 
+Adds the `listener` function to the end of the listeners array for the event
+named `eventName`. No checks are made to see if the `listener` has already
+been added. Multiple calls passing the same combination of `eventName` and
+`listener` will result in the `listener` being added, and called, multiple times.
+
+```js
+server.on('connection', (stream) => {
+  console.log('someone connected!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.on('foo', () => console.log('a'));
+myEE.prependListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
+```
+
 ##### Parameters
 
 • **event**: `"messageBuffer"`
@@ -16784,6 +17002,10 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:212
 ##### Returns
 
 `this`
+
+##### Since
+
+v0.1.101
 
 ##### Inherited from
 
@@ -16797,6 +17019,33 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:214
 
 > **on**(`event`, `cb`): `this`
 
+Adds the `listener` function to the end of the listeners array for the event
+named `eventName`. No checks are made to see if the `listener` has already
+been added. Multiple calls passing the same combination of `eventName` and
+`listener` will result in the `listener` being added, and called, multiple times.
+
+```js
+server.on('connection', (stream) => {
+  console.log('someone connected!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.on('foo', () => console.log('a'));
+myEE.prependListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
+```
+
 ##### Parameters
 
 • **event**: `"pmessage"`
@@ -16806,6 +17055,10 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:214
 ##### Returns
 
 `this`
+
+##### Since
+
+v0.1.101
 
 ##### Inherited from
 
@@ -16819,6 +17072,33 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:216
 
 > **on**(`event`, `cb`): `this`
 
+Adds the `listener` function to the end of the listeners array for the event
+named `eventName`. No checks are made to see if the `listener` has already
+been added. Multiple calls passing the same combination of `eventName` and
+`listener` will result in the `listener` being added, and called, multiple times.
+
+```js
+server.on('connection', (stream) => {
+  console.log('someone connected!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.on('foo', () => console.log('a'));
+myEE.prependListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
+```
+
 ##### Parameters
 
 • **event**: `"pmessageBuffer"`
@@ -16828,6 +17108,10 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:216
 ##### Returns
 
 `this`
+
+##### Since
+
+v0.1.101
 
 ##### Inherited from
 
@@ -16841,6 +17125,33 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:218
 
 > **on**(`event`, `cb`): `this`
 
+Adds the `listener` function to the end of the listeners array for the event
+named `eventName`. No checks are made to see if the `listener` has already
+been added. Multiple calls passing the same combination of `eventName` and
+`listener` will result in the `listener` being added, and called, multiple times.
+
+```js
+server.on('connection', (stream) => {
+  console.log('someone connected!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.on('foo', () => console.log('a'));
+myEE.prependListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
+```
+
 ##### Parameters
 
 • **event**: `"error"`
@@ -16850,6 +17161,10 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:218
 ##### Returns
 
 `this`
+
+##### Since
+
+v0.1.101
 
 ##### Inherited from
 
@@ -16863,6 +17178,33 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:220
 
 > **on**(`event`, `cb`): `this`
 
+Adds the `listener` function to the end of the listeners array for the event
+named `eventName`. No checks are made to see if the `listener` has already
+been added. Multiple calls passing the same combination of `eventName` and
+`listener` will result in the `listener` being added, and called, multiple times.
+
+```js
+server.on('connection', (stream) => {
+  console.log('someone connected!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.on('foo', () => console.log('a'));
+myEE.prependListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
+```
+
 ##### Parameters
 
 • **event**: `RedisStatus`
@@ -16872,6 +17214,10 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:220
 ##### Returns
 
 `this`
+
+##### Since
+
+v0.1.101
 
 ##### Inherited from
 
@@ -16885,15 +17231,48 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:222
 
 > **on**(`event`, `listener`): `this`
 
+Adds the `listener` function to the end of the listeners array for the event
+named `eventName`. No checks are made to see if the `listener` has already
+been added. Multiple calls passing the same combination of `eventName` and
+`listener` will result in the `listener` being added, and called, multiple times.
+
+```js
+server.on('connection', (stream) => {
+  console.log('someone connected!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.on('foo', () => console.log('a'));
+myEE.prependListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
+```
+
 ##### Parameters
 
 • **event**: `string` \| `symbol`
 
 • **listener**
 
+The callback function
+
 ##### Returns
 
 `this`
+
+##### Since
+
+v0.1.101
 
 ##### Inherited from
 
@@ -16911,6 +17290,31 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:224
 
 > **once**(`event`, `cb`): `this`
 
+Adds a **one-time** `listener` function for the event named `eventName`. The
+next time `eventName` is triggered, this listener is removed and then invoked.
+
+```js
+server.once('connection', (stream) => {
+  console.log('Ah, we have our first user!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.once('foo', () => console.log('a'));
+myEE.prependOnceListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
+```
+
 ##### Parameters
 
 • **event**: `"message"`
@@ -16920,6 +17324,10 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:224
 ##### Returns
 
 `this`
+
+##### Since
+
+v0.3.0
 
 ##### Inherited from
 
@@ -16933,6 +17341,31 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:213
 
 > **once**(`event`, `cb`): `this`
 
+Adds a **one-time** `listener` function for the event named `eventName`. The
+next time `eventName` is triggered, this listener is removed and then invoked.
+
+```js
+server.once('connection', (stream) => {
+  console.log('Ah, we have our first user!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.once('foo', () => console.log('a'));
+myEE.prependOnceListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
+```
+
 ##### Parameters
 
 • **event**: `"messageBuffer"`
@@ -16942,6 +17375,10 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:213
 ##### Returns
 
 `this`
+
+##### Since
+
+v0.3.0
 
 ##### Inherited from
 
@@ -16955,6 +17392,31 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:215
 
 > **once**(`event`, `cb`): `this`
 
+Adds a **one-time** `listener` function for the event named `eventName`. The
+next time `eventName` is triggered, this listener is removed and then invoked.
+
+```js
+server.once('connection', (stream) => {
+  console.log('Ah, we have our first user!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.once('foo', () => console.log('a'));
+myEE.prependOnceListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
+```
+
 ##### Parameters
 
 • **event**: `"pmessage"`
@@ -16964,6 +17426,10 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:215
 ##### Returns
 
 `this`
+
+##### Since
+
+v0.3.0
 
 ##### Inherited from
 
@@ -16977,6 +17443,31 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:217
 
 > **once**(`event`, `cb`): `this`
 
+Adds a **one-time** `listener` function for the event named `eventName`. The
+next time `eventName` is triggered, this listener is removed and then invoked.
+
+```js
+server.once('connection', (stream) => {
+  console.log('Ah, we have our first user!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.once('foo', () => console.log('a'));
+myEE.prependOnceListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
+```
+
 ##### Parameters
 
 • **event**: `"pmessageBuffer"`
@@ -16986,6 +17477,10 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:217
 ##### Returns
 
 `this`
+
+##### Since
+
+v0.3.0
 
 ##### Inherited from
 
@@ -16999,6 +17494,31 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:219
 
 > **once**(`event`, `cb`): `this`
 
+Adds a **one-time** `listener` function for the event named `eventName`. The
+next time `eventName` is triggered, this listener is removed and then invoked.
+
+```js
+server.once('connection', (stream) => {
+  console.log('Ah, we have our first user!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.once('foo', () => console.log('a'));
+myEE.prependOnceListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
+```
+
 ##### Parameters
 
 • **event**: `"error"`
@@ -17008,6 +17528,10 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:219
 ##### Returns
 
 `this`
+
+##### Since
+
+v0.3.0
 
 ##### Inherited from
 
@@ -17021,6 +17545,31 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:221
 
 > **once**(`event`, `cb`): `this`
 
+Adds a **one-time** `listener` function for the event named `eventName`. The
+next time `eventName` is triggered, this listener is removed and then invoked.
+
+```js
+server.once('connection', (stream) => {
+  console.log('Ah, we have our first user!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.once('foo', () => console.log('a'));
+myEE.prependOnceListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
+```
+
 ##### Parameters
 
 • **event**: `RedisStatus`
@@ -17030,6 +17579,10 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:221
 ##### Returns
 
 `this`
+
+##### Since
+
+v0.3.0
 
 ##### Inherited from
 
@@ -17043,15 +17596,46 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:223
 
 > **once**(`event`, `listener`): `this`
 
+Adds a **one-time** `listener` function for the event named `eventName`. The
+next time `eventName` is triggered, this listener is removed and then invoked.
+
+```js
+server.once('connection', (stream) => {
+  console.log('Ah, we have our first user!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
+event listener to the beginning of the listeners array.
+
+```js
+import { EventEmitter } from 'node:events';
+const myEE = new EventEmitter();
+myEE.once('foo', () => console.log('a'));
+myEE.prependOnceListener('foo', () => console.log('b'));
+myEE.emit('foo');
+// Prints:
+//   b
+//   a
+```
+
 ##### Parameters
 
 • **event**: `string` \| `symbol`
 
 • **listener**
 
+The callback function
+
 ##### Returns
 
 `this`
+
+##### Since
+
+v0.3.0
 
 ##### Inherited from
 
@@ -17801,17 +18385,42 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/transaction.d.ts:3
 
 ### prependListener()
 
-> **prependListener**(`event`, `listener`): `this`
+> **prependListener**\<`K`\>(`eventName`, `listener`): `this`
+
+Adds the `listener` function to the _beginning_ of the listeners array for the
+event named `eventName`. No checks are made to see if the `listener` has
+already been added. Multiple calls passing the same combination of `eventName`
+and `listener` will result in the `listener` being added, and called, multiple times.
+
+```js
+server.prependListener('connection', (stream) => {
+  console.log('someone connected!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+#### Type Parameters
+
+• **K**
 
 #### Parameters
 
-• **event**: `string` \| `symbol`
+• **eventName**: `string` \| `symbol`
+
+The name of the event.
 
 • **listener**
+
+The callback function
 
 #### Returns
 
 `this`
+
+#### Since
+
+v6.0.0
 
 #### Inherited from
 
@@ -17819,23 +18428,46 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/transaction.d.ts:3
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:743
+node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/events.d.ts:886
 
 ***
 
 ### prependOnceListener()
 
-> **prependOnceListener**(`event`, `listener`): `this`
+> **prependOnceListener**\<`K`\>(`eventName`, `listener`): `this`
+
+Adds a **one-time**`listener` function for the event named `eventName` to the _beginning_ of the listeners array. The next time `eventName` is triggered, this
+listener is removed, and then invoked.
+
+```js
+server.prependOnceListener('connection', (stream) => {
+  console.log('Ah, we have our first user!');
+});
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+#### Type Parameters
+
+• **K**
 
 #### Parameters
 
-• **event**: `string` \| `symbol`
+• **eventName**: `string` \| `symbol`
+
+The name of the event.
 
 • **listener**
+
+The callback function
 
 #### Returns
 
 `this`
+
+#### Since
+
+v6.0.0
 
 #### Inherited from
 
@@ -17843,7 +18475,7 @@ node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:744
+node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/events.d.ts:902
 
 ***
 
@@ -18461,15 +19093,51 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 ### rawListeners()
 
-> **rawListeners**(`event`): `Function`[]
+> **rawListeners**\<`K`\>(`eventName`): `Function`[]
+
+Returns a copy of the array of listeners for the event named `eventName`,
+including any wrappers (such as those created by `.once()`).
+
+```js
+import { EventEmitter } from 'node:events';
+const emitter = new EventEmitter();
+emitter.once('log', () => console.log('log once'));
+
+// Returns a new Array with a function `onceWrapper` which has a property
+// `listener` which contains the original listener bound above
+const listeners = emitter.rawListeners('log');
+const logFnWrapper = listeners[0];
+
+// Logs "log once" to the console and does not unbind the `once` event
+logFnWrapper.listener();
+
+// Logs "log once" to the console and removes the listener
+logFnWrapper();
+
+emitter.on('log', () => console.log('log persistently'));
+// Will return a new Array with a single function bound by `.on()` above
+const newListeners = emitter.rawListeners('log');
+
+// Logs "log persistently" twice
+newListeners[0]();
+emitter.emit('log');
+```
+
+#### Type Parameters
+
+• **K**
 
 #### Parameters
 
-• **event**: `string` \| `symbol`
+• **eventName**: `string` \| `symbol`
 
 #### Returns
 
 `Function`[]
+
+#### Since
+
+v9.4.0
 
 #### Inherited from
 
@@ -18477,7 +19145,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:739
+node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/events.d.ts:818
 
 ***
 
@@ -18537,15 +19205,27 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 ### removeAllListeners()
 
-> **removeAllListeners**(`event`?): `this`
+> **removeAllListeners**(`eventName`?): `this`
+
+Removes all listeners, or those of the specified `eventName`.
+
+It is bad practice to remove listeners added elsewhere in the code,
+particularly when the `EventEmitter` instance was created by some other
+component or module (e.g. sockets or file streams).
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Parameters
 
-• **event?**: `string` \| `symbol`
+• **eventName?**: `string` \| `symbol`
 
 #### Returns
 
 `this`
+
+#### Since
+
+v0.1.26
 
 #### Inherited from
 
@@ -18553,17 +19233,101 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:735
+node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/events.d.ts:758
 
 ***
 
 ### removeListener()
 
-> **removeListener**(`event`, `listener`): `this`
+> **removeListener**\<`K`\>(`eventName`, `listener`): `this`
+
+Removes the specified `listener` from the listener array for the event named `eventName`.
+
+```js
+const callback = (stream) => {
+  console.log('someone connected!');
+};
+server.on('connection', callback);
+// ...
+server.removeListener('connection', callback);
+```
+
+`removeListener()` will remove, at most, one instance of a listener from the
+listener array. If any single listener has been added multiple times to the
+listener array for the specified `eventName`, then `removeListener()` must be
+called multiple times to remove each instance.
+
+Once an event is emitted, all listeners attached to it at the
+time of emitting are called in order. This implies that any `removeListener()` or `removeAllListeners()` calls _after_ emitting and _before_ the last listener finishes execution
+will not remove them from`emit()` in progress. Subsequent events behave as expected.
+
+```js
+import { EventEmitter } from 'node:events';
+class MyEmitter extends EventEmitter {}
+const myEmitter = new MyEmitter();
+
+const callbackA = () => {
+  console.log('A');
+  myEmitter.removeListener('event', callbackB);
+};
+
+const callbackB = () => {
+  console.log('B');
+};
+
+myEmitter.on('event', callbackA);
+
+myEmitter.on('event', callbackB);
+
+// callbackA removes listener callbackB but it will still be called.
+// Internal listener array at time of emit [callbackA, callbackB]
+myEmitter.emit('event');
+// Prints:
+//   A
+//   B
+
+// callbackB is now removed.
+// Internal listener array [callbackA]
+myEmitter.emit('event');
+// Prints:
+//   A
+```
+
+Because listeners are managed using an internal array, calling this will
+change the position indices of any listener registered _after_ the listener
+being removed. This will not impact the order in which listeners are called,
+but it means that any copies of the listener array as returned by
+the `emitter.listeners()` method will need to be recreated.
+
+When a single function has been added as a handler multiple times for a single
+event (as in the example below), `removeListener()` will remove the most
+recently added instance. In the example the `once('ping')` listener is removed:
+
+```js
+import { EventEmitter } from 'node:events';
+const ee = new EventEmitter();
+
+function pong() {
+  console.log('pong');
+}
+
+ee.on('ping', pong);
+ee.once('ping', pong);
+ee.removeListener('ping', pong);
+
+ee.emit('ping');
+ee.emit('ping');
+```
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
+#### Type Parameters
+
+• **K**
 
 #### Parameters
 
-• **event**: `string` \| `symbol`
+• **eventName**: `string` \| `symbol`
 
 • **listener**
 
@@ -18571,13 +19335,17 @@ node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:
 
 `this`
 
+#### Since
+
+v0.1.26
+
 #### Inherited from
 
 `Redis.removeListener`
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:733
+node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/events.d.ts:742
 
 ***
 
@@ -22967,6 +23735,13 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 > **setMaxListeners**(`n`): `this`
 
+By default `EventEmitter`s will print a warning if more than `10` listeners are
+added for a particular event. This is a useful default that helps finding
+memory leaks. The `emitter.setMaxListeners()` method allows the limit to be
+modified for this specific `EventEmitter` instance. The value can be set to `Infinity` (or `0`) to indicate an unlimited number of listeners.
+
+Returns a reference to the `EventEmitter`, so that calls can be chained.
+
 #### Parameters
 
 • **n**: `number`
@@ -22975,13 +23750,17 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommand
 
 `this`
 
+#### Since
+
+v0.3.5
+
 #### Inherited from
 
 `Redis.setMaxListeners`
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/globals.d.ts:736
+node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/events.d.ts:768
 
 ***
 
