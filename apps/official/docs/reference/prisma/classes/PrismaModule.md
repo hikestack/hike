@@ -48,7 +48,7 @@ node\_modules/.pnpm/@nestjs+common@10.4.1\_class-transformer@0.5.1\_class-valida
 
 #### Defined in
 
-[packages/prisma/src/prisma.module.ts:14](https://github.com/hikestack/hike/blob/7acbc85d4f65b6f0fc34fe0734fa5df81c116bdd/packages/prisma/src/prisma.module.ts#L14)
+[packages/prisma/src/prisma.module.ts:14](https://github.com/hikestack/hike/blob/928de04fa91eff5cc11ce6874f171775c7eb9f5a/packages/prisma/src/prisma.module.ts#L14)
 
 ***
 
@@ -70,4 +70,4 @@ node\_modules/.pnpm/@nestjs+common@10.4.1\_class-transformer@0.5.1\_class-valida
 
 #### Defined in
 
-[packages/prisma/src/prisma.module.ts:20](https://github.com/hikestack/hike/blob/7acbc85d4f65b6f0fc34fe0734fa5df81c116bdd/packages/prisma/src/prisma.module.ts#L20)
+[packages/prisma/src/prisma.module.ts:20](https://github.com/hikestack/hike/blob/928de04fa91eff5cc11ce6874f171775c7eb9f5a/packages/prisma/src/prisma.module.ts#L20)

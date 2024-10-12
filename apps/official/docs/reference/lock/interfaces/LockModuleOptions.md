@@ -14,4 +14,4 @@
 
 #### Defined in
 
-[packages/lock/src/interfaces/lock-module-options.interface.ts:4](https://github.com/hikestack/hike/blob/7acbc85d4f65b6f0fc34fe0734fa5df81c116bdd/packages/lock/src/interfaces/lock-module-options.interface.ts#L4)
+[packages/lock/src/interfaces/lock-module-options.interface.ts:4](https://github.com/hikestack/hike/blob/928de04fa91eff5cc11ce6874f171775c7eb9f5a/packages/lock/src/interfaces/lock-module-options.interface.ts#L4)

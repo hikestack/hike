@@ -60,6 +60,7 @@ export default defineConfig({
 				"saga",
 				"kysely",
 				"prisma",
+				"oauth",
 				"hooks",
 			].map((packageName) => ({
 				entryPoint: path.join(PACKAGES_DIR, packageName, "src", "index.ts"),

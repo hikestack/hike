@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[use-query/types.ts:15](https://github.com/hikestack/hike/blob/7acbc85d4f65b6f0fc34fe0734fa5df81c116bdd/packages/hooks/src/use-query/types.ts#L15)
+[use-query/types.ts:15](https://github.com/hikestack/hike/blob/928de04fa91eff5cc11ce6874f171775c7eb9f5a/packages/hooks/src/use-query/types.ts#L15)
 
 ***
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[use-query/types.ts:16](https://github.com/hikestack/hike/blob/7acbc85d4f65b6f0fc34fe0734fa5df81c116bdd/packages/hooks/src/use-query/types.ts#L16)
+[use-query/types.ts:16](https://github.com/hikestack/hike/blob/928de04fa91eff5cc11ce6874f171775c7eb9f5a/packages/hooks/src/use-query/types.ts#L16)
 
 ***
 
@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[use-query/types.ts:13](https://github.com/hikestack/hike/blob/7acbc85d4f65b6f0fc34fe0734fa5df81c116bdd/packages/hooks/src/use-query/types.ts#L13)
+[use-query/types.ts:13](https://github.com/hikestack/hike/blob/928de04fa91eff5cc11ce6874f171775c7eb9f5a/packages/hooks/src/use-query/types.ts#L13)
 
 ***
 
@@ -50,4 +50,4 @@
 
 #### Defined in
 
-[use-query/types.ts:14](https://github.com/hikestack/hike/blob/7acbc85d4f65b6f0fc34fe0734fa5df81c116bdd/packages/hooks/src/use-query/types.ts#L14)
+[use-query/types.ts:14](https://github.com/hikestack/hike/blob/928de04fa91eff5cc11ce6874f171775c7eb9f5a/packages/hooks/src/use-query/types.ts#L14)
