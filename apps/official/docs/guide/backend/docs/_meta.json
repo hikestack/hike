@@ -1,1 +1,10 @@
-["module", "metadata", "ioc", "circular", "lock", "transaction", "dsl"]
+[
+	"module",
+	"metadata",
+	"ioc",
+	"circular",
+	"lock",
+	"transaction",
+	"dsl",
+	"ts-keyof-infer"
+]

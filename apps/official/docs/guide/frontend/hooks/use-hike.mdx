@@ -12,7 +12,7 @@ import { FileCode2Icon, SquareArrowOutUpRightIcon  } from 'lucide-react'
         </Button>
     </a>
    
-    <a className="flex space-x-1 items-center" href="/official/reference/hooks/functions/useHike">
+    <a className="flex space-x-1 items-center" href="/official/reference/hooks/functions/useHike.html">
         <Button variant="secondary" size="sm">
             <span>API 参考</span>
             <SquareArrowOutUpRightIcon className="w-4 h-4 ml-1" />
@@ -20,7 +20,7 @@ import { FileCode2Icon, SquareArrowOutUpRightIcon  } from 'lucide-react'
     </a>
 </div>
 
-```useHike```useHike 是一个自定义的 React Hook，它利用 JavaScript 的 Proxy 对象和 WeakMap 来创建一个可观察的状态对象。当这个状态对象的任何属性（包括嵌套属性）发生变化时，useHike 会自动触发一个回调函数。
+```useHike```是一个自定义的 React Hook，它利用 JavaScript 的 Proxy 对象和 WeakMap 来创建一个可观察的状态对象。当这个状态对象的任何属性（包括嵌套属性）发生变化时，useHike 会自动触发一个回调函数。
 
 ## 安装
  
@@ -28,38 +28,40 @@ import { FileCode2Icon, SquareArrowOutUpRightIcon  } from 'lucide-react'
 
 ## 使用
 
+
+
 ```tsx pure
-import React from 'react';  
-import { useHike } from '@hikestack/hooks';  
-  
-function MyComponent() {  
-  const state = useHike({  
-    user: {  
-      name: 'John Doe',  
-      age: 30,  
-    },  
-    preferences: {  
-      theme: 'dark',  
-    },  
-  });
-  
-  const handleChange = () => {  
-    // 更新嵌套状态  
-    state.user.name = 'Jane Doe';  
-    // 这将触发状态更新回调，导致组件重新渲染  
-  };  
-  
-  return (  
-    <div>  
-      <p>User Name: {state.user.name}</p>  
-      <p>User Age: {state.user.age}</p>  
-      <p>Theme: {state.preferences.theme}</p>  
-      <button onClick={handleChange}>Change Name</button>  
-    </div>  
-  );  
+import React from "react";
+import { useHike } from "@hikestack/hooks";
+
+function App() {
+	const state = useHike({
+		count: 0,
+		user: {
+			name: "John Doe",
+			age: 30,
+		},
+	});
+
+	const handleChange = () => {
+		// 更新嵌套状态
+		state.user.name = "Roy Lin";
+		// 这将触发状态更新回调，导致组件重新渲染
+	};
+
+	return (
+		<div>
+			<p>User Name: {state.user.name}</p>
+			<p>User Age: {state.user.age}</p>
+			<button onClick={handleChange}>修改名称为: Roy Lin</button>
+			<br />
+			<button onClick={() => state.count++}>点击增加计数: {state.count}</button>
+		</div>
+	);
 }
+
+export default App;
 ```
 
-## 尝试一下
 
-<code src="./demos/use-hike/demo.tsx" />
+<code src="./demos/use-hike/demo.tsx"/>

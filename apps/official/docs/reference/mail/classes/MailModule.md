@@ -48,7 +48,7 @@ node\_modules/.pnpm/@nestjs+common@10.4.1\_class-transformer@0.5.1\_class-valida
 
 #### Defined in
 
-[packages/mail/src/mail.module.ts:14](https://github.com/hikestack/hike/blob/657d8d3e2636be06e0c191f0569152086c43ed40/packages/mail/src/mail.module.ts#L14)
+[packages/mail/src/mail.module.ts:14](https://github.com/hikestack/hike/blob/7acbc85d4f65b6f0fc34fe0734fa5df81c116bdd/packages/mail/src/mail.module.ts#L14)
 
 ***
 
@@ -70,4 +70,4 @@ node\_modules/.pnpm/@nestjs+common@10.4.1\_class-transformer@0.5.1\_class-valida
 
 #### Defined in
 
-[packages/mail/src/mail.module.ts:20](https://github.com/hikestack/hike/blob/657d8d3e2636be06e0c191f0569152086c43ed40/packages/mail/src/mail.module.ts#L20)
+[packages/mail/src/mail.module.ts:20](https://github.com/hikestack/hike/blob/7acbc85d4f65b6f0fc34fe0734fa5df81c116bdd/packages/mail/src/mail.module.ts#L20)

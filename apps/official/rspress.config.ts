@@ -1,9 +1,9 @@
+import { pluginPreview } from "@rspress/plugin-preview";
 import * as path from "path";
-import { defineConfig } from "rspress/config";
 import pluginGhPages from "rspress-plugin-gh-pages";
 import pluginGa from "rspress-plugin-google-analytics";
+import { defineConfig } from "rspress/config";
 import { pluginTypedoc } from "./plugins/plugin-typedoc";
-import { pluginPlayground } from "@rspress/plugin-playground";
 
 const ROOT_DIR = path.join(__dirname);
 const PACKAGES_DIR = path.resolve(__dirname, "../../packages");
@@ -11,7 +11,7 @@ const PACKAGES_DIR = path.resolve(__dirname, "../../packages");
 export default defineConfig({
 	root: path.join(ROOT_DIR, "docs"),
 	title: "HikeStack",
-	description: "高性能、可扩展TypeScript工具集",
+	description: "简单、可扩展TypeScript工具集",
 	icon: "/rspress-icon.png",
 	logo: {
 		light: "/rspress-light-logo.png",
@@ -45,9 +45,12 @@ export default defineConfig({
 		pluginGa({
 			id: "G-G1G5G0PTKD",
 		}),
-		pluginPlayground({
-			render: path.join(ROOT_DIR, "src", "Playground.tsx"),
+		pluginPreview({
+			defaultRenderMode: "pure",
 		}),
+		// pluginPlayground({
+		// 	render: path.join(ROOT_DIR, "src", "Playground.tsx"),
+		// }),
 		pluginTypedoc({
 			projects: [
 				"logger",

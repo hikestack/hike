@@ -28,4 +28,4 @@
 
 ## Defined in
 
-[use-query/use-query.ts:12](https://github.com/hikestack/hike/blob/657d8d3e2636be06e0c191f0569152086c43ed40/packages/hooks/src/use-query/use-query.ts#L12)
+[use-query/use-query.ts:12](https://github.com/hikestack/hike/blob/7acbc85d4f65b6f0fc34fe0734fa5df81c116bdd/packages/hooks/src/use-query/use-query.ts#L12)
