@@ -14,4 +14,4 @@
 
 #### Defined in
 
-[packages/logger/src/interfaces/logger-module-options.interface.ts:4](https://github.com/hikestack/hike/blob/928de04fa91eff5cc11ce6874f171775c7eb9f5a/packages/logger/src/interfaces/logger-module-options.interface.ts#L4)
+[packages/logger/src/interfaces/logger-module-options.interface.ts:4](https://github.com/hikestack/hike/blob/06a9d1e14c74906090ab3c3c676c170cb9199e53/packages/logger/src/interfaces/logger-module-options.interface.ts#L4)

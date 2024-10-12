@@ -1,4 +1,4 @@
 [
-	{ "type": "dir", "name": "docs", "label": "基础知识" },
+	{ "type": "dir", "name": "libs", "label": "库" },
 	{ "type": "dir", "name": "modules", "label": "模块" }
 ]

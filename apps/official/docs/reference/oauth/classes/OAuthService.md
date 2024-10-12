@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[packages/oauth/src/oauth.service.ts:13](https://github.com/hikestack/hike/blob/928de04fa91eff5cc11ce6874f171775c7eb9f5a/packages/oauth/src/oauth.service.ts#L13)
+[packages/oauth/src/oauth.service.ts:13](https://github.com/hikestack/hike/blob/06a9d1e14c74906090ab3c3c676c170cb9199e53/packages/oauth/src/oauth.service.ts#L13)
 
 ## Methods
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[packages/oauth/src/oauth.service.ts:36](https://github.com/hikestack/hike/blob/928de04fa91eff5cc11ce6874f171775c7eb9f5a/packages/oauth/src/oauth.service.ts#L36)
+[packages/oauth/src/oauth.service.ts:36](https://github.com/hikestack/hike/blob/06a9d1e14c74906090ab3c3c676c170cb9199e53/packages/oauth/src/oauth.service.ts#L36)
 
 ***
 
@@ -70,7 +70,7 @@
 
 #### Defined in
 
-[packages/oauth/src/oauth.service.ts:18](https://github.com/hikestack/hike/blob/928de04fa91eff5cc11ce6874f171775c7eb9f5a/packages/oauth/src/oauth.service.ts#L18)
+[packages/oauth/src/oauth.service.ts:18](https://github.com/hikestack/hike/blob/06a9d1e14c74906090ab3c3c676c170cb9199e53/packages/oauth/src/oauth.service.ts#L18)
 
 ***
 
@@ -96,4 +96,4 @@
 
 #### Defined in
 
-[packages/oauth/src/oauth.service.ts:52](https://github.com/hikestack/hike/blob/928de04fa91eff5cc11ce6874f171775c7eb9f5a/packages/oauth/src/oauth.service.ts#L52)
+[packages/oauth/src/oauth.service.ts:52](https://github.com/hikestack/hike/blob/06a9d1e14c74906090ab3c3c676c170cb9199e53/packages/oauth/src/oauth.service.ts#L52)

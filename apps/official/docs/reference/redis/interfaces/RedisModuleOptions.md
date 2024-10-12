@@ -310,7 +310,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/Sentine
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/net.d.ts:55
+node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/net.d.ts:50
 
 ***
 
@@ -324,7 +324,7 @@ node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/net.d.ts:55
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/net.d.ts:51
+node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/net.d.ts:46
 
 ***
 
@@ -558,7 +558,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/net.d.ts:70
+node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/net.d.ts:55
 
 ***
 
@@ -572,7 +572,7 @@ node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/net.d.ts:70
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/net.d.ts:50
+node\_modules/.pnpm/@types+node@12.20.55/node\_modules/@types/node/net.d.ts:45
 
 ***
 

@@ -1,5 +1,6 @@
 [
 	"introduction",
+	{ "type": "dir", "name": "docs", "label": "原理" },
 	{ "type": "dir", "name": "backend", "label": "后端" },
 	{ "type": "dir", "name": "frontend", "label": "前端" }
 ]

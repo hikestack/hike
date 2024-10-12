@@ -36,4 +36,4 @@
 
 #### Defined in
 
-[packages/lock/src/interfaces/lock.interface.ts:2](https://github.com/hikestack/hike/blob/928de04fa91eff5cc11ce6874f171775c7eb9f5a/packages/lock/src/interfaces/lock.interface.ts#L2)
+[packages/lock/src/interfaces/lock.interface.ts:2](https://github.com/hikestack/hike/blob/06a9d1e14c74906090ab3c3c676c170cb9199e53/packages/lock/src/interfaces/lock.interface.ts#L2)

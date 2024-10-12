@@ -48,7 +48,7 @@ node\_modules/.pnpm/@nestjs+common@10.4.1\_class-transformer@0.5.1\_class-valida
 
 #### Defined in
 
-[packages/oauth/src/oauth.module.ts:14](https://github.com/hikestack/hike/blob/928de04fa91eff5cc11ce6874f171775c7eb9f5a/packages/oauth/src/oauth.module.ts#L14)
+[packages/oauth/src/oauth.module.ts:14](https://github.com/hikestack/hike/blob/06a9d1e14c74906090ab3c3c676c170cb9199e53/packages/oauth/src/oauth.module.ts#L14)
 
 ***
 
@@ -70,4 +70,4 @@ node\_modules/.pnpm/@nestjs+common@10.4.1\_class-transformer@0.5.1\_class-valida
 
 #### Defined in
 
-[packages/oauth/src/oauth.module.ts:20](https://github.com/hikestack/hike/blob/928de04fa91eff5cc11ce6874f171775c7eb9f5a/packages/oauth/src/oauth.module.ts#L20)
+[packages/oauth/src/oauth.module.ts:20](https://github.com/hikestack/hike/blob/06a9d1e14c74906090ab3c3c676c170cb9199e53/packages/oauth/src/oauth.module.ts#L20)
