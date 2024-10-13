@@ -1,4 +1,0 @@
-[
-	{ "type": "dir", "name": "components", "label": "组件" },
-	{ "type": "dir", "name": "hooks", "label": "hooks" }
-]

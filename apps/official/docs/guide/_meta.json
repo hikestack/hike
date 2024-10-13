@@ -1,6 +1,8 @@
 [
 	"introduction",
 	{ "type": "dir", "name": "docs", "label": "原理" },
-	{ "type": "dir", "name": "backend", "label": "后端" },
-	{ "type": "dir", "name": "frontend", "label": "前端" }
+	{ "type": "dir", "name": "libs", "label": "库" },
+	{ "type": "dir", "name": "modules", "label": "模块" },
+	{ "type": "dir", "name": "components", "label": "组件" },
+	{ "type": "dir", "name": "hooks", "label": "hooks" }
 ]

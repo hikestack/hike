@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[packages/oauth/src/interfaces/oauth-provider.interface.ts:12](https://github.com/hikestack/hike/blob/93c768ff8bda0e1d030b69f51dc73398023ff386/packages/oauth/src/interfaces/oauth-provider.interface.ts#L12)
+[packages/oauth/src/interfaces/oauth-provider.interface.ts:12](https://github.com/hikestack/hike/blob/1ebdd11ee7a70660fc764f71da265cc7eb170554/packages/oauth/src/interfaces/oauth-provider.interface.ts#L12)
 
 ***
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[packages/oauth/src/interfaces/oauth-provider.interface.ts:10](https://github.com/hikestack/hike/blob/93c768ff8bda0e1d030b69f51dc73398023ff386/packages/oauth/src/interfaces/oauth-provider.interface.ts#L10)
+[packages/oauth/src/interfaces/oauth-provider.interface.ts:10](https://github.com/hikestack/hike/blob/1ebdd11ee7a70660fc764f71da265cc7eb170554/packages/oauth/src/interfaces/oauth-provider.interface.ts#L10)
 
 ***
 
@@ -70,4 +70,4 @@
 
 #### Defined in
 
-[packages/oauth/src/interfaces/oauth-provider.interface.ts:14](https://github.com/hikestack/hike/blob/93c768ff8bda0e1d030b69f51dc73398023ff386/packages/oauth/src/interfaces/oauth-provider.interface.ts#L14)
+[packages/oauth/src/interfaces/oauth-provider.interface.ts:14](https://github.com/hikestack/hike/blob/1ebdd11ee7a70660fc764f71da265cc7eb170554/packages/oauth/src/interfaces/oauth-provider.interface.ts#L14)

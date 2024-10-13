@@ -1,4 +1,0 @@
-[
-	{ "type": "dir", "name": "libs", "label": "库" },
-	{ "type": "dir", "name": "modules", "label": "模块" }
-]

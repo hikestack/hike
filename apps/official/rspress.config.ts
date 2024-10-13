@@ -54,6 +54,7 @@ export default defineConfig({
 		pluginTypedoc({
 			projects: [
 				"hooks",
+				"sandbox",
 				"logger",
 				"sms",
 				"mail",
