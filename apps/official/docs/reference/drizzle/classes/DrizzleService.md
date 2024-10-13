@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[packages/drizzle/src/drizzle.service.ts:19](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/drizzle/src/drizzle.service.ts#L19)
+[packages/drizzle/src/drizzle.service.ts:19](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/drizzle/src/drizzle.service.ts#L19)
 
 ## Accessors
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[packages/drizzle/src/drizzle.service.ts:33](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/drizzle/src/drizzle.service.ts#L33)
+[packages/drizzle/src/drizzle.service.ts:33](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/drizzle/src/drizzle.service.ts#L33)
 
 ## Methods
 
@@ -64,4 +64,4 @@
 
 #### Defined in
 
-[packages/drizzle/src/drizzle.service.ts:24](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/drizzle/src/drizzle.service.ts#L24)
+[packages/drizzle/src/drizzle.service.ts:24](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/drizzle/src/drizzle.service.ts#L24)

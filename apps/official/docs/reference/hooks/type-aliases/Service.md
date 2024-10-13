@@ -24,4 +24,4 @@
 
 ## Defined in
 
-[use-query/types.ts:5](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/hooks/src/use-query/types.ts#L5)
+[use-query/types.ts:5](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/hooks/src/use-query/types.ts#L5)

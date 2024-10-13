@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[packages/saga/src/adapters/bullmq/bull.saga.ts:26](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/saga/src/adapters/bullmq/bull.saga.ts#L26)
+[packages/saga/src/adapters/bullmq/bull.saga.ts:26](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/saga/src/adapters/bullmq/bull.saga.ts#L26)
 
 ## Properties
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[packages/saga/src/adapters/bullmq/bull.saga.ts:27](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/saga/src/adapters/bullmq/bull.saga.ts#L27)
+[packages/saga/src/adapters/bullmq/bull.saga.ts:27](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/saga/src/adapters/bullmq/bull.saga.ts#L27)
 
 ***
 
@@ -372,7 +372,7 @@ node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:922
 
 #### Defined in
 
-[packages/saga/src/adapters/bullmq/bull.saga.ts:34](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/saga/src/adapters/bullmq/bull.saga.ts#L34)
+[packages/saga/src/adapters/bullmq/bull.saga.ts:34](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/saga/src/adapters/bullmq/bull.saga.ts#L34)
 
 ***
 
@@ -996,7 +996,7 @@ node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:768
 
 #### Defined in
 
-[packages/saga/src/saga.ts:18](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/saga/src/saga.ts#L18)
+[packages/saga/src/saga.ts:18](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/saga/src/saga.ts#L18)
 
 ***
 

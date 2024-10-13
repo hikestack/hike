@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[packages/sms/src/interfaces/sms-provider.interface.ts:8](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/sms/src/interfaces/sms-provider.interface.ts#L8)
+[packages/sms/src/interfaces/sms-provider.interface.ts:8](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/sms/src/interfaces/sms-provider.interface.ts#L8)
 
 ***
 
@@ -46,4 +46,4 @@
 
 #### Defined in
 
-[packages/sms/src/interfaces/sms-provider.interface.ts:7](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/sms/src/interfaces/sms-provider.interface.ts#L7)
+[packages/sms/src/interfaces/sms-provider.interface.ts:7](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/sms/src/interfaces/sms-provider.interface.ts#L7)

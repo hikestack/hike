@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[packages/drizzle/src/drizzle-module-options.interface.ts:4](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/drizzle/src/drizzle-module-options.interface.ts#L4)
+[packages/drizzle/src/drizzle-module-options.interface.ts:4](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/drizzle/src/drizzle-module-options.interface.ts#L4)

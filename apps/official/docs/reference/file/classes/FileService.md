@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[packages/file/src/file.service.ts:7](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/file/src/file.service.ts#L7)
+[packages/file/src/file.service.ts:7](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/file/src/file.service.ts#L7)
 
 ## Methods
 
@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[packages/file/src/file.service.ts:33](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/file/src/file.service.ts#L33)
+[packages/file/src/file.service.ts:33](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/file/src/file.service.ts#L33)
 
 ***
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-[packages/file/src/file.service.ts:12](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/file/src/file.service.ts#L12)
+[packages/file/src/file.service.ts:12](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/file/src/file.service.ts#L12)
 
 ***
 
@@ -84,4 +84,4 @@
 
 #### Defined in
 
-[packages/file/src/file.service.ts:22](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/file/src/file.service.ts#L22)
+[packages/file/src/file.service.ts:22](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/file/src/file.service.ts#L22)

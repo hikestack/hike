@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[packages/oauth/src/interfaces/oauth-provider.interface.ts:1](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/oauth/src/interfaces/oauth-provider.interface.ts#L1)
+[packages/oauth/src/interfaces/oauth-provider.interface.ts:1](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/oauth/src/interfaces/oauth-provider.interface.ts#L1)

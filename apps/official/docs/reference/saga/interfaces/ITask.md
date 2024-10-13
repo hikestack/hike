@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[packages/saga/src/interfaces/task.interface.ts:5](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/saga/src/interfaces/task.interface.ts#L5)
+[packages/saga/src/interfaces/task.interface.ts:5](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/saga/src/interfaces/task.interface.ts#L5)
 
 ***
 
@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[packages/saga/src/interfaces/task.interface.ts:2](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/saga/src/interfaces/task.interface.ts#L2)
+[packages/saga/src/interfaces/task.interface.ts:2](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/saga/src/interfaces/task.interface.ts#L2)
 
 ## Methods
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[packages/saga/src/interfaces/task.interface.ts:3](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/saga/src/interfaces/task.interface.ts#L3)
+[packages/saga/src/interfaces/task.interface.ts:3](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/saga/src/interfaces/task.interface.ts#L3)
 
 ***
 
@@ -64,4 +64,4 @@
 
 #### Defined in
 
-[packages/saga/src/interfaces/task.interface.ts:4](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/saga/src/interfaces/task.interface.ts#L4)
+[packages/saga/src/interfaces/task.interface.ts:4](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/saga/src/interfaces/task.interface.ts#L4)

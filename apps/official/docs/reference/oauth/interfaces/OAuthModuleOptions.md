@@ -14,4 +14,4 @@
 
 #### Defined in
 
-[packages/oauth/src/interfaces/oauth-module-options.interface.ts:9](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/oauth/src/interfaces/oauth-module-options.interface.ts#L9)
+[packages/oauth/src/interfaces/oauth-module-options.interface.ts:9](https://github.com/hikestack/hike/blob/2fabd68ba0f2ce1349b27028db6ecd802ced903d/packages/oauth/src/interfaces/oauth-module-options.interface.ts#L9)
