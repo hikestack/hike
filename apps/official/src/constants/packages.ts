@@ -20,7 +20,7 @@ export const packages = {
 		package: "@hikestack/file",
 	},
 	oauth: {
-		name: "第三方授权登录",
+		name: "授权登录",
 		package: "@hikestack/oauth",
 	},
 	lock: {

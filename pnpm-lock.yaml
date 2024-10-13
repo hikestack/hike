@@ -195,6 +195,9 @@ importers:
       '@swc/core':
         specifier: ^1.7.14
         version: 1.7.14(@swc/helpers@0.5.13)
+      '@types/ali-oss':
+        specifier: ^6.16.11
+        version: 6.16.11
       '@types/node':
         specifier: ^22.7.4
         version: 22.7.5
