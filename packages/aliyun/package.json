@@ -1,0 +1,32 @@
+{
+	"name": "@hikestack/aliyun",
+	"version": "1.0.0",
+	"publishConfig": {
+		"access": "public"
+	},
+	"license": "MIT",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		}
+	},
+	"scripts": {
+		"build": "tsc",
+		"clean": "rimraf dist && rimraf node_modules && rimraf tsconfig.tsbuildinfo",
+		"dev": "tsc -w --preserveWatchOutput --declarationMap"
+	},
+	"peerDependencies": {
+		"ali-oss": "^6.21.0"
+	},
+	"devDependencies": {
+		"@nestjs/common": "^10.4.1",
+		"@nestjs/core": "^10.4.1",
+		"@types/ali-oss": "^6.16.11",
+		"@types/node": "^22.7.5",
+		"ali-oss": "^6.21.0",
+		"typescript": "^5.5.2"
+	}
+}
