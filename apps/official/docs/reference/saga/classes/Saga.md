@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[packages/saga/src/saga.ts:10](https://github.com/hikestack/hike/blob/1ebdd11ee7a70660fc764f71da265cc7eb170554/packages/saga/src/saga.ts#L10)
+[packages/saga/src/saga.ts:10](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/saga/src/saga.ts#L10)
 
 ## Properties
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[packages/saga/src/saga.ts:10](https://github.com/hikestack/hike/blob/1ebdd11ee7a70660fc764f71da265cc7eb170554/packages/saga/src/saga.ts#L10)
+[packages/saga/src/saga.ts:10](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/saga/src/saga.ts#L10)
 
 ***
 
@@ -362,7 +362,7 @@ node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/events.d.ts:922
 
 #### Defined in
 
-[packages/saga/src/saga.ts:14](https://github.com/hikestack/hike/blob/1ebdd11ee7a70660fc764f71da265cc7eb170554/packages/saga/src/saga.ts#L14)
+[packages/saga/src/saga.ts:14](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/saga/src/saga.ts#L14)
 
 ***
 
@@ -982,7 +982,7 @@ node\_modules/.pnpm/@types+node@22.7.4/node\_modules/@types/node/events.d.ts:768
 
 #### Defined in
 
-[packages/saga/src/saga.ts:18](https://github.com/hikestack/hike/blob/1ebdd11ee7a70660fc764f71da265cc7eb170554/packages/saga/src/saga.ts#L18)
+[packages/saga/src/saga.ts:18](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/saga/src/saga.ts#L18)
 
 ***
 

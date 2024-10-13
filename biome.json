@@ -26,6 +26,7 @@
 				"noAssignInExpressions": "off"
 			},
 			"style": {
+				"noUselessElse": "off",
 				"useImportType": "off",
 				"noParameterAssign": "off",
 				"noInferrableTypes": "off",
@@ -41,7 +42,8 @@
 				"noForEach": "off"
 			},
 			"correctness": {
-				"useExhaustiveDependencies": "off"
+				"useExhaustiveDependencies": "off",
+				"noConstructorReturn": "off"
 			},
 			"a11y": {
 				"useKeyWithClickEvents": "off",

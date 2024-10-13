@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[use-query/types.ts:128](https://github.com/hikestack/hike/blob/1ebdd11ee7a70660fc764f71da265cc7eb170554/packages/hooks/src/use-query/types.ts#L128)
+[use-query/types.ts:128](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/hooks/src/use-query/types.ts#L128)

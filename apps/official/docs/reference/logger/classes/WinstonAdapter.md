@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[packages/logger/src/adapters/winston/winston.adapter.ts:8](https://github.com/hikestack/hike/blob/1ebdd11ee7a70660fc764f71da265cc7eb170554/packages/logger/src/adapters/winston/winston.adapter.ts#L8)
+[packages/logger/src/adapters/winston/winston.adapter.ts:8](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/logger/src/adapters/winston/winston.adapter.ts#L8)
 
 ## Properties
 
@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[packages/logger/src/adapters/winston/winston.adapter.ts:6](https://github.com/hikestack/hike/blob/1ebdd11ee7a70660fc764f71da265cc7eb170554/packages/logger/src/adapters/winston/winston.adapter.ts#L6)
+[packages/logger/src/adapters/winston/winston.adapter.ts:6](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/logger/src/adapters/winston/winston.adapter.ts#L6)
 
 ## Methods
 
@@ -62,7 +62,7 @@ Write an 'error' level log.
 
 #### Defined in
 
-[packages/logger/src/adapters/winston/winston.adapter.ts:16](https://github.com/hikestack/hike/blob/1ebdd11ee7a70660fc764f71da265cc7eb170554/packages/logger/src/adapters/winston/winston.adapter.ts#L16)
+[packages/logger/src/adapters/winston/winston.adapter.ts:16](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/logger/src/adapters/winston/winston.adapter.ts#L16)
 
 ***
 
@@ -88,7 +88,7 @@ Write a 'log' level log.
 
 #### Defined in
 
-[packages/logger/src/adapters/winston/winston.adapter.ts:12](https://github.com/hikestack/hike/blob/1ebdd11ee7a70660fc764f71da265cc7eb170554/packages/logger/src/adapters/winston/winston.adapter.ts#L12)
+[packages/logger/src/adapters/winston/winston.adapter.ts:12](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/logger/src/adapters/winston/winston.adapter.ts#L12)
 
 ***
 
@@ -114,4 +114,4 @@ Write a 'warn' level log.
 
 #### Defined in
 
-[packages/logger/src/adapters/winston/winston.adapter.ts:20](https://github.com/hikestack/hike/blob/1ebdd11ee7a70660fc764f71da265cc7eb170554/packages/logger/src/adapters/winston/winston.adapter.ts#L20)
+[packages/logger/src/adapters/winston/winston.adapter.ts:20](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/logger/src/adapters/winston/winston.adapter.ts#L20)

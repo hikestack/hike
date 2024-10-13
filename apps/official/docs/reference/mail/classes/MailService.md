@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[packages/mail/src/mail.service.ts:8](https://github.com/hikestack/hike/blob/1ebdd11ee7a70660fc764f71da265cc7eb170554/packages/mail/src/mail.service.ts#L8)
+[packages/mail/src/mail.service.ts:8](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/mail/src/mail.service.ts#L8)
 
 ## Methods
 
@@ -48,4 +48,4 @@
 
 #### Defined in
 
-[packages/mail/src/mail.service.ts:18](https://github.com/hikestack/hike/blob/1ebdd11ee7a70660fc764f71da265cc7eb170554/packages/mail/src/mail.service.ts#L18)
+[packages/mail/src/mail.service.ts:18](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/mail/src/mail.service.ts#L18)
