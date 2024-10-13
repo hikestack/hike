@@ -55,6 +55,7 @@ export default defineConfig({
 			projects: [
 				"hooks",
 				"logger",
+				"sms",
 				"mail",
 				"redis",
 				"lock",
