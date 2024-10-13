@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[packages/sms/src/sms.service.ts:14](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/sms/src/sms.service.ts#L14)
+[packages/sms/src/sms.service.ts:14](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/sms/src/sms.service.ts#L14)
 
 ## Methods
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[packages/sms/src/sms.service.ts:31](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/sms/src/sms.service.ts#L31)
+[packages/sms/src/sms.service.ts:31](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/sms/src/sms.service.ts#L31)
 
 ***
 
@@ -70,4 +70,4 @@
 
 #### Defined in
 
-[packages/sms/src/sms.service.ts:19](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/sms/src/sms.service.ts#L19)
+[packages/sms/src/sms.service.ts:19](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/sms/src/sms.service.ts#L19)

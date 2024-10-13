@@ -8,5 +8,6 @@
 	"saga",
 	"oauth",
 	"prisma",
-	"kysely"
+	"kysely",
+	"drizzle"
 ]

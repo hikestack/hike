@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[packages/prisma/src/prisma.service.ts:8](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/prisma/src/prisma.service.ts#L8)
+[packages/prisma/src/prisma.service.ts:8](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/prisma/src/prisma.service.ts#L8)
 
 ## Properties
 
@@ -548,4 +548,4 @@ node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/c
 
 #### Defined in
 
-[packages/prisma/src/prisma.service.ts:15](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/prisma/src/prisma.service.ts#L15)
+[packages/prisma/src/prisma.service.ts:15](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/prisma/src/prisma.service.ts#L15)

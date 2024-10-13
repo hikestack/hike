@@ -65,6 +65,7 @@ export default defineConfig({
 				"prisma",
 				"oauth",
 				"file",
+				"drizzle",
 			].map((packageName) => ({
 				entryPoint: path.join(PACKAGES_DIR, packageName, "src", "index.ts"),
 				output: path.join(ROOT_DIR, "docs", "reference", packageName),

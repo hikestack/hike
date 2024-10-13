@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[packages/oauth/src/providers/github/github.provider.ts:30](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/oauth/src/providers/github/github.provider.ts#L30)
+[packages/oauth/src/providers/github/github.provider.ts:30](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/oauth/src/providers/github/github.provider.ts#L30)
 
 ## Methods
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[packages/oauth/src/providers/github/github.provider.ts:52](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/oauth/src/providers/github/github.provider.ts#L52)
+[packages/oauth/src/providers/github/github.provider.ts:52](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/oauth/src/providers/github/github.provider.ts#L52)
 
 ***
 
@@ -74,7 +74,7 @@
 
 #### Defined in
 
-[packages/oauth/src/providers/github/github.provider.ts:36](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/oauth/src/providers/github/github.provider.ts#L36)
+[packages/oauth/src/providers/github/github.provider.ts:36](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/oauth/src/providers/github/github.provider.ts#L36)
 
 ***
 
@@ -96,4 +96,4 @@
 
 #### Defined in
 
-[packages/oauth/src/providers/github/github.provider.ts:78](https://github.com/hikestack/hike/blob/f4b2991827d0518d26a98943c6929d7779aa398c/packages/oauth/src/providers/github/github.provider.ts#L78)
+[packages/oauth/src/providers/github/github.provider.ts:78](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/oauth/src/providers/github/github.provider.ts#L78)
