@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[packages/saga/src/saga.ts:10](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/saga/src/saga.ts#L10)
+[packages/saga/src/saga.ts:10](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/saga/src/saga.ts#L10)
 
 ## Properties
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[packages/saga/src/saga.ts:10](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/saga/src/saga.ts#L10)
+[packages/saga/src/saga.ts:10](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/saga/src/saga.ts#L10)
 
 ***
 
@@ -362,7 +362,7 @@ node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:922
 
 #### Defined in
 
-[packages/saga/src/saga.ts:14](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/saga/src/saga.ts#L14)
+[packages/saga/src/saga.ts:14](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/saga/src/saga.ts#L14)
 
 ***
 
@@ -982,7 +982,7 @@ node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:768
 
 #### Defined in
 
-[packages/saga/src/saga.ts:18](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/saga/src/saga.ts#L18)
+[packages/saga/src/saga.ts:18](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/saga/src/saga.ts#L18)
 
 ***
 
@@ -1205,7 +1205,7 @@ node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:330
 
 #### on(emitter, eventName, options)
 
-> `static` **on**(`emitter`, `eventName`, `options`?): `AsyncIterableIterator`\<`any`[]\>
+> `static` **on**(`emitter`, `eventName`, `options`?): `AsyncIterableIterator`\<`any`[], `any`, `any`\>
 
 ```js
 import { on, EventEmitter } from 'node:events';
@@ -1294,7 +1294,7 @@ console.log('done'); // prints 'done'
 
 ##### Returns
 
-`AsyncIterableIterator`\<`any`[]\>
+`AsyncIterableIterator`\<`any`[], `any`, `any`\>
 
 An `AsyncIterator` that iterates `eventName` events emitted by the `emitter`
 
@@ -1312,7 +1312,7 @@ node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:303
 
 #### on(emitter, eventName, options)
 
-> `static` **on**(`emitter`, `eventName`, `options`?): `AsyncIterableIterator`\<`any`[]\>
+> `static` **on**(`emitter`, `eventName`, `options`?): `AsyncIterableIterator`\<`any`[], `any`, `any`\>
 
 ##### Parameters
 
@@ -1324,7 +1324,7 @@ node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:303
 
 ##### Returns
 
-`AsyncIterableIterator`\<`any`[]\>
+`AsyncIterableIterator`\<`any`[], `any`, `any`\>
 
 ##### Inherited from
 

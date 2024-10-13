@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[packages/logger/src/logger.service.ts:8](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/logger/src/logger.service.ts#L8)
+[packages/logger/src/logger.service.ts:8](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/logger/src/logger.service.ts#L8)
 
 ## Properties
 
@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[packages/logger/src/logger.service.ts:7](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/logger/src/logger.service.ts#L7)
+[packages/logger/src/logger.service.ts:7](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/logger/src/logger.service.ts#L7)
 
 ## Methods
 
@@ -62,7 +62,7 @@ Write an 'error' level log.
 
 #### Defined in
 
-[packages/logger/src/logger.service.ts:22](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/logger/src/logger.service.ts#L22)
+[packages/logger/src/logger.service.ts:22](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/logger/src/logger.service.ts#L22)
 
 ***
 
@@ -88,7 +88,7 @@ Write a 'log' level log.
 
 #### Defined in
 
-[packages/logger/src/logger.service.ts:18](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/logger/src/logger.service.ts#L18)
+[packages/logger/src/logger.service.ts:18](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/logger/src/logger.service.ts#L18)
 
 ***
 
@@ -114,4 +114,4 @@ Write a 'warn' level log.
 
 #### Defined in
 
-[packages/logger/src/logger.service.ts:26](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/logger/src/logger.service.ts#L26)
+[packages/logger/src/logger.service.ts:26](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/logger/src/logger.service.ts#L26)

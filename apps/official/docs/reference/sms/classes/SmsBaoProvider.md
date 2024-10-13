@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[packages/sms/src/providers/smsbao/smsbao.provider.ts:20](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/sms/src/providers/smsbao/smsbao.provider.ts#L20)
+[packages/sms/src/providers/smsbao/smsbao.provider.ts:20](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/sms/src/providers/smsbao/smsbao.provider.ts#L20)
 
 ## Methods
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-[packages/sms/src/providers/smsbao/smsbao.provider.ts:44](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/sms/src/providers/smsbao/smsbao.provider.ts#L44)
+[packages/sms/src/providers/smsbao/smsbao.provider.ts:44](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/sms/src/providers/smsbao/smsbao.provider.ts#L44)
 
 ***
 
@@ -72,4 +72,4 @@
 
 #### Defined in
 
-[packages/sms/src/providers/smsbao/smsbao.provider.ts:25](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/sms/src/providers/smsbao/smsbao.provider.ts#L25)
+[packages/sms/src/providers/smsbao/smsbao.provider.ts:25](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/sms/src/providers/smsbao/smsbao.provider.ts#L25)

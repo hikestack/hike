@@ -1,9 +1,10 @@
-import { pluginPreview } from "@rspress/plugin-preview";
 import * as path from "path";
+import { pluginPreview } from "@rspress/plugin-preview";
 import pluginGhPages from "rspress-plugin-gh-pages";
 import pluginGa from "rspress-plugin-google-analytics";
 import { defineConfig } from "rspress/config";
 import { pluginTypedoc } from "./plugins/plugin-typedoc";
+import { packages } from "./src/constants";
 
 const ROOT_DIR = path.join(__dirname);
 const PACKAGES_DIR = path.resolve(__dirname, "../../packages");
@@ -52,25 +53,11 @@ export default defineConfig({
 		// 	render: path.join(ROOT_DIR, "src", "Playground.tsx"),
 		// }),
 		pluginTypedoc({
-			projects: [
-				"hooks",
-				"sandbox",
-				"logger",
-				"sms",
-				"mail",
-				"redis",
-				"lock",
-				"saga",
-				"kysely",
-				"prisma",
-				"oauth",
-				"file",
-				"drizzle",
-			].map((packageName) => ({
-				entryPoint: path.join(PACKAGES_DIR, packageName, "src", "index.ts"),
-				output: path.join(ROOT_DIR, "docs", "reference", packageName),
-				publicPath: `/official/reference/${packageName}`,
-				tsconfig: path.join(PACKAGES_DIR, packageName, "tsconfig.json"),
+			projects: Object.keys(packages).map((p) => ({
+				entryPoint: path.join(PACKAGES_DIR, p, "src", "index.ts"),
+				output: path.join(ROOT_DIR, "docs", "reference", p),
+				publicPath: `/official/reference/${p}`,
+				tsconfig: path.join(PACKAGES_DIR, p, "tsconfig.json"),
 			})),
 		}),
 	],

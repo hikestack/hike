@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[packages/drizzle/src/drizzle-module-options.interface.ts:8](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/drizzle/src/drizzle-module-options.interface.ts#L8)
+[packages/drizzle/src/drizzle-module-options.interface.ts:8](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/drizzle/src/drizzle-module-options.interface.ts#L8)
 
 ***
 
@@ -24,4 +24,4 @@
 
 #### Defined in
 
-[packages/drizzle/src/drizzle-module-options.interface.ts:9](https://github.com/hikestack/hike/blob/2d4ca98e0cdf7a421674f597d4960cda8cd728c8/packages/drizzle/src/drizzle-module-options.interface.ts#L9)
+[packages/drizzle/src/drizzle-module-options.interface.ts:9](https://github.com/hikestack/hike/blob/25d344bbdfe0453d4900cd57dd6b39277250a015/packages/drizzle/src/drizzle-module-options.interface.ts#L9)
