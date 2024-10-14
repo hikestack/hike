@@ -1,5 +1,5 @@
-import { isDev } from "@/lib/utils.ts";
-import { snapshot, subscribe } from "../../vanilla.ts";
+import { isDev } from "../../../lib/utils";
+import { snapshot, subscribe } from "../../vanilla";
 
 // FIXME https://github.com/reduxjs/redux-devtools/issues/1097
 type Message = {

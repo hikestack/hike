@@ -22,7 +22,7 @@
 
 #### Parameters
 
-• **options**: [`PrismaModuleOptions`](/official/reference/prisma/interfaces/PrismaModuleOptions.md)
+• **options**: [`PrismaModuleOptions`](/official/reference/prisma/type-aliases/PrismaModuleOptions.md)
 
 #### Returns
 
@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[packages/prisma/src/prisma.service.ts:8](https://github.com/hikestack/hike/blob/52383186e258bf337fb21483cef3f6798e622fe1/packages/prisma/src/prisma.service.ts#L8)
+[packages/prisma/src/prisma.service.ts:8](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/prisma/src/prisma.service.ts#L8)
 
 ## Properties
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:168
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:168
 
 ## Accessors
 
@@ -73,7 +73,7 @@ node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/c
 
 #### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:228
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:228
 
 ***
 
@@ -98,7 +98,7 @@ node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/c
 
 #### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:218
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:218
 
 ***
 
@@ -123,7 +123,7 @@ node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/c
 
 #### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:188
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:188
 
 ***
 
@@ -148,7 +148,7 @@ node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/c
 
 #### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:178
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:178
 
 ***
 
@@ -173,7 +173,7 @@ node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/c
 
 #### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:198
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:198
 
 ***
 
@@ -198,7 +198,7 @@ node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/c
 
 #### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:208
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:208
 
 ## Methods
 
@@ -218,7 +218,7 @@ Connect with the database
 
 #### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:89
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:89
 
 ***
 
@@ -238,7 +238,7 @@ Disconnect from the database
 
 #### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:94
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:94
 
 ***
 
@@ -276,7 +276,7 @@ Read more in our [docs](https://www.prisma.io/docs/reference/tools-and-interface
 
 #### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:112
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:112
 
 ***
 
@@ -315,7 +315,7 @@ Read more in our [docs](https://www.prisma.io/docs/reference/tools-and-interface
 
 #### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:124
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:124
 
 ***
 
@@ -343,7 +343,7 @@ node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/c
 
 #### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:84
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:84
 
 ***
 
@@ -381,7 +381,7 @@ Read more in our [docs](https://www.prisma.io/docs/reference/tools-and-interface
 
 #### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:135
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:135
 
 ***
 
@@ -420,7 +420,7 @@ Read more in our [docs](https://www.prisma.io/docs/reference/tools-and-interface
 
 #### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:147
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:147
 
 ***
 
@@ -466,7 +466,7 @@ Read more in our [docs](https://www.prisma.io/docs/concepts/components/prisma-cl
 
 ##### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:163
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:163
 
 #### $transaction(fn, options)
 
@@ -498,7 +498,7 @@ node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/c
 
 ##### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:165
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:165
 
 ***
 
@@ -530,7 +530,7 @@ https://pris.ly/d/extensions
 
 #### Defined in
 
-node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/client/index.d.ts:101
+node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.20.0/node\_modules/.prisma/client/index.d.ts:101
 
 ***
 
@@ -548,4 +548,4 @@ node\_modules/.pnpm/@prisma+client@5.19.0\_prisma@5.19.0/node\_modules/.prisma/c
 
 #### Defined in
 
-[packages/prisma/src/prisma.service.ts:15](https://github.com/hikestack/hike/blob/52383186e258bf337fb21483cef3f6798e622fe1/packages/prisma/src/prisma.service.ts#L15)
+[packages/prisma/src/prisma.service.ts:15](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/prisma/src/prisma.service.ts#L15)

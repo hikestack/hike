@@ -1,0 +1,33 @@
+{
+	"name": "@hikestack/jvm",
+	"version": "1.0.1",
+	"publishConfig": {
+		"access": "public"
+	},
+	"license": "MIT",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
+		}
+	},
+	"scripts": {
+		"build": "tsc",
+		"clean": "rimraf dist && rimraf node_modules && rimraf tsconfig.tsbuildinfo",
+		"dev": "tsc -w --preserveWatchOutput --declarationMap"
+	},
+	"peerDependencies": {
+		"java": "^0.14.0",
+		"node-java-maven": "^0.1.2"
+	},
+	"devDependencies": {
+		"@nestjs/common": "^10.4.1",
+		"@nestjs/core": "^10.4.1",
+		"@types/node": "^22.7.5",
+		"java": "^0.14.0",
+		"node-java-maven": "^0.1.2",
+		"typescript": "^5.5.2"
+	}
+}

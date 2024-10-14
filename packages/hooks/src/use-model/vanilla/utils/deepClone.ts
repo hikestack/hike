@@ -1,7 +1,4 @@
-import { create } from "domain";
-import { has, forEach } from "lodash";
-import { isArray } from "util";
-import { unstable_getInternalStates } from "../../vanilla.ts";
+import { unstable_getInternalStates } from "../../vanilla";
 
 const isObject = (x: unknown): x is object =>
 	typeof x === "object" && x !== null;

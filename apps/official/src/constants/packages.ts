@@ -43,6 +43,10 @@ export const packages = {
 		name: "Drizzle",
 		package: "@hikestack/drizzle",
 	},
+	jvm: {
+		name: "Java虚拟机",
+		package: "@hikestack/jvm",
+	},
 	hooks: {
 		name: "hooks",
 		package: "@hikestack/hooks",

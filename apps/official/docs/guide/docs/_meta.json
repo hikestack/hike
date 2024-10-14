@@ -7,5 +7,6 @@
 	"transaction",
 	"dsl",
 	"ts-keyof-infer",
-	"type-chat"
+	"type-chat",
+	"jvm"
 ]

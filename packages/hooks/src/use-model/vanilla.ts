@@ -1,4 +1,4 @@
-import { isDev } from "@/lib/utils";
+import { isDev } from "../lib/utils";
 import { getUntracked, markToTrack } from "proxy-compare";
 
 const isObject = (x: unknown): x is object =>

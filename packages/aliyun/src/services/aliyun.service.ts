@@ -18,6 +18,7 @@ export class AliyunService {
 	}
 
 	public get OSS() {
+		if (!this.ossService) throw new Error("oss service is not initialized");
 		return this.ossService;
 	}
 

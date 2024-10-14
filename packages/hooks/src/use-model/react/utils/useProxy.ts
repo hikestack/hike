@@ -1,5 +1,5 @@
 import { useLayoutEffect } from "react";
-import { useModel } from "../../react.ts";
+import { useModel } from "../../react";
 
 const DUMMY_SYMBOL = Symbol();
 

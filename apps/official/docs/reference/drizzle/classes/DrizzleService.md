@@ -32,21 +32,21 @@
 
 #### Defined in
 
-[packages/drizzle/src/drizzle.service.ts:19](https://github.com/hikestack/hike/blob/52383186e258bf337fb21483cef3f6798e622fe1/packages/drizzle/src/drizzle.service.ts#L19)
+[packages/drizzle/src/drizzle.service.ts:18](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/drizzle/src/drizzle.service.ts#L18)
 
 ## Accessors
 
 ### db
 
-> `get` **db**(): `DetermineClient`\<`TClient`, `TSchema`\>
+> `get` **db**(): `any`
 
 #### Returns
 
-`DetermineClient`\<`TClient`, `TSchema`\>
+`any`
 
 #### Defined in
 
-[packages/drizzle/src/drizzle.service.ts:33](https://github.com/hikestack/hike/blob/52383186e258bf337fb21483cef3f6798e622fe1/packages/drizzle/src/drizzle.service.ts#L33)
+[packages/drizzle/src/drizzle.service.ts:31](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/drizzle/src/drizzle.service.ts#L31)
 
 ## Methods
 
@@ -64,4 +64,4 @@
 
 #### Defined in
 
-[packages/drizzle/src/drizzle.service.ts:24](https://github.com/hikestack/hike/blob/52383186e258bf337fb21483cef3f6798e622fe1/packages/drizzle/src/drizzle.service.ts#L24)
+[packages/drizzle/src/drizzle.service.ts:23](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/drizzle/src/drizzle.service.ts#L23)

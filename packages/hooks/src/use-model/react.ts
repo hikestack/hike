@@ -12,9 +12,9 @@ import {
 	createProxy as createProxyToCompare,
 	isChanged,
 } from "proxy-compare";
-import { snapshot, subscribe } from "./vanilla.ts";
-import type { Snapshot } from "./vanilla.ts";
-import { isDev } from "@/lib/utils.ts";
+import { snapshot, subscribe } from "./vanilla";
+import type { Snapshot } from "./vanilla";
+import { isDev } from "../lib/utils";
 
 const useAffectedDebugValue = (
 	state: object,

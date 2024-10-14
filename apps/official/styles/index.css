@@ -58,7 +58,8 @@
 		--chart-5: 340 75% 55%;
 	}
 
-	styles.css .collapsibleDropdown {
+	/* styles.css */
+	.collapsibleDropdown {
 		overflow: hidden;
 	}
 	.collapsibleDropdown[data-state="open"] {

@@ -1,5 +1,13 @@
 # @hikestack/official
 
+## 1.0.3
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+  - @hikestack/hooks@2.2.0
+
 ## 1.0.2
 
 ### Patch Changes

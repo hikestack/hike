@@ -9,6 +9,6 @@
 - [PrismaModule](/official/reference/prisma/classes/PrismaModule.md)
 - [PrismaService](/official/reference/prisma/classes/PrismaService.md)
 
-## Interfaces
+## Type Aliases
 
-- [PrismaModuleOptions](/official/reference/prisma/interfaces/PrismaModuleOptions.md)
+- [PrismaModuleOptions](/official/reference/prisma/type-aliases/PrismaModuleOptions.md)

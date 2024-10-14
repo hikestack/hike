@@ -1,4 +1,4 @@
-import { subscribe } from "../../vanilla.ts";
+import { subscribe } from "../../vanilla";
 
 type Cleanup = () => void;
 type WatchGet = <T extends object>(proxyObject: T) => T;
@@ -91,6 +91,7 @@ export function watch(
 			// If there's a cleanup, we add this to the cleanups set
 			if (couldBeCleanup) {
 				if (alive) {
+					// @ts-ignore
 					cleanups.add(couldBeCleanup);
 				} else {
 					cleanup();

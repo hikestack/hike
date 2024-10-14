@@ -9,5 +9,6 @@
 	"oauth",
 	"prisma",
 	"kysely",
-	"drizzle"
+	"drizzle",
+	"jvm"
 ]

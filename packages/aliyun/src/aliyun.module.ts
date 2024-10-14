@@ -4,11 +4,11 @@ import {
 	ConfigurableModuleClass,
 	OPTIONS_TYPE,
 } from "./aliyun.module-definition";
-import { services } from "./services";
+import { AliyunService } from "./services";
 
 @Module({
-	providers: [...services],
-	exports: [...services],
+	providers: [AliyunService],
+	exports: [AliyunService],
 })
 export class AliyunModule extends ConfigurableModuleClass {
 	static register(options: typeof OPTIONS_TYPE): DynamicModule {

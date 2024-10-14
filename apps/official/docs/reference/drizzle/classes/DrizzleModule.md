@@ -26,7 +26,7 @@
 
 #### Defined in
 
-node\_modules/.pnpm/@nestjs+common@10.4.1\_class-transformer@0.5.1\_class-validator@0.14.1\_reflect-metadata@0.2.2\_rxjs@7.8.1/node\_modules/@nestjs/common/module-utils/interfaces/configurable-module-cls.interface.d.ts:12
+node\_modules/.pnpm/@nestjs+common@10.4.4\_class-transformer@0.5.1\_class-validator@0.14.1\_reflect-metadata@0.2.2\_rxjs@7.8.1/node\_modules/@nestjs/common/module-utils/interfaces/configurable-module-cls.interface.d.ts:12
 
 ## Methods
 
@@ -48,7 +48,7 @@ node\_modules/.pnpm/@nestjs+common@10.4.1\_class-transformer@0.5.1\_class-valida
 
 #### Defined in
 
-[packages/drizzle/src/drizzle.module.ts:14](https://github.com/hikestack/hike/blob/52383186e258bf337fb21483cef3f6798e622fe1/packages/drizzle/src/drizzle.module.ts#L14)
+[packages/drizzle/src/drizzle.module.ts:14](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/drizzle/src/drizzle.module.ts#L14)
 
 ***
 
@@ -70,4 +70,4 @@ node\_modules/.pnpm/@nestjs+common@10.4.1\_class-transformer@0.5.1\_class-valida
 
 #### Defined in
 
-[packages/drizzle/src/drizzle.module.ts:20](https://github.com/hikestack/hike/blob/52383186e258bf337fb21483cef3f6798e622fe1/packages/drizzle/src/drizzle.module.ts#L20)
+[packages/drizzle/src/drizzle.module.ts:20](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/drizzle/src/drizzle.module.ts#L20)

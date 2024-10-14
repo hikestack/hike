@@ -1,5 +1,5 @@
 import { AliyunOssOptions } from "@/interfaces";
-import OSS from "ali-oss";
+import * as OSS from "ali-oss";
 
 export class AliyunOssService {
 	private readonly client: OSS;

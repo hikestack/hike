@@ -1,6 +1,5 @@
 import { Inject, Injectable, OnModuleInit } from "@nestjs/common";
 import { drizzle } from "drizzle-orm/connect";
-import { DetermineClient } from "drizzle-orm/monodriver";
 import {
 	DatabaseClient,
 	DatabaseConnectionOptions,
@@ -14,7 +13,7 @@ export class DrizzleService<
 	TSchema extends DatabaseConnectionOptions = any,
 > implements OnModuleInit
 {
-	private client: DetermineClient<TClient, TSchema>;
+	private client;
 
 	constructor(
 		@Inject(MODULE_OPTIONS_TOKEN)
@@ -23,7 +22,6 @@ export class DrizzleService<
 
 	async onModuleInit() {
 		if (this.options.client) {
-			// @ts-ignore
 			this.client = await drizzle(this.options.client, this.options.config);
 		} else {
 			this.client = await drizzle(this.options.config);
