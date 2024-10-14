@@ -1,0 +1,104 @@
+# useModel
+
+import { PackageManagerTabs } from 'rspress/theme';
+import { Button } from '@/components/ui/Button';
+import { FileCode2Icon, SquareArrowOutUpRightIcon  } from 'lucide-react'
+
+<div className="flex space-x-2 items-center">    
+    <a className="flex space-x-1 items-center" href="https://github.com/hikestack/hike/tree/main/packages/hooks/src/use-model.ts" target="_blank">
+        <Button variant="secondary" size="sm">      
+             <span>源码</span>
+            <FileCode2Icon className="w-4 h-4 ml-1" />
+        </Button>
+    </a>
+   
+    <a className="flex space-x-1 items-center" href="/official/reference/hooks/functions/useModel.html">
+        <Button variant="secondary" size="sm">
+            <span>API 参考</span>
+            <SquareArrowOutUpRightIcon className="w-4 h-4 ml-1" />
+        </Button>
+    </a>
+</div>
+
+```useModel```是一个轻量级状态管理工具
+
+## 安装
+ 
+<PackageManagerTabs command="install @hikestack/hooks" />
+
+## 使用
+
+```ts title="user.model.ts"
+import React from "react";
+import { proxy } from "@hikestack/hooks";
+import constants from "@/constants";
+import { defer } from "react-router-dom";
+
+const state = proxy({
+	user: null,
+});
+
+const actions = {
+	load: async () => {
+		if (!state.user) {
+			const res = await actions.getInfo();
+			if (200 === res?.data?.code) {
+				state.user = res.data?.data;
+			}
+		}
+
+		return defer({ user: state.user });
+	},
+	getUserInfo: async () => {
+		return;
+	},
+    updateUserInfo: async(data) => {        
+        return;
+    }
+};
+
+export default {
+	state,
+	...actions,
+};
+```
+
+```tsx pure title="main.layout.tsx"
+import userModel from "@/models/user.model";
+import { Suspense, useEffect, useMemo } from "react";
+import { Await, Navigate, useLocation, useOutlet } from "react-router-dom";
+
+export default function MainLayout() {
+	return (
+        <div>
+            <Suspense fallback={<Loader />}>
+                <Await resolve={userModel.load()}>
+                    {(res) => {
+                        const user = res?.data?.user;
+                        if (!user) {
+                            return <Navigate to="/sign-in" replace />;
+                        }
+                        return outlet;
+                    }}
+                </Await>
+            </Suspense>
+        </div>
+	);
+}
+```
+
+```tsx pure title="profile.tsx"
+import userModel from "@/models/user.model";
+import { useModel } from "@hikestack/hooks";
+
+export default function Profile() {
+	const { user } = useModel(userModel.state);
+	return (
+		<div>
+			{user.name}
+            <br/>
+            <button onClick={() => userModel.updateUserInfo({ name: 'New name' })}></button>
+		</div>
+	);
+}
+```
