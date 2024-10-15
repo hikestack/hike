@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[packages/kysely/src/kysely.service.ts:8](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/kysely/src/kysely.service.ts#L8)
+[packages/kysely/src/kysely.service.ts:8](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/kysely/src/kysely.service.ts#L8)
 
 ## Accessors
 
@@ -57,7 +57,7 @@ passing in dynamic values for the queries.
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:76
+node\_modules/kysely/dist/cjs/kysely.d.ts:76
 
 ***
 
@@ -100,7 +100,7 @@ having count("pet"."id") > $1
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:114
+node\_modules/kysely/dist/cjs/kysely.d.ts:114
 
 ***
 
@@ -120,7 +120,7 @@ Returns a DatabaseIntrospector | database introspector.
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:80
+node\_modules/kysely/dist/cjs/kysely.d.ts:80
 
 ***
 
@@ -142,7 +142,7 @@ You can also use `db instanceof Transaction`.
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:244
+node\_modules/kysely/dist/cjs/kysely.d.ts:244
 
 ***
 
@@ -162,7 +162,7 @@ Returns the SchemaModule module for building database schema.
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:69
+node\_modules/kysely/dist/cjs/kysely.d.ts:69
 
 ## Methods
 
@@ -186,7 +186,7 @@ See ExpressionBuilder.case for more information.
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:86
+node\_modules/kysely/dist/cjs/kysely.d.ts:86
 
 #### case(value)
 
@@ -210,7 +210,7 @@ node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:86
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:87
+node\_modules/kysely/dist/cjs/kysely.d.ts:87
 
 ***
 
@@ -243,7 +243,7 @@ await db
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:188
+node\_modules/kysely/dist/cjs/kysely.d.ts:188
 
 ***
 
@@ -319,7 +319,7 @@ where `person`.`id` = ?
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:297
+node\_modules/kysely/dist/cjs/query-creator.d.ts:297
 
 #### deleteFrom(tables)
 
@@ -343,7 +343,7 @@ node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:298
+node\_modules/kysely/dist/cjs/query-creator.d.ts:298
 
 #### deleteFrom(from)
 
@@ -367,7 +367,7 @@ node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:299
+node\_modules/kysely/dist/cjs/query-creator.d.ts:299
 
 #### deleteFrom(table)
 
@@ -391,7 +391,7 @@ node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:300
+node\_modules/kysely/dist/cjs/query-creator.d.ts:300
 
 ***
 
@@ -413,7 +413,7 @@ You need to call this when you are done using the `Kysely` instance.
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:238
+node\_modules/kysely/dist/cjs/kysely.d.ts:238
 
 ***
 
@@ -445,7 +445,7 @@ See [splitting build, compile and execute code recipe](https://github.com/koskim
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:255
+node\_modules/kysely/dist/cjs/kysely.d.ts:255
 
 ***
 
@@ -508,7 +508,7 @@ const { id } = await db
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:220
+node\_modules/kysely/dist/cjs/query-creator.d.ts:220
 
 ***
 
@@ -569,7 +569,7 @@ when not matched then
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:361
+node\_modules/kysely/dist/cjs/query-creator.d.ts:361
 
 #### mergeInto(targetTable)
 
@@ -593,7 +593,7 @@ node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:362
+node\_modules/kysely/dist/cjs/query-creator.d.ts:362
 
 ***
 
@@ -644,7 +644,7 @@ console.log(result.insertId)
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:247
+node\_modules/kysely/dist/cjs/query-creator.d.ts:247
 
 ***
 
@@ -778,7 +778,7 @@ from
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:127
+node\_modules/kysely/dist/cjs/query-creator.d.ts:127
 
 #### selectFrom(from)
 
@@ -802,7 +802,7 @@ node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:128
+node\_modules/kysely/dist/cjs/query-creator.d.ts:128
 
 #### selectFrom(from)
 
@@ -826,7 +826,7 @@ node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:129
+node\_modules/kysely/dist/cjs/query-creator.d.ts:129
 
 #### selectFrom(from)
 
@@ -850,7 +850,7 @@ node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:130
+node\_modules/kysely/dist/cjs/query-creator.d.ts:130
 
 #### selectFrom(from)
 
@@ -874,7 +874,7 @@ node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:131
+node\_modules/kysely/dist/cjs/query-creator.d.ts:131
 
 ***
 
@@ -948,7 +948,7 @@ select (
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:179
+node\_modules/kysely/dist/cjs/query-creator.d.ts:179
 
 #### selectNoFrom(callback)
 
@@ -972,7 +972,7 @@ node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:180
+node\_modules/kysely/dist/cjs/query-creator.d.ts:180
 
 #### selectNoFrom(selection)
 
@@ -996,7 +996,7 @@ node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:181
+node\_modules/kysely/dist/cjs/query-creator.d.ts:181
 
 ***
 
@@ -1069,7 +1069,7 @@ await db
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:171
+node\_modules/kysely/dist/cjs/kysely.d.ts:171
 
 ***
 
@@ -1119,7 +1119,7 @@ console.log(result.numUpdatedRows)
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:324
+node\_modules/kysely/dist/cjs/query-creator.d.ts:324
 
 #### updateTable(table)
 
@@ -1143,7 +1143,7 @@ node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:325
+node\_modules/kysely/dist/cjs/query-creator.d.ts:325
 
 #### updateTable(table)
 
@@ -1167,7 +1167,7 @@ node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.
 
 ##### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:326
+node\_modules/kysely/dist/cjs/query-creator.d.ts:326
 
 ***
 
@@ -1307,7 +1307,7 @@ await db
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:474
+node\_modules/kysely/dist/cjs/query-creator.d.ts:474
 
 ***
 
@@ -1327,7 +1327,7 @@ Returns a copy of this Kysely instance without any plugins.
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:196
+node\_modules/kysely/dist/cjs/kysely.d.ts:196
 
 ***
 
@@ -1351,7 +1351,7 @@ Returns a copy of this Kysely instance with the given plugin installed.
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:192
+node\_modules/kysely/dist/cjs/kysely.d.ts:192
 
 ***
 
@@ -1390,7 +1390,7 @@ See the [with](/official/reference/kysely/classes/KyselyService.md#with) method 
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.ts:485
+node\_modules/kysely/dist/cjs/query-creator.d.ts:485
 
 ***
 
@@ -1412,7 +1412,7 @@ node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/query-creator.d.
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:200
+node\_modules/kysely/dist/cjs/kysely.d.ts:200
 
 ***
 
@@ -1465,4 +1465,4 @@ await tempDb
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:232
+node\_modules/kysely/dist/cjs/kysely.d.ts:232

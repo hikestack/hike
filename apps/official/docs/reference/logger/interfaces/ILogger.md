@@ -34,7 +34,7 @@ Write a 'debug' level log.
 
 #### Defined in
 
-node\_modules/.pnpm/@nestjs+common@10.4.4\_class-transformer@0.5.1\_class-validator@0.14.1\_reflect-metadata@0.2.2\_rxjs@7.8.1/node\_modules/@nestjs/common/services/logger.service.d.ts:24
+node\_modules/@nestjs/common/services/logger.service.d.ts:24
 
 ***
 
@@ -60,7 +60,7 @@ Write an 'error' level log.
 
 #### Defined in
 
-node\_modules/.pnpm/@nestjs+common@10.4.4\_class-transformer@0.5.1\_class-validator@0.14.1\_reflect-metadata@0.2.2\_rxjs@7.8.1/node\_modules/@nestjs/common/services/logger.service.d.ts:16
+node\_modules/@nestjs/common/services/logger.service.d.ts:16
 
 ***
 
@@ -86,7 +86,7 @@ Write a 'fatal' level log.
 
 #### Defined in
 
-node\_modules/.pnpm/@nestjs+common@10.4.4\_class-transformer@0.5.1\_class-validator@0.14.1\_reflect-metadata@0.2.2\_rxjs@7.8.1/node\_modules/@nestjs/common/services/logger.service.d.ts:32
+node\_modules/@nestjs/common/services/logger.service.d.ts:32
 
 ***
 
@@ -112,7 +112,7 @@ Write a 'log' level log.
 
 #### Defined in
 
-node\_modules/.pnpm/@nestjs+common@10.4.4\_class-transformer@0.5.1\_class-validator@0.14.1\_reflect-metadata@0.2.2\_rxjs@7.8.1/node\_modules/@nestjs/common/services/logger.service.d.ts:12
+node\_modules/@nestjs/common/services/logger.service.d.ts:12
 
 ***
 
@@ -138,7 +138,7 @@ log levels
 
 #### Defined in
 
-node\_modules/.pnpm/@nestjs+common@10.4.4\_class-transformer@0.5.1\_class-validator@0.14.1\_reflect-metadata@0.2.2\_rxjs@7.8.1/node\_modules/@nestjs/common/services/logger.service.d.ts:37
+node\_modules/@nestjs/common/services/logger.service.d.ts:37
 
 ***
 
@@ -164,7 +164,7 @@ Write a 'verbose' level log.
 
 #### Defined in
 
-node\_modules/.pnpm/@nestjs+common@10.4.4\_class-transformer@0.5.1\_class-validator@0.14.1\_reflect-metadata@0.2.2\_rxjs@7.8.1/node\_modules/@nestjs/common/services/logger.service.d.ts:28
+node\_modules/@nestjs/common/services/logger.service.d.ts:28
 
 ***
 
@@ -190,4 +190,4 @@ Write a 'warn' level log.
 
 #### Defined in
 
-node\_modules/.pnpm/@nestjs+common@10.4.4\_class-transformer@0.5.1\_class-validator@0.14.1\_reflect-metadata@0.2.2\_rxjs@7.8.1/node\_modules/@nestjs/common/services/logger.service.d.ts:20
+node\_modules/@nestjs/common/services/logger.service.d.ts:20

@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[packages/sms/src/sms.service.ts:14](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/sms/src/sms.service.ts#L14)
+[packages/sms/src/sms.service.ts:14](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/sms/src/sms.service.ts#L14)
 
 ## Methods
 
@@ -46,13 +46,13 @@
 
 #### Defined in
 
-[packages/sms/src/sms.service.ts:31](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/sms/src/sms.service.ts#L31)
+[packages/sms/src/sms.service.ts:31](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/sms/src/sms.service.ts#L31)
 
 ***
 
 ### sendMessage()
 
-> **sendMessage**\<`T`\>(`provider`, `options`?): `Promise`\<[`ISendResult`](/official/reference/sms/type-aliases/ISendResult.md)\>
+> **sendMessage**\<`T`\>(`provider`, `options`): `Promise`\<[`ISendResult`](/official/reference/sms/type-aliases/ISendResult.md)\>
 
 #### Type Parameters
 
@@ -62,7 +62,7 @@
 
 • **provider**: `string`
 
-• **options?**: `T`\[`"sendMessage"`\] *extends* (`arg`) => `any` ? `P` : `never`
+• **options**: `T`\[`"sendMessage"`\] *extends* (`arg`) => `any` ? `P` : `never`
 
 #### Returns
 
@@ -70,4 +70,4 @@
 
 #### Defined in
 
-[packages/sms/src/sms.service.ts:19](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/sms/src/sms.service.ts#L19)
+[packages/sms/src/sms.service.ts:19](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/sms/src/sms.service.ts#L19)

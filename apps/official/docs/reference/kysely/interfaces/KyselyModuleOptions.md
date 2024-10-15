@@ -22,7 +22,7 @@
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:399
+node\_modules/kysely/dist/cjs/kysely.d.ts:399
 
 ***
 
@@ -62,7 +62,7 @@ const db = new Kysely<Database>({
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:428
+node\_modules/kysely/dist/cjs/kysely.d.ts:428
 
 ***
 
@@ -76,4 +76,4 @@ node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:428
 
 #### Defined in
 
-node\_modules/.pnpm/kysely@0.27.4/node\_modules/kysely/dist/cjs/kysely.d.ts:400
+node\_modules/kysely/dist/cjs/kysely.d.ts:400

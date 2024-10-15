@@ -41,7 +41,10 @@ export class SmsBaoProvider
 		return await res.json();
 	}
 
-	async getBalance({ u, p }: SmsBaoGetBalanceOptions): Promise<SmsBaoBalance> {
+	async getBalance({
+		u,
+		p,
+	}: SmsBaoGetBalanceOptions = {}): Promise<SmsBaoBalance> {
 		const parmas = new URLSearchParams();
 		parmas.append("u", u ?? this.clientId);
 		parmas.append("p", p ?? this.clientSecret);

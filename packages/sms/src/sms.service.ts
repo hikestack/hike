@@ -20,7 +20,7 @@ export class SmsService {
 		T extends SmsProvider<ISendMessageOptions, IGetBalanceOptions>,
 	>(
 		provider: keyof SmsModuleOptions["providers"],
-		options?: T["sendMessage"] extends (arg: infer P) => any ? P : never,
+		options: T["sendMessage"] extends (arg: infer P) => any ? P : never,
 	): Promise<ISendResult> {
 		if (!this.options.providers[provider]) {
 			throw new Error(`Provider ${provider} is not defined`);

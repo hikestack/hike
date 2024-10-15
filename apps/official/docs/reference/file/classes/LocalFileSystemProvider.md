@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[packages/file/src/providers/local/local-file-system.provider.ts:9](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/file/src/providers/local/local-file-system.provider.ts#L9)
+[packages/file/src/providers/local/local-file-system.provider.ts:9](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/file/src/providers/local/local-file-system.provider.ts#L9)
 
 ## Methods
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[packages/file/src/providers/local/local-file-system.provider.ts:31](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/file/src/providers/local/local-file-system.provider.ts#L31)
+[packages/file/src/providers/local/local-file-system.provider.ts:31](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/file/src/providers/local/local-file-system.provider.ts#L31)
 
 ***
 
@@ -70,7 +70,7 @@
 
 #### Defined in
 
-[packages/file/src/providers/local/local-file-system.provider.ts:27](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/file/src/providers/local/local-file-system.provider.ts#L27)
+[packages/file/src/providers/local/local-file-system.provider.ts:27](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/file/src/providers/local/local-file-system.provider.ts#L27)
 
 ***
 
@@ -94,4 +94,4 @@
 
 #### Defined in
 
-[packages/file/src/providers/local/local-file-system.provider.ts:11](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/file/src/providers/local/local-file-system.provider.ts#L11)
+[packages/file/src/providers/local/local-file-system.provider.ts:11](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/file/src/providers/local/local-file-system.provider.ts#L11)

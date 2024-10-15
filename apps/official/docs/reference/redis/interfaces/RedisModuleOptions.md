@@ -28,7 +28,7 @@
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:132
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:132
 
 ***
 
@@ -51,7 +51,7 @@ true
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:65
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:65
 
 ***
 
@@ -74,7 +74,7 @@ true
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:59
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:59
 
 ***
 
@@ -88,7 +88,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:134
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:134
 
 ***
 
@@ -105,7 +105,7 @@ a "Command timed out" error will be thrown.
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:13
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:13
 
 ***
 
@@ -126,7 +126,7 @@ https://redis.io/commands/client-setname
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:38
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:38
 
 ***
 
@@ -140,7 +140,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:7
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:7
 
 ***
 
@@ -162,7 +162,7 @@ How long the client will wait before killing a socket due to inactivity during i
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:102
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:102
 
 ***
 
@@ -184,7 +184,7 @@ Database index to use.
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:53
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:53
 
 ***
 
@@ -198,7 +198,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:41
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:41
 
 ***
 
@@ -218,7 +218,7 @@ false
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:128
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:128
 
 ***
 
@@ -244,7 +244,7 @@ true
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:145
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:145
 
 ***
 
@@ -268,7 +268,7 @@ true
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:153
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:153
 
 ***
 
@@ -282,7 +282,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:43
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:43
 
 ***
 
@@ -296,7 +296,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/Sentine
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:51
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:51
 
 ***
 
@@ -310,7 +310,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/Sentine
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/net.d.ts:55
+node\_modules/@types/node/net.d.ts:55
 
 ***
 
@@ -324,7 +324,7 @@ node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/net.d.ts:55
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/net.d.ts:51
+node\_modules/@types/node/net.d.ts:51
 
 ***
 
@@ -350,7 +350,7 @@ https://nodejs.org/api/net.html#socketsetkeepaliveenable-initialdelay
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:26
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:26
 
 ***
 
@@ -364,7 +364,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/Commander.d.ts:5
+node\_modules/ioredis/built/utils/Commander.d.ts:5
 
 ***
 
@@ -388,7 +388,7 @@ false
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:161
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:161
 
 ***
 
@@ -408,7 +408,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:124
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:124
 
 ***
 
@@ -435,7 +435,7 @@ until the connection is alive again.
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:120
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:120
 
 ***
 
@@ -458,7 +458,7 @@ false
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:109
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:109
 
 ***
 
@@ -474,7 +474,7 @@ Master group name of the Sentinel
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:28
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:28
 
 ***
 
@@ -488,7 +488,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/Sentine
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:45
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:45
 
 ***
 
@@ -514,7 +514,7 @@ true
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:32
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:32
 
 ***
 
@@ -528,7 +528,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:133
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:133
 
 ***
 
@@ -544,7 +544,7 @@ If set, client will send AUTH command with the value of this option when connect
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:47
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:47
 
 ***
 
@@ -558,7 +558,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/net.d.ts:70
+node\_modules/@types/node/net.d.ts:70
 
 ***
 
@@ -572,7 +572,7 @@ node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/net.d.ts:70
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/net.d.ts:50
+node\_modules/@types/node/net.d.ts:50
 
 ***
 
@@ -586,7 +586,7 @@ node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/net.d.ts:50
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:39
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:39
 
 ***
 
@@ -606,7 +606,7 @@ false
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:91
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:91
 
 ***
 
@@ -647,7 +647,7 @@ null
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:87
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:87
 
 ***
 
@@ -669,7 +669,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:8
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:8
 
 ***
 
@@ -689,7 +689,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:32
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:32
 
 ***
 
@@ -709,7 +709,7 @@ undefined
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:165
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:165
 
 ***
 
@@ -723,7 +723,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:42
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:42
 
 ***
 
@@ -743,7 +743,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/Sentine
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:50
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:50
 
 ***
 
@@ -757,7 +757,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/Sentine
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:35
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:35
 
 ***
 
@@ -779,7 +779,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/Sentine
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:38
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:38
 
 ***
 
@@ -801,7 +801,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/Sentine
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:37
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:37
 
 ***
 
@@ -815,7 +815,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/Sentine
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:36
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:36
 
 ***
 
@@ -829,7 +829,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/Sentine
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:44
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:44
 
 ***
 
@@ -843,7 +843,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/Sentine
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:34
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:34
 
 ***
 
@@ -857,7 +857,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/Sentine
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/Commander.d.ts:6
+node\_modules/ioredis/built/utils/Commander.d.ts:6
 
 ***
 
@@ -876,7 +876,7 @@ If the socket does not receive data within a set number of milliseconds:
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:20
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:20
 
 ***
 
@@ -899,7 +899,7 @@ false
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:97
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:97
 
 ***
 
@@ -913,7 +913,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:33
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:33
 
 ***
 
@@ -927,7 +927,7 @@ node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/Sentine
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:46
+node\_modules/ioredis/built/connectors/SentinelConnector/index.d.ts:46
 
 ***
 
@@ -944,4 +944,4 @@ This is supported since Redis 6.
 
 #### Defined in
 
-node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/redis/RedisOptions.d.ts:43
+node\_modules/ioredis/built/redis/RedisOptions.d.ts:43

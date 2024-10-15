@@ -28,7 +28,7 @@
 
 #### Defined in
 
-[packages/sms/src/providers/smsbao/smsbao.provider.ts:20](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/sms/src/providers/smsbao/smsbao.provider.ts#L20)
+[packages/sms/src/providers/smsbao/smsbao.provider.ts:20](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/sms/src/providers/smsbao/smsbao.provider.ts#L20)
 
 ## Methods
 
@@ -38,7 +38,7 @@
 
 #### Parameters
 
-• **\_\_namedParameters**: `SmsBaoGetBalanceOptions`
+• **\_\_namedParameters**: `SmsBaoGetBalanceOptions` = `{}`
 
 #### Returns
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-[packages/sms/src/providers/smsbao/smsbao.provider.ts:44](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/sms/src/providers/smsbao/smsbao.provider.ts#L44)
+[packages/sms/src/providers/smsbao/smsbao.provider.ts:44](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/sms/src/providers/smsbao/smsbao.provider.ts#L44)
 
 ***
 
@@ -72,4 +72,4 @@
 
 #### Defined in
 
-[packages/sms/src/providers/smsbao/smsbao.provider.ts:25](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/sms/src/providers/smsbao/smsbao.provider.ts#L25)
+[packages/sms/src/providers/smsbao/smsbao.provider.ts:25](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/sms/src/providers/smsbao/smsbao.provider.ts#L25)

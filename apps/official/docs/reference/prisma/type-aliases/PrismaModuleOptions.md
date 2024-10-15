@@ -10,4 +10,4 @@
 
 ## Defined in
 
-[packages/prisma/src/prisma-module-options.interface.ts:1](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/prisma/src/prisma-module-options.interface.ts#L1)
+[packages/prisma/src/prisma-module-options.interface.ts:1](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/prisma/src/prisma-module-options.interface.ts#L1)

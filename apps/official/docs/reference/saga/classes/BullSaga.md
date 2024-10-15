@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[packages/saga/src/adapters/bullmq/bull.saga.ts:26](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/saga/src/adapters/bullmq/bull.saga.ts#L26)
+[packages/saga/src/adapters/bullmq/bull.saga.ts:26](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/saga/src/adapters/bullmq/bull.saga.ts#L26)
 
 ## Properties
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[packages/saga/src/adapters/bullmq/bull.saga.ts:27](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/saga/src/adapters/bullmq/bull.saga.ts#L27)
+[packages/saga/src/adapters/bullmq/bull.saga.ts:27](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/saga/src/adapters/bullmq/bull.saga.ts#L27)
 
 ***
 
@@ -74,7 +74,7 @@ v13.4.0, v12.16.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:459
+node\_modules/@types/node/events.d.ts:459
 
 ***
 
@@ -96,7 +96,7 @@ v13.4.0, v12.16.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:452
+node\_modules/@types/node/events.d.ts:452
 
 ***
 
@@ -150,7 +150,7 @@ v0.11.2
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:498
+node\_modules/@types/node/events.d.ts:498
 
 ***
 
@@ -173,7 +173,7 @@ v13.6.0, v12.17.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:445
+node\_modules/@types/node/events.d.ts:445
 
 ## Methods
 
@@ -203,7 +203,7 @@ node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:445
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:136
+node\_modules/@types/node/events.d.ts:136
 
 ***
 
@@ -237,7 +237,7 @@ v0.1.26
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:597
+node\_modules/@types/node/events.d.ts:597
 
 ***
 
@@ -307,7 +307,7 @@ v0.1.26
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:859
+node\_modules/@types/node/events.d.ts:859
 
 ***
 
@@ -346,7 +346,7 @@ v6.0.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:922
+node\_modules/@types/node/events.d.ts:922
 
 ***
 
@@ -372,7 +372,7 @@ node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:922
 
 #### Defined in
 
-[packages/saga/src/adapters/bullmq/bull.saga.ts:34](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/saga/src/adapters/bullmq/bull.saga.ts#L34)
+[packages/saga/src/adapters/bullmq/bull.saga.ts:34](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/saga/src/adapters/bullmq/bull.saga.ts#L34)
 
 ***
 
@@ -397,7 +397,7 @@ v1.0.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:774
+node\_modules/@types/node/events.d.ts:774
 
 ***
 
@@ -437,7 +437,7 @@ v3.2.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:868
+node\_modules/@types/node/events.d.ts:868
 
 ***
 
@@ -477,7 +477,7 @@ v0.1.26
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:787
+node\_modules/@types/node/events.d.ts:787
 
 ***
 
@@ -511,7 +511,7 @@ v10.0.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:747
+node\_modules/@types/node/events.d.ts:747
 
 ***
 
@@ -574,7 +574,7 @@ v0.1.101
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:629
+node\_modules/@types/node/events.d.ts:629
 
 ***
 
@@ -635,7 +635,7 @@ v0.3.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:659
+node\_modules/@types/node/events.d.ts:659
 
 ***
 
@@ -684,7 +684,7 @@ v6.0.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:886
+node\_modules/@types/node/events.d.ts:886
 
 ***
 
@@ -731,7 +731,7 @@ v6.0.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:902
+node\_modules/@types/node/events.d.ts:902
 
 ***
 
@@ -789,7 +789,7 @@ v9.4.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:818
+node\_modules/@types/node/events.d.ts:818
 
 ***
 
@@ -823,7 +823,7 @@ v0.1.26
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:758
+node\_modules/@types/node/events.d.ts:758
 
 ***
 
@@ -935,7 +935,7 @@ v0.1.26
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:742
+node\_modules/@types/node/events.d.ts:742
 
 ***
 
@@ -968,7 +968,7 @@ v0.3.5
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:768
+node\_modules/@types/node/events.d.ts:768
 
 ***
 
@@ -996,7 +996,7 @@ node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:768
 
 #### Defined in
 
-[packages/saga/src/saga.ts:18](https://github.com/hikestack/hike/blob/5b5a0ebd12d6185b553ab0b289e36e1190d78992/packages/saga/src/saga.ts#L18)
+[packages/saga/src/saga.ts:18](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/saga/src/saga.ts#L18)
 
 ***
 
@@ -1058,7 +1058,7 @@ v20.5.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:437
+node\_modules/@types/node/events.d.ts:437
 
 ***
 
@@ -1111,7 +1111,7 @@ v15.2.0, v14.17.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:358
+node\_modules/@types/node/events.d.ts:358
 
 ***
 
@@ -1163,7 +1163,7 @@ v19.9.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:387
+node\_modules/@types/node/events.d.ts:387
 
 ***
 
@@ -1211,7 +1211,7 @@ Since v3.2.0 - Use `listenerCount` instead.
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:330
+node\_modules/@types/node/events.d.ts:330
 
 ***
 
@@ -1322,7 +1322,7 @@ v13.6.0, v12.16.0
 
 ##### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:303
+node\_modules/@types/node/events.d.ts:303
 
 #### on(emitter, eventName, options)
 
@@ -1346,7 +1346,7 @@ node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:303
 
 ##### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:308
+node\_modules/@types/node/events.d.ts:308
 
 ***
 
@@ -1455,7 +1455,7 @@ v11.13.0, v10.16.0
 
 ##### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:217
+node\_modules/@types/node/events.d.ts:217
 
 #### once(emitter, eventName, options)
 
@@ -1479,7 +1479,7 @@ node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:217
 
 ##### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:222
+node\_modules/@types/node/events.d.ts:222
 
 ***
 
@@ -1521,4 +1521,4 @@ v15.4.0
 
 #### Defined in
 
-node\_modules/.pnpm/@types+node@22.7.5/node\_modules/@types/node/events.d.ts:402
+node\_modules/@types/node/events.d.ts:402
