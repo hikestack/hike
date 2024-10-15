@@ -3,6 +3,10 @@ export const packages = {
 		name: "日志",
 		package: "@hikestack/logger",
 	},
+	hash: {
+		name: "哈希",
+		package: "@hikestack/hash",
+	},
 	sms: {
 		name: "短信",
 		package: "@hikestack/sms",

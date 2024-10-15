@@ -1,0 +1,102 @@
+# 哈希模块
+
+import { PackageManagerTabs } from 'rspress/theme';
+import { Button } from '@/components/ui/Button';
+import { FileCode2Icon, SquareArrowOutUpRightIcon  } from 'lucide-react'
+
+<div className="flex space-x-2 items-center">    
+    <a className="flex space-x-1 items-center" href="https://github.com/hikestack/hike/tree/main/packages/hash" target="_blank">
+        <Button variant="secondary" size="sm">      
+             <span>源码</span>
+            <FileCode2Icon className="w-4 h-4 ml-1" />
+        </Button>
+    </a>
+   
+    <a className="flex space-x-1 items-center" href="/official/reference/hash/globals">
+        <Button variant="secondary" size="sm">
+            <span>API 参考</span>
+            <SquareArrowOutUpRightIcon className="w-4 h-4 ml-1" />
+        </Button>
+    </a>
+</div>
+
+```HashModule```是一个为 NestJS 应用集成哈希算法的模块。
+
+## 安装
+
+<PackageManagerTabs command="install @hikestack/hash" />
+
+:::tip 提示
+安装对应适配器的依赖
+:::
+
+<PackageManagerTabs command="install bcryptjs" />
+
+## 使用
+
+导入并注册 ```HashModule```
+
+```ts title="app.module.ts" {20-25}
+import path from "path";
+import { Module } from "@nestjs/common";
+import { ConfigModule, ConfigService } from "@nestjs/config";
+import { HashModule, BcryptAdapter } from "@hikestack/hash";
+
+@Module({
+	imports: [
+		ConfigModule.forRoot({
+			isGlobal: true,
+			cache: true,
+			envFilePath: [
+				path.resolve(
+					__dirname,
+					"..",
+					`env/${process.env.NODE_ENV || "development"}.env`,
+				),
+			],
+			load: configs,
+		}),
+		HashModule.registerAsync({
+			inject: [ConfigService],
+			useFactory: (configService: ConfigService) => ({
+				adapter: new BcryptAdapter()
+			}),
+		})
+	]
+})
+export class AppModule {}
+```
+
+使用构造函数注入
+
+```ts title="app.service.ts" {7}
+import { Injectable } from "@nestjs/common";
+import { HashService } from "@hikestack/hash";
+
+@Injectable()
+export class AppService {
+	constructor(
+		private readonly hashService: HashService
+	) {}
+}
+```
+
+使用属性注入
+
+```ts title="app.service.ts" {6-14}
+import { Injectable, Inject } from "@nestjs/common";
+import { HashService } from "@hikestack/hash";
+
+@Injectable()
+export class AppService {
+    @Inject(HashService)
+	private readonly hashService: HashService
+
+    async test() {
+        const salt = await this.hashService.genSalt(10);
+        const hash = await this.hashService.hash("123456", salt);
+        const result = await this.hashService.compare("123456", hash);
+        console.log(result); // true
+    }
+}
+```

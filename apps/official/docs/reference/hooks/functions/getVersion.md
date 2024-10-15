@@ -18,4 +18,4 @@
 
 ## Defined in
 
-[use-model/vanilla.ts:269](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/hooks/src/use-model/vanilla.ts#L269)
+[use-model/vanilla.ts:269](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/hooks/src/use-model/vanilla.ts#L269)

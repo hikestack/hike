@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[packages/kysely/src/kysely.service.ts:8](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/kysely/src/kysely.service.ts#L8)
+[packages/kysely/src/kysely.service.ts:8](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/kysely/src/kysely.service.ts#L8)
 
 ## Accessors
 

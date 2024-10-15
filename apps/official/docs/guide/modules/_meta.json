@@ -1,7 +1,8 @@
 [
 	"logger",
 	"mail",
-	"smd",
+	"sms",
+	"hash",
 	"file",
 	"redis",
 	"lock",

@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[packages/lock/src/lock.service.ts:8](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/lock/src/lock.service.ts#L8)
+[packages/lock/src/lock.service.ts:8](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/lock/src/lock.service.ts#L8)
 
 ## Properties
 
@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[packages/lock/src/lock.service.ts:7](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/lock/src/lock.service.ts#L7)
+[packages/lock/src/lock.service.ts:7](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/lock/src/lock.service.ts#L7)
 
 ## Methods
 
@@ -72,4 +72,4 @@
 
 #### Defined in
 
-[packages/lock/src/lock.service.ts:18](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/lock/src/lock.service.ts#L18)
+[packages/lock/src/lock.service.ts:18](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/lock/src/lock.service.ts#L18)

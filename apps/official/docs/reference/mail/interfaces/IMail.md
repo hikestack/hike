@@ -22,4 +22,4 @@
 
 #### Defined in
 
-[packages/mail/src/interfaces/mail.interface.ts:8](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/mail/src/interfaces/mail.interface.ts#L8)
+[packages/mail/src/interfaces/mail.interface.ts:8](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/mail/src/interfaces/mail.interface.ts#L8)

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[packages/redis/src/redis.service.ts:8](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/redis/src/redis.service.ts#L8)
+[packages/redis/src/redis.service.ts:8](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/redis/src/redis.service.ts#L8)
 
 ## Properties
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[packages/redis/src/redis.service.ts:10](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/redis/src/redis.service.ts#L10)
+[packages/redis/src/redis.service.ts:10](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/redis/src/redis.service.ts#L10)
 
 ***
 
@@ -9040,7 +9040,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1835
 
 #### Defined in
 
-[packages/redis/src/redis.service.ts:15](https://github.com/hikestack/hike/blob/5cb68b36190947734eac00838244c1c69929cecf/packages/redis/src/redis.service.ts#L15)
+[packages/redis/src/redis.service.ts:15](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/redis/src/redis.service.ts#L15)
 
 ***
 
