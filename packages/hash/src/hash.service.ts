@@ -22,4 +22,8 @@ export class HashService implements IHash {
 	async compare(value: string, hash: string): Promise<boolean> {
 		return await this.adapter.compare(value, hash);
 	}
+
+	async genSalt(rounds?: number): Promise<string> {
+		return await this.adapter.genSalt(rounds);
+	}
 }

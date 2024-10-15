@@ -11,4 +11,7 @@ export class BcryptAdapter implements IHash {
 		return await bcrypt.compare(data, hash);
 	}
 
+	async genSalt(rounds?: number): Promise<string> {
+		return await bcrypt.genSalt(rounds);
+	}
 }
