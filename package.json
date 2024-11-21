@@ -3,21 +3,21 @@
 	"description": "A simple and scalable TypeScript tool set",
 	"private": true,
 	"scripts": {
-		"preinstall": "npx only-allow bun",
-		"generate": "bun --filter=@hikestack/* run generate",
-		"build": "bun --filter=@hikestack/* run build",
-		"clean": "bun --filter=@hikestack/* run clean",
-		"format": "bun biome format --write .",
+		"preinstall": "npx only-allow pnpm",
+		"generate": "pnpm --filter=./packages/* run generate",
+		"build": "pnpm --filter=./packages/* run build",
+		"clean": "pnpm --filter=./packages/* run clean",
+		"format": "biome format --write .",
 		"cs": "changeset"
 	},
-	"workspaces": ["apps/*", "packages/*"],
 	"devDependencies": {
 		"@biomejs/biome": "1.9.3",
 		"@changesets/cli": "^2.27.8",
 		"autocannon": "^7.15.0",
 		"commitizen": "^4.3.0",
 		"cz-conventional-changelog": "^3.3.0",
-		"rimraf": "^6.0.1"
+		"rimraf": "^6.0.1",
+		"typescript": "^5.6.3"
 	},
 	"packageManager": "pnpm@8.15.6",
 	"engines": {

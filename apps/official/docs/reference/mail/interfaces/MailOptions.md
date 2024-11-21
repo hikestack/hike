@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[packages/mail/src/interfaces/mail.interface.ts:4](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/mail/src/interfaces/mail.interface.ts#L4)
+[packages/mail/src/interfaces/mail.interface.ts:4](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/mail/src/interfaces/mail.interface.ts#L4)
 
 ***
 
@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[packages/mail/src/interfaces/mail.interface.ts:3](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/mail/src/interfaces/mail.interface.ts#L3)
+[packages/mail/src/interfaces/mail.interface.ts:3](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/mail/src/interfaces/mail.interface.ts#L3)
 
 ***
 
@@ -34,4 +34,4 @@
 
 #### Defined in
 
-[packages/mail/src/interfaces/mail.interface.ts:2](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/mail/src/interfaces/mail.interface.ts#L2)
+[packages/mail/src/interfaces/mail.interface.ts:2](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/mail/src/interfaces/mail.interface.ts#L2)

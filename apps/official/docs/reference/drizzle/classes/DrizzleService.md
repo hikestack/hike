@@ -32,21 +32,23 @@
 
 #### Defined in
 
-[packages/drizzle/src/drizzle.service.ts:18](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/drizzle/src/drizzle.service.ts#L18)
+[packages/drizzle/src/drizzle.service.ts:18](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/drizzle/src/drizzle.service.ts#L18)
 
 ## Accessors
 
 ### db
 
-> `get` **db**(): `any`
+#### Get Signature
 
-#### Returns
+> **get** **db**(): `any`
+
+##### Returns
 
 `any`
 
 #### Defined in
 
-[packages/drizzle/src/drizzle.service.ts:31](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/drizzle/src/drizzle.service.ts#L31)
+[packages/drizzle/src/drizzle.service.ts:31](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/drizzle/src/drizzle.service.ts#L31)
 
 ## Methods
 
@@ -64,4 +66,4 @@
 
 #### Defined in
 
-[packages/drizzle/src/drizzle.service.ts:23](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/drizzle/src/drizzle.service.ts#L23)
+[packages/drizzle/src/drizzle.service.ts:23](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/drizzle/src/drizzle.service.ts#L23)

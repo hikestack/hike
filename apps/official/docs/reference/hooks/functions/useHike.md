@@ -22,4 +22,4 @@
 
 ## Defined in
 
-[use-hike.ts:52](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/hooks/src/use-hike.ts#L52)
+[use-hike.ts:52](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/hooks/src/use-hike.ts#L52)

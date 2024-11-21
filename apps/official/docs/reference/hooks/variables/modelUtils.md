@@ -240,4 +240,4 @@ also performs cleanups registered into `watch`.
 
 ## Defined in
 
-[use-model/index.ts:7](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/hooks/src/use-model/index.ts#L7)
+[use-model/index.ts:7](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/hooks/src/use-model/index.ts#L7)

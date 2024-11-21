@@ -22,7 +22,7 @@
 
 ### Defined in
 
-[use-model/vanilla.ts:342](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/hooks/src/use-model/vanilla.ts#L342)
+[use-model/vanilla.ts:342](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/hooks/src/use-model/vanilla.ts#L342)
 
 ## unstable\_replaceInternalFunction(name, fn)
 
@@ -40,7 +40,7 @@
 
 ### Defined in
 
-[use-model/vanilla.ts:347](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/hooks/src/use-model/vanilla.ts#L347)
+[use-model/vanilla.ts:347](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/hooks/src/use-model/vanilla.ts#L347)
 
 ## unstable\_replaceInternalFunction(name, fn)
 
@@ -58,7 +58,7 @@
 
 ### Defined in
 
-[use-model/vanilla.ts:352](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/hooks/src/use-model/vanilla.ts#L352)
+[use-model/vanilla.ts:352](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/hooks/src/use-model/vanilla.ts#L352)
 
 ## unstable\_replaceInternalFunction(name, fn)
 
@@ -76,7 +76,7 @@
 
 ### Defined in
 
-[use-model/vanilla.ts:357](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/hooks/src/use-model/vanilla.ts#L357)
+[use-model/vanilla.ts:357](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/hooks/src/use-model/vanilla.ts#L357)
 
 ## unstable\_replaceInternalFunction(name, fn)
 
@@ -94,4 +94,4 @@
 
 ### Defined in
 
-[use-model/vanilla.ts:362](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/hooks/src/use-model/vanilla.ts#L362)
+[use-model/vanilla.ts:362](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/hooks/src/use-model/vanilla.ts#L362)

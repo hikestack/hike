@@ -14,4 +14,4 @@
 
 #### Defined in
 
-[packages/file/src/providers/local/local-file-system.provider.ts:5](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/file/src/providers/local/local-file-system.provider.ts#L5)
+[packages/file/src/providers/local/local-file-system.provider.ts:5](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/file/src/providers/local/local-file-system.provider.ts#L5)

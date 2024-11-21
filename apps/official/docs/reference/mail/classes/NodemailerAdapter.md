@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[packages/mail/src/adapters/nodemailer/nodemailer.adapter.ts:6](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/mail/src/adapters/nodemailer/nodemailer.adapter.ts#L6)
+[packages/mail/src/adapters/nodemailer/nodemailer.adapter.ts:6](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/mail/src/adapters/nodemailer/nodemailer.adapter.ts#L6)
 
 ## Methods
 
@@ -48,4 +48,4 @@
 
 #### Defined in
 
-[packages/mail/src/adapters/nodemailer/nodemailer.adapter.ts:10](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/mail/src/adapters/nodemailer/nodemailer.adapter.ts#L10)
+[packages/mail/src/adapters/nodemailer/nodemailer.adapter.ts:10](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/mail/src/adapters/nodemailer/nodemailer.adapter.ts#L10)

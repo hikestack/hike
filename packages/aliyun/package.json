@@ -26,7 +26,6 @@
 		"@nestjs/core": "^10.4.1",
 		"@types/ali-oss": "^6.16.11",
 		"@types/node": "^22.7.5",
-		"ali-oss": "^6.21.0",
-		"typescript": "^5.5.2"
+		"ali-oss": "^6.21.0"
 	}
 }

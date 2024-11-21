@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[packages/jvm/src/jvm.service.ts:13](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/jvm/src/jvm.service.ts#L13)
+[packages/jvm/src/jvm.service.ts:13](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/jvm/src/jvm.service.ts#L13)
 
 ## Properties
 
@@ -32,21 +32,23 @@
 
 #### Defined in
 
-[packages/jvm/src/jvm.service.ts:15](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/jvm/src/jvm.service.ts#L15)
+[packages/jvm/src/jvm.service.ts:15](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/jvm/src/jvm.service.ts#L15)
 
 ## Accessors
 
 ### JVM
 
-> `get` **JVM**(): `any`
+#### Get Signature
 
-#### Returns
+> **get** **JVM**(): `any`
+
+##### Returns
 
 `any`
 
 #### Defined in
 
-[packages/jvm/src/jvm.service.ts:27](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/jvm/src/jvm.service.ts#L27)
+[packages/jvm/src/jvm.service.ts:27](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/jvm/src/jvm.service.ts#L27)
 
 ## Methods
 
@@ -60,4 +62,4 @@
 
 #### Defined in
 
-[packages/jvm/src/jvm.service.ts:31](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/jvm/src/jvm.service.ts#L31)
+[packages/jvm/src/jvm.service.ts:31](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/jvm/src/jvm.service.ts#L31)

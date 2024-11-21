@@ -38,7 +38,7 @@
 
 #### Defined in
 
-[packages/lock/src/adapters/redlock/redlock.adapter.ts:11](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/lock/src/adapters/redlock/redlock.adapter.ts#L11)
+[packages/lock/src/adapters/redlock/redlock.adapter.ts:11](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/lock/src/adapters/redlock/redlock.adapter.ts#L11)
 
 ## Properties
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[packages/lock/src/adapters/redlock/redlock.adapter.ts:9](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/lock/src/adapters/redlock/redlock.adapter.ts#L9)
+[packages/lock/src/adapters/redlock/redlock.adapter.ts:9](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/lock/src/adapters/redlock/redlock.adapter.ts#L9)
 
 ## Methods
 
@@ -84,4 +84,4 @@
 
 #### Defined in
 
-[packages/lock/src/adapters/redlock/redlock.adapter.ts:29](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/lock/src/adapters/redlock/redlock.adapter.ts#L29)
+[packages/lock/src/adapters/redlock/redlock.adapter.ts:29](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/lock/src/adapters/redlock/redlock.adapter.ts#L29)

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[packages/redis/src/redis.service.ts:8](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/redis/src/redis.service.ts#L8)
+[packages/redis/src/redis.service.ts:8](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/redis/src/redis.service.ts#L8)
 
 ## Properties
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[packages/redis/src/redis.service.ts:10](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/redis/src/redis.service.ts#L10)
+[packages/redis/src/redis.service.ts:10](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/redis/src/redis.service.ts#L10)
 
 ***
 
@@ -58,7 +58,7 @@
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:43
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:43
 
 ***
 
@@ -72,7 +72,7 @@ node\_modules/ioredis/built/Redis.d.ts:43
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:31
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:31
 
 ***
 
@@ -86,15 +86,17 @@ node\_modules/ioredis/built/Redis.d.ts:31
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:32
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:32
 
 ## Accessors
 
 ### autoPipelineQueueSize
 
-> `get` **autoPipelineQueueSize**(): `number`
+#### Get Signature
 
-#### Returns
+> **get** **autoPipelineQueueSize**(): `number`
+
+##### Returns
 
 `number`
 
@@ -104,20 +106,22 @@ node\_modules/ioredis/built/Redis.d.ts:32
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:77
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:77
 
 ***
 
 ### mode
 
-> `get` **mode**(): `"normal"` \| `"subscriber"` \| `"monitor"`
+#### Get Signature
+
+> **get** **mode**(): `"normal"` \| `"subscriber"` \| `"monitor"`
 
 Mode of the connection.
 
 One of `"normal"`, `"subscriber"`, or `"monitor"`. When the connection is
 not in `"normal"` mode, certain commands are not allowed.
 
-#### Returns
+##### Returns
 
 `"normal"` \| `"subscriber"` \| `"monitor"`
 
@@ -127,7 +131,7 @@ not in `"normal"` mode, certain commands are not allowed.
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:117
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:117
 
 ## Methods
 
@@ -157,7 +161,7 @@ node\_modules/ioredis/built/Redis.d.ts:117
 
 #### Defined in
 
-node\_modules/@types/node/events.d.ts:136
+node\_modules/.pnpm/@types+node@16.18.119/node\_modules/@types/node/events.d.ts:94
 
 ***
 
@@ -188,7 +192,7 @@ List the ACL categories or the commands inside a category
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:62
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:62
 
 #### acl(subcommand, categoryname, callback)
 
@@ -212,7 +216,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:62
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:63
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:63
 
 #### acl(args)
 
@@ -237,7 +241,7 @@ Remove the specified ACL users and the associated rules
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:70
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:70
 
 #### acl(args)
 
@@ -257,7 +261,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:70
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:75
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:75
 
 #### acl(subcommand, username, command, callback)
 
@@ -288,7 +292,7 @@ Returns whether the user can execute the given command without executing the com
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:82
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:82
 
 #### acl(args)
 
@@ -308,7 +312,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:82
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:84
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:84
 
 #### acl(args)
 
@@ -328,7 +332,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:84
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:98
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:98
 
 #### acl(subcommand, callback)
 
@@ -355,7 +359,7 @@ Generate a pseudorandom secure password to use for ACL users
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:116
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:116
 
 #### acl(subcommand, bits, callback)
 
@@ -379,7 +383,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:116
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:118
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:118
 
 #### acl(subcommand, username, callback)
 
@@ -408,7 +412,7 @@ Get the rules for a specific ACL user
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:126
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:126
 
 #### acl(subcommand, callback)
 
@@ -435,7 +439,7 @@ Show helpful text about the different subcommands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:134
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:134
 
 #### acl(subcommand, callback)
 
@@ -462,7 +466,7 @@ List the current ACL rules in ACL config file format
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:141
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:141
 
 #### acl(subcommand, callback)
 
@@ -489,7 +493,7 @@ Reload the ACLs from the configured ACL file
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:149
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:149
 
 #### acl(subcommand, callback)
 
@@ -516,7 +520,7 @@ List latest events denied because of ACLs in place
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:156
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:156
 
 #### acl(subcommand, count, callback)
 
@@ -540,7 +544,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:156
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:157
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:157
 
 #### acl(subcommand, reset, callback)
 
@@ -564,7 +568,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:157
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:158
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:158
 
 #### acl(subcommand, callback)
 
@@ -591,7 +595,7 @@ Save the current ACL rules in the configured ACL file
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:165
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:165
 
 #### acl(subcommand, username, callback)
 
@@ -620,7 +624,7 @@ Modify or create the rules for a specific ACL user
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:172
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:172
 
 #### acl(args)
 
@@ -640,7 +644,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:172
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:173
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:173
 
 #### acl(args)
 
@@ -660,7 +664,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:173
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:179
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:179
 
 #### acl(subcommand, callback)
 
@@ -687,7 +691,7 @@ List the username of all the configured ACL rules
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:190
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:190
 
 #### acl(subcommand, callback)
 
@@ -714,7 +718,7 @@ Return the name of the user associated to the current connection
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:198
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:198
 
 ***
 
@@ -744,7 +748,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:198
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:83
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:83
 
 #### aclBuffer(args)
 
@@ -764,7 +768,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:83
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:91
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:91
 
 #### aclBuffer(args)
 
@@ -784,7 +788,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:91
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:104
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:104
 
 #### aclBuffer(subcommand, callback)
 
@@ -806,7 +810,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:104
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:117
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:117
 
 #### aclBuffer(subcommand, bits, callback)
 
@@ -830,7 +834,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:117
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:119
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:119
 
 #### aclBuffer(subcommand, username, callback)
 
@@ -854,7 +858,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:119
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:127
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:127
 
 #### aclBuffer(subcommand, callback)
 
@@ -876,7 +880,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:127
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:142
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:142
 
 #### aclBuffer(subcommand, callback)
 
@@ -898,7 +902,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:142
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:191
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:191
 
 #### aclBuffer(subcommand, callback)
 
@@ -920,7 +924,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:191
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:199
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:199
 
 ***
 
@@ -944,7 +948,7 @@ Create add builtin command
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/Commander.d.ts:34
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/Commander.d.ts:34
 
 ***
 
@@ -978,7 +982,7 @@ v0.1.26
 
 #### Defined in
 
-node\_modules/@types/node/events.d.ts:597
+node\_modules/.pnpm/@types+node@16.18.119/node\_modules/@types/node/events.d.ts:390
 
 ***
 
@@ -1009,7 +1013,7 @@ Append a value to a key
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:206
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:206
 
 ***
 
@@ -1036,7 +1040,7 @@ Sent by cluster clients after an -ASK redirect
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:213
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:213
 
 ***
 
@@ -1067,7 +1071,7 @@ Authenticate to the server
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:220
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:220
 
 #### auth(username, password, callback)
 
@@ -1091,7 +1095,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:220
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:221
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:221
 
 ***
 
@@ -1118,7 +1122,7 @@ Asynchronously rewrite the append-only file
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:228
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:228
 
 ***
 
@@ -1140,7 +1144,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:228
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:229
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:229
 
 ***
 
@@ -1169,7 +1173,7 @@ Asynchronously save the dataset to disk
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:236
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:236
 
 #### bgsave(schedule, callback)
 
@@ -1191,7 +1195,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:236
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:237
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:237
 
 ***
 
@@ -1222,7 +1226,7 @@ Count set bits in a string
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:244
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:244
 
 #### bitcount(key, start, end, callback)
 
@@ -1248,7 +1252,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:244
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:245
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:245
 
 #### bitcount(key, start, end, byte, callback)
 
@@ -1276,7 +1280,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:245
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:246
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:246
 
 #### bitcount(key, start, end, bit, callback)
 
@@ -1304,7 +1308,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:246
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:247
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:247
 
 ***
 
@@ -1341,7 +1345,7 @@ Perform arbitrary bitfield integer operations on strings
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:254
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:254
 
 #### bitfield(key, encodingOffsetValueToken, encoding, offset, value, callback)
 
@@ -1371,7 +1375,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:254
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:255
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:255
 
 #### bitfield(key, encodingOffsetIncrementToken, encoding, offset, increment, callback)
 
@@ -1401,7 +1405,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:255
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:256
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:256
 
 #### bitfield(key, overflow, wrap, encodingOffsetValueToken, encoding, offset, value, callback)
 
@@ -1435,7 +1439,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:256
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:257
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:257
 
 #### bitfield(key, overflow, wrap, encodingOffsetIncrementToken, encoding, offset, increment, callback)
 
@@ -1469,7 +1473,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:257
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:258
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:258
 
 #### bitfield(key, overflow, sat, encodingOffsetValueToken, encoding, offset, value, callback)
 
@@ -1503,7 +1507,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:258
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:259
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:259
 
 #### bitfield(key, overflow, sat, encodingOffsetIncrementToken, encoding, offset, increment, callback)
 
@@ -1537,7 +1541,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:259
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:260
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:260
 
 #### bitfield(key, overflow, fail, encodingOffsetValueToken, encoding, offset, value, callback)
 
@@ -1571,7 +1575,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:260
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:261
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:261
 
 #### bitfield(key, overflow, fail, encodingOffsetIncrementToken, encoding, offset, increment, callback)
 
@@ -1605,7 +1609,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:261
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:262
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:262
 
 ***
 
@@ -1634,7 +1638,7 @@ Perform arbitrary bitfield integer operations on strings. Read-only variant of B
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:269
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:269
 
 #### bitfield\_ro(args)
 
@@ -1654,7 +1658,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:269
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:275
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:275
 
 ***
 
@@ -1683,7 +1687,7 @@ Perform bitwise operations between strings
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:286
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:286
 
 #### bitop(args)
 
@@ -1703,7 +1707,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:286
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:292
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:292
 
 #### bitop(args)
 
@@ -1723,7 +1727,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:292
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:298
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:298
 
 #### bitop(args)
 
@@ -1743,7 +1747,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:298
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:303
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:303
 
 ***
 
@@ -1776,7 +1780,7 @@ Find first bit set or clear in a string
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:310
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:310
 
 #### bitpos(key, bit, start, callback)
 
@@ -1802,7 +1806,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:310
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:311
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:311
 
 #### bitpos(key, bit, start, end, callback)
 
@@ -1830,7 +1834,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:311
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:312
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:312
 
 #### bitpos(key, bit, start, end, byte, callback)
 
@@ -1860,7 +1864,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:312
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:313
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:313
 
 #### bitpos(key, bit, start, end, bit1, callback)
 
@@ -1890,7 +1894,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:313
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:314
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:314
 
 ***
 
@@ -1929,7 +1933,7 @@ Pop an element from a list, push it to another list and return it; or block unti
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:321
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:321
 
 #### blmove(source, destination, left, right, timeout, callback)
 
@@ -1959,7 +1963,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:321
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:323
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:323
 
 #### blmove(source, destination, right, left, timeout, callback)
 
@@ -1989,7 +1993,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:323
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:325
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:325
 
 #### blmove(source, destination, right, right1, timeout, callback)
 
@@ -2019,7 +2023,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:325
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:327
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:327
 
 ***
 
@@ -2053,7 +2057,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:327
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:322
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:322
 
 #### blmoveBuffer(source, destination, left, right, timeout, callback)
 
@@ -2083,7 +2087,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:322
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:324
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:324
 
 #### blmoveBuffer(source, destination, right, left, timeout, callback)
 
@@ -2113,7 +2117,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:324
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:326
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:326
 
 #### blmoveBuffer(source, destination, right, right1, timeout, callback)
 
@@ -2143,7 +2147,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:326
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:328
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:328
 
 ***
 
@@ -2172,7 +2176,7 @@ Pop elements from a list, or block until one is available
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:335
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:335
 
 #### blmpop(args)
 
@@ -2192,7 +2196,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:335
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:349
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:349
 
 #### blmpop(args)
 
@@ -2212,7 +2216,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:349
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:363
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:363
 
 #### blmpop(args)
 
@@ -2232,7 +2236,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:363
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:375
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:375
 
 #### blmpop(args)
 
@@ -2252,7 +2256,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:375
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:387
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:387
 
 #### blmpop(args)
 
@@ -2272,7 +2276,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:387
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:405
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:405
 
 #### blmpop(args)
 
@@ -2292,7 +2296,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:405
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:423
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:423
 
 #### blmpop(args)
 
@@ -2312,7 +2316,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:423
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:439
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:439
 
 #### blmpop(args)
 
@@ -2332,7 +2336,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:439
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:455
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:455
 
 #### blmpop(args)
 
@@ -2352,7 +2356,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:455
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:469
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:469
 
 #### blmpop(args)
 
@@ -2372,7 +2376,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:469
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:483
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:483
 
 #### blmpop(args)
 
@@ -2392,7 +2396,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:483
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:495
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:495
 
 #### blmpop(args)
 
@@ -2412,7 +2416,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:495
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:507
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:507
 
 #### blmpop(args)
 
@@ -2432,7 +2436,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:507
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:525
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:525
 
 #### blmpop(args)
 
@@ -2452,7 +2456,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:525
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:543
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:543
 
 #### blmpop(args)
 
@@ -2472,7 +2476,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:543
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:559
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:559
 
 ***
 
@@ -2496,7 +2500,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:559
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:342
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:342
 
 #### blmpopBuffer(args)
 
@@ -2516,7 +2520,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:342
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:356
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:356
 
 #### blmpopBuffer(args)
 
@@ -2536,7 +2540,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:356
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:369
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:369
 
 #### blmpopBuffer(args)
 
@@ -2556,7 +2560,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:369
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:381
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:381
 
 #### blmpopBuffer(args)
 
@@ -2576,7 +2580,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:381
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:396
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:396
 
 #### blmpopBuffer(args)
 
@@ -2596,7 +2600,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:396
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:414
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:414
 
 #### blmpopBuffer(args)
 
@@ -2616,7 +2620,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:414
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:431
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:431
 
 #### blmpopBuffer(args)
 
@@ -2636,7 +2640,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:431
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:447
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:447
 
 #### blmpopBuffer(args)
 
@@ -2656,7 +2660,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:447
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:462
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:462
 
 #### blmpopBuffer(args)
 
@@ -2676,7 +2680,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:462
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:476
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:476
 
 #### blmpopBuffer(args)
 
@@ -2696,7 +2700,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:476
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:489
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:489
 
 #### blmpopBuffer(args)
 
@@ -2716,7 +2720,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:489
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:501
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:501
 
 #### blmpopBuffer(args)
 
@@ -2736,7 +2740,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:501
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:516
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:516
 
 #### blmpopBuffer(args)
 
@@ -2756,7 +2760,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:516
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:534
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:534
 
 #### blmpopBuffer(args)
 
@@ -2776,7 +2780,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:534
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:551
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:551
 
 #### blmpopBuffer(args)
 
@@ -2796,7 +2800,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:551
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:567
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:567
 
 ***
 
@@ -2825,7 +2829,7 @@ Remove and get the first element in a list, or block until one is available
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:581
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:581
 
 #### blpop(args)
 
@@ -2845,7 +2849,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:581
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:591
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:591
 
 #### blpop(args)
 
@@ -2865,7 +2869,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:591
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:601
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:601
 
 #### blpop(args)
 
@@ -2885,7 +2889,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:601
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:603
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:603
 
 ***
 
@@ -2909,7 +2913,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:603
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:586
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:586
 
 #### blpopBuffer(args)
 
@@ -2929,7 +2933,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:586
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:596
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:596
 
 #### blpopBuffer(args)
 
@@ -2949,7 +2953,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:596
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:602
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:602
 
 #### blpopBuffer(args)
 
@@ -2969,7 +2973,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:602
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:604
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:604
 
 ***
 
@@ -2998,7 +3002,7 @@ Remove and get the last element in a list, or block until one is available
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:611
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:611
 
 #### brpop(args)
 
@@ -3018,7 +3022,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:611
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:621
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:621
 
 #### brpop(args)
 
@@ -3038,7 +3042,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:621
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:631
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:631
 
 #### brpop(args)
 
@@ -3058,7 +3062,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:631
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:633
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:633
 
 ***
 
@@ -3082,7 +3086,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:633
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:616
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:616
 
 #### brpopBuffer(args)
 
@@ -3102,7 +3106,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:616
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:626
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:626
 
 #### brpopBuffer(args)
 
@@ -3122,7 +3126,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:626
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:632
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:632
 
 #### brpopBuffer(args)
 
@@ -3142,7 +3146,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:632
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:634
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:634
 
 ***
 
@@ -3175,7 +3179,7 @@ Pop an element from a list, push it to another list and return it; or block unti
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:641
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:641
 
 ***
 
@@ -3203,7 +3207,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:641
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:642
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:642
 
 ***
 
@@ -3232,7 +3236,7 @@ Remove and return members with scores in a sorted set or block until one is avai
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:649
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:649
 
 #### bzmpop(args)
 
@@ -3252,7 +3256,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:649
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:656
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:656
 
 #### bzmpop(args)
 
@@ -3272,7 +3276,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:656
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:663
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:663
 
 #### bzmpop(args)
 
@@ -3292,7 +3296,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:663
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:669
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:669
 
 #### bzmpop(args)
 
@@ -3312,7 +3316,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:669
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:675
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:675
 
 #### bzmpop(args)
 
@@ -3332,7 +3336,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:675
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:684
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:684
 
 #### bzmpop(args)
 
@@ -3352,7 +3356,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:684
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:693
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:693
 
 #### bzmpop(args)
 
@@ -3372,7 +3376,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:693
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:701
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:701
 
 #### bzmpop(args)
 
@@ -3392,7 +3396,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:701
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:709
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:709
 
 #### bzmpop(args)
 
@@ -3412,7 +3416,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:709
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:716
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:716
 
 #### bzmpop(args)
 
@@ -3432,7 +3436,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:716
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:723
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:723
 
 #### bzmpop(args)
 
@@ -3452,7 +3456,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:723
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:729
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:729
 
 #### bzmpop(args)
 
@@ -3472,7 +3476,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:729
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:735
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:735
 
 #### bzmpop(args)
 
@@ -3492,7 +3496,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:735
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:744
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:744
 
 #### bzmpop(args)
 
@@ -3512,7 +3516,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:744
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:753
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:753
 
 #### bzmpop(args)
 
@@ -3532,7 +3536,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:753
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:761
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:761
 
 ***
 
@@ -3561,7 +3565,7 @@ Remove and return the member with the highest score from one or more sorted sets
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:775
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:775
 
 #### bzpopmax(args)
 
@@ -3581,7 +3585,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:775
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:785
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:785
 
 #### bzpopmax(args)
 
@@ -3601,7 +3605,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:785
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:795
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:795
 
 #### bzpopmax(args)
 
@@ -3621,7 +3625,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:795
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:797
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:797
 
 ***
 
@@ -3645,7 +3649,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:797
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:780
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:780
 
 #### bzpopmaxBuffer(args)
 
@@ -3665,7 +3669,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:780
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:790
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:790
 
 #### bzpopmaxBuffer(args)
 
@@ -3685,7 +3689,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:790
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:796
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:796
 
 #### bzpopmaxBuffer(args)
 
@@ -3705,7 +3709,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:796
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:798
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:798
 
 ***
 
@@ -3734,7 +3738,7 @@ Remove and return the member with the lowest score from one or more sorted sets,
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:805
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:805
 
 #### bzpopmin(args)
 
@@ -3754,7 +3758,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:805
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:815
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:815
 
 #### bzpopmin(args)
 
@@ -3774,7 +3778,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:815
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:825
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:825
 
 #### bzpopmin(args)
 
@@ -3794,7 +3798,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:825
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:827
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:827
 
 ***
 
@@ -3818,7 +3822,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:827
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:810
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:810
 
 #### bzpopminBuffer(args)
 
@@ -3838,7 +3842,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:810
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:820
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:820
 
 #### bzpopminBuffer(args)
 
@@ -3858,7 +3862,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:820
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:826
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:826
 
 #### bzpopminBuffer(args)
 
@@ -3878,7 +3882,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:826
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:828
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:828
 
 ***
 
@@ -3917,7 +3921,7 @@ redis.call('get', 'foo', (err, value) => {
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:40
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:40
 
 #### call(command, args, callback)
 
@@ -3941,7 +3945,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:40
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:41
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:41
 
 #### call(args)
 
@@ -3961,7 +3965,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:41
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:42
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:42
 
 #### call(args)
 
@@ -3981,7 +3985,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:42
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:47
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:47
 
 ***
 
@@ -4007,7 +4011,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:47
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:48
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:48
 
 #### callBuffer(command, args, callback)
 
@@ -4031,7 +4035,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:48
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:49
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:49
 
 #### callBuffer(args)
 
@@ -4051,7 +4055,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:49
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:50
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:50
 
 #### callBuffer(args)
 
@@ -4071,7 +4075,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:50
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:55
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:55
 
 ***
 
@@ -4104,7 +4108,7 @@ Instruct the server about tracking or not keys in the next request
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:835
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:835
 
 #### client(subcommand, no, callback)
 
@@ -4128,7 +4132,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:835
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:836
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:836
 
 #### client(subcommand, callback)
 
@@ -4155,7 +4159,7 @@ Get the current connection name
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:843
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:843
 
 #### client(subcommand, callback)
 
@@ -4182,7 +4186,7 @@ Get tracking notifications redirection client ID if any
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:851
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:851
 
 #### client(subcommand, callback)
 
@@ -4209,7 +4213,7 @@ Show helpful text about the different subcommands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:858
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:858
 
 #### client(subcommand, callback)
 
@@ -4236,7 +4240,7 @@ Returns the client ID for the current connection
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:865
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:865
 
 #### client(subcommand, callback)
 
@@ -4263,7 +4267,7 @@ Returns information about the current client connection.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:872
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:872
 
 #### client(args)
 
@@ -4288,7 +4292,7 @@ Kill the connection of a client
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:880
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:880
 
 #### client(args)
 
@@ -4308,7 +4312,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:880
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:885
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:885
 
 #### client(subcommand, callback)
 
@@ -4335,7 +4339,7 @@ Get the list of client connections
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:892
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:892
 
 #### client(args)
 
@@ -4355,7 +4359,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:892
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:893
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:893
 
 #### client(args)
 
@@ -4375,7 +4379,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:893
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:899
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:899
 
 #### client(subcommand, type, normal, callback)
 
@@ -4401,7 +4405,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:899
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:904
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:904
 
 #### client(args)
 
@@ -4421,7 +4425,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:904
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:905
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:905
 
 #### client(args)
 
@@ -4441,7 +4445,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:905
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:913
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:913
 
 #### client(subcommand, type, master, callback)
 
@@ -4467,7 +4471,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:913
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:920
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:920
 
 #### client(args)
 
@@ -4487,7 +4491,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:920
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:921
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:921
 
 #### client(args)
 
@@ -4507,7 +4511,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:921
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:929
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:929
 
 #### client(subcommand, type, replica, callback)
 
@@ -4533,7 +4537,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:929
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:936
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:936
 
 #### client(args)
 
@@ -4553,7 +4557,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:936
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:937
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:937
 
 #### client(args)
 
@@ -4573,7 +4577,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:937
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:945
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:945
 
 #### client(subcommand, type, pubsub, callback)
 
@@ -4599,7 +4603,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:945
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:952
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:952
 
 #### client(args)
 
@@ -4619,7 +4623,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:952
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:953
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:953
 
 #### client(args)
 
@@ -4639,7 +4643,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:953
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:961
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:961
 
 #### client(subcommand, on, callback)
 
@@ -4668,7 +4672,7 @@ Set client eviction mode for the current connection
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:974
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:974
 
 #### client(subcommand, off, callback)
 
@@ -4692,7 +4696,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:974
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:975
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:975
 
 #### client(subcommand, timeout, callback)
 
@@ -4721,7 +4725,7 @@ Stop processing commands from clients for some time
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:982
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:982
 
 #### client(subcommand, timeout, write, callback)
 
@@ -4747,7 +4751,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:982
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:983
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:983
 
 #### client(subcommand, timeout, all, callback)
 
@@ -4773,7 +4777,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:983
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:984
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:984
 
 #### client(subcommand, on, callback)
 
@@ -4802,7 +4806,7 @@ Instruct the server whether to reply to commands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:991
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:991
 
 #### client(subcommand, off, callback)
 
@@ -4826,7 +4830,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:991
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:992
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:992
 
 #### client(subcommand, skip, callback)
 
@@ -4850,7 +4854,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:992
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:993
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:993
 
 #### client(subcommand, connectionName, callback)
 
@@ -4879,7 +4883,7 @@ Set the current connection name
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1000
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1000
 
 #### client(args)
 
@@ -4904,7 +4908,7 @@ Enable or disable server assisted client side caching support
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1007
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1007
 
 #### client(args)
 
@@ -4924,7 +4928,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1007
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1012
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1012
 
 #### client(subcommand, callback)
 
@@ -4951,7 +4955,7 @@ Return information about server assisted client side caching for the current con
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1019
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1019
 
 #### client(subcommand, clientId, callback)
 
@@ -4980,7 +4984,7 @@ Unblock a client blocked in a blocking command from a different connection
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1027
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1027
 
 #### client(subcommand, clientId, timeout, callback)
 
@@ -5006,7 +5010,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1027
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1028
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1028
 
 #### client(subcommand, clientId, error, callback)
 
@@ -5032,7 +5036,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1028
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1029
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1029
 
 #### client(subcommand, callback)
 
@@ -5059,7 +5063,7 @@ Resume processing of clients that were paused
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1036
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1036
 
 ***
 
@@ -5085,7 +5089,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1036
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:844
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:844
 
 #### clientBuffer(subcommand, callback)
 
@@ -5107,7 +5111,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:844
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:873
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:873
 
 #### clientBuffer(subcommand, callback)
 
@@ -5129,7 +5133,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:873
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1020
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1020
 
 ***
 
@@ -5158,7 +5162,7 @@ Assign new hash slots to receiving node
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1043
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1043
 
 #### cluster(args)
 
@@ -5178,7 +5182,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1043
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1061
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1061
 
 #### cluster(args)
 
@@ -5198,7 +5202,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1061
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1079
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1079
 
 #### cluster(args)
 
@@ -5218,7 +5222,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1079
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1084
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1084
 
 #### cluster(args)
 
@@ -5243,7 +5247,7 @@ Assign new hash slots to receiving node
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1095
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1095
 
 #### cluster(args)
 
@@ -5263,7 +5267,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1095
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1113
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1113
 
 #### cluster(subcommand, callback)
 
@@ -5290,7 +5294,7 @@ Advance the cluster config epoch
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1127
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1127
 
 #### cluster(subcommand, nodeId, callback)
 
@@ -5319,7 +5323,7 @@ Return the number of failure reports active for a given node
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1134
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1134
 
 #### cluster(subcommand, slot, callback)
 
@@ -5348,7 +5352,7 @@ Return the number of local keys in the specified hash slot
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1141
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1141
 
 #### cluster(args)
 
@@ -5373,7 +5377,7 @@ Set hash slots as unbound in receiving node
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1148
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1148
 
 #### cluster(args)
 
@@ -5393,7 +5397,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1148
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1166
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1166
 
 #### cluster(args)
 
@@ -5413,7 +5417,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1166
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1184
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1184
 
 #### cluster(args)
 
@@ -5433,7 +5437,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1184
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1189
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1189
 
 #### cluster(args)
 
@@ -5458,7 +5462,7 @@ Set hash slots as unbound in receiving node
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1200
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1200
 
 #### cluster(args)
 
@@ -5478,7 +5482,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1200
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1218
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1218
 
 #### cluster(subcommand, callback)
 
@@ -5505,7 +5509,7 @@ Forces a replica to perform a manual failover of its master.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1232
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1232
 
 #### cluster(subcommand, force, callback)
 
@@ -5529,7 +5533,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1232
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1233
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1233
 
 #### cluster(subcommand, takeover, callback)
 
@@ -5553,7 +5557,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1233
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1234
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1234
 
 #### cluster(subcommand, callback)
 
@@ -5580,7 +5584,7 @@ Delete a node's own slots information
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1241
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1241
 
 #### cluster(subcommand, nodeId, callback)
 
@@ -5609,7 +5613,7 @@ Remove a node from the nodes table
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1261
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1261
 
 #### cluster(subcommand, slot, count, callback)
 
@@ -5640,7 +5644,7 @@ Return local key names in the specified hash slot
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1268
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1268
 
 #### cluster(subcommand, callback)
 
@@ -5667,7 +5671,7 @@ Show helpful text about the different subcommands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1275
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1275
 
 #### cluster(subcommand, callback)
 
@@ -5694,7 +5698,7 @@ Provides info about Redis Cluster node state
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1282
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1282
 
 #### cluster(subcommand, key, callback)
 
@@ -5723,7 +5727,7 @@ Returns the hash slot of the specified key
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1289
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1289
 
 #### cluster(subcommand, callback)
 
@@ -5750,7 +5754,7 @@ Returns a list of all TCP links to and from peer nodes in cluster
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1296
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1296
 
 #### cluster(subcommand, ip, port, callback)
 
@@ -5781,7 +5785,7 @@ Force a node cluster to handshake with another node
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1303
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1303
 
 #### cluster(subcommand, callback)
 
@@ -5808,7 +5812,7 @@ Return the node id
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1310
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1310
 
 #### cluster(subcommand, callback)
 
@@ -5835,7 +5839,7 @@ Get Cluster config for the node
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1317
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1317
 
 #### cluster(subcommand, nodeId, callback)
 
@@ -5864,7 +5868,7 @@ List replica nodes of the specified master node
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1324
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1324
 
 #### cluster(subcommand, nodeId, callback)
 
@@ -5893,7 +5897,7 @@ Reconfigure a node as a replica of the specified master node
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1331
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1331
 
 #### cluster(subcommand, callback)
 
@@ -5920,7 +5924,7 @@ Reset a Redis Cluster node
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1338
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1338
 
 #### cluster(subcommand, hard, callback)
 
@@ -5944,7 +5948,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1338
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1339
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1339
 
 #### cluster(subcommand, soft, callback)
 
@@ -5968,7 +5972,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1339
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1340
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1340
 
 #### cluster(subcommand, callback)
 
@@ -5995,7 +5999,7 @@ Forces the node to save cluster state on disk
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1347
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1347
 
 #### cluster(subcommand, configEpoch, callback)
 
@@ -6024,7 +6028,7 @@ Set the configuration epoch in a new node
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1354
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1354
 
 #### cluster(subcommand, slot, nodeIdToken, nodeId, callback)
 
@@ -6057,7 +6061,7 @@ Bind a hash slot to a specific node
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1361
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1361
 
 #### cluster(subcommand, slot, nodeIdToken, nodeId, callback)
 
@@ -6085,7 +6089,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1361
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1362
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1362
 
 #### cluster(subcommand, slot, nodeIdToken, nodeId, callback)
 
@@ -6113,7 +6117,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1362
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1363
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1363
 
 #### cluster(subcommand, slot, stable, callback)
 
@@ -6139,7 +6143,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1363
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1364
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1364
 
 #### cluster(subcommand, callback)
 
@@ -6166,7 +6170,7 @@ Get array of cluster slots to node mappings
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1371
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1371
 
 #### cluster(subcommand, nodeId, callback)
 
@@ -6195,7 +6199,7 @@ List replica nodes of the specified master node
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1378
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1378
 
 #### cluster(subcommand, callback)
 
@@ -6222,7 +6226,7 @@ Get array of Cluster slot to node mappings
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1385
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1385
 
 ***
 
@@ -6253,7 +6257,7 @@ Get total number of Redis commands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1405
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1405
 
 #### command(subcommand, callback)
 
@@ -6280,7 +6284,7 @@ Get array of specific Redis command documentation
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1412
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1412
 
 #### command(args)
 
@@ -6300,7 +6304,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1412
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1413
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1413
 
 #### command(args)
 
@@ -6320,7 +6324,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1413
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1418
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1418
 
 #### command(subcommand, callback)
 
@@ -6347,7 +6351,7 @@ Extract keys given a full Redis command
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1425
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1425
 
 #### command(subcommand, callback)
 
@@ -6374,7 +6378,7 @@ Extract keys and access flags given a full Redis command
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1432
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1432
 
 #### command(subcommand, callback)
 
@@ -6401,7 +6405,7 @@ Show helpful text about the different subcommands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1439
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1439
 
 #### command(subcommand, callback)
 
@@ -6428,7 +6432,7 @@ Get array of specific Redis command details, or all when no argument is given.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1446
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1446
 
 #### command(args)
 
@@ -6448,7 +6452,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1446
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1447
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1447
 
 #### command(args)
 
@@ -6468,7 +6472,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1447
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1452
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1452
 
 #### command(subcommand, callback)
 
@@ -6495,7 +6499,7 @@ Get an array of Redis command names
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1459
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1459
 
 #### command(subcommand, filterby, moduleNameToken, moduleName, callback)
 
@@ -6523,7 +6527,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1459
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1460
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1460
 
 #### command(subcommand, filterby, categoryToken, category, callback)
 
@@ -6551,7 +6555,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1460
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1461
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1461
 
 #### command(subcommand, filterby, patternToken, pattern, callback)
 
@@ -6579,7 +6583,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1461
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1462
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1462
 
 ***
 
@@ -6608,7 +6612,7 @@ Get the values of configuration parameters
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1469
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1469
 
 #### config(args)
 
@@ -6628,7 +6632,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1469
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1474
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1474
 
 #### config(subcommand, callback)
 
@@ -6655,7 +6659,7 @@ Show helpful text about the different subcommands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1481
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1481
 
 #### config(subcommand, callback)
 
@@ -6682,7 +6686,7 @@ Reset the stats returned by INFO
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1488
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1488
 
 #### config(subcommand, callback)
 
@@ -6709,7 +6713,7 @@ Rewrite the configuration file with the in memory configuration
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1495
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1495
 
 #### config(args)
 
@@ -6734,7 +6738,7 @@ Set configuration parameters to the given values
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1502
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1502
 
 #### config(args)
 
@@ -6754,7 +6758,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1502
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1507
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1507
 
 ***
 
@@ -6783,7 +6787,7 @@ be resolved when the connection status is ready.
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:86
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:86
 
 ***
 
@@ -6816,7 +6820,7 @@ Copy a key
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1517
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1517
 
 #### copy(source, destination, replace, callback)
 
@@ -6842,7 +6846,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1517
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1518
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1518
 
 #### copy(source, destination, destinationDbToken, destinationDb, callback)
 
@@ -6870,7 +6874,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1518
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1519
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1519
 
 #### copy(source, destination, destinationDbToken, destinationDb, replace, callback)
 
@@ -6900,7 +6904,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1519
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1520
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1520
 
 ***
 
@@ -6932,7 +6936,7 @@ Create a builtin command
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/Commander.d.ts:27
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/Commander.d.ts:27
 
 ***
 
@@ -6959,7 +6963,7 @@ Return the number of keys in the selected database
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1527
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1527
 
 ***
 
@@ -6990,7 +6994,7 @@ A container for debugging commands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1534
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1534
 
 #### debug(args)
 
@@ -7010,7 +7014,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1534
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1535
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1535
 
 #### debug(args)
 
@@ -7030,7 +7034,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1535
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1540
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1540
 
 ***
 
@@ -7059,7 +7063,7 @@ Decrement the integer value of a key by one
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1547
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1547
 
 ***
 
@@ -7090,7 +7094,7 @@ Decrement the integer value of a key by the given number
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1554
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1554
 
 ***
 
@@ -7122,7 +7126,7 @@ Define a custom command using lua script
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/Commander.d.ts:38
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/Commander.d.ts:38
 
 ***
 
@@ -7151,7 +7155,7 @@ Delete a key
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1561
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1561
 
 #### del(args)
 
@@ -7171,7 +7175,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1561
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1562
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1562
 
 #### del(args)
 
@@ -7191,7 +7195,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1562
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1563
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1563
 
 #### del(args)
 
@@ -7211,7 +7215,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1563
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1564
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1564
 
 ***
 
@@ -7238,7 +7242,7 @@ Discard all commands issued after MULTI
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1571
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1571
 
 ***
 
@@ -7266,7 +7270,7 @@ If you want to wait for the pending replies, use Redis#quit instead.
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:94
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:94
 
 ***
 
@@ -7295,7 +7299,7 @@ Return a serialized version of the value stored at the specified key.
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1578
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1578
 
 ***
 
@@ -7319,7 +7323,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1578
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1579
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1579
 
 ***
 
@@ -7350,7 +7354,7 @@ var anotherRedis = redis.duplicate();
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:110
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:110
 
 ***
 
@@ -7379,7 +7383,7 @@ Echo the given string
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1586
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1586
 
 ***
 
@@ -7403,7 +7407,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1586
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1587
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1587
 
 ***
 
@@ -7411,13 +7415,13 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1587
 
 > **emit**\<`K`\>(`eventName`, ...`args`): `boolean`
 
-Synchronously calls each of the listeners registered for the event named `eventName`, in the order they were registered, passing the supplied arguments
+Synchronously calls each of the listeners registered for the event named`eventName`, in the order they were registered, passing the supplied arguments
 to each.
 
 Returns `true` if the event had listeners, `false` otherwise.
 
 ```js
-import { EventEmitter } from 'node:events';
+import EventEmitter from 'node:events';
 const myEmitter = new EventEmitter();
 
 // First listener
@@ -7473,7 +7477,7 @@ v0.1.26
 
 #### Defined in
 
-node\_modules/@types/node/events.d.ts:859
+node\_modules/.pnpm/@types+node@16.18.119/node\_modules/@types/node/events.d.ts:646
 
 ***
 
@@ -7495,7 +7499,7 @@ Disconnect from Redis.
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:100
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:100
 
 ***
 
@@ -7528,7 +7532,7 @@ Execute a Lua script server side
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1594
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1594
 
 #### eval(args)
 
@@ -7548,7 +7552,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1594
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1595
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1595
 
 #### eval(args)
 
@@ -7568,7 +7572,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1595
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1601
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1601
 
 #### eval(args)
 
@@ -7588,7 +7592,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1601
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1606
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1606
 
 #### eval(args)
 
@@ -7608,7 +7612,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1606
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1612
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1612
 
 #### eval(args)
 
@@ -7628,7 +7632,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1612
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1618
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1618
 
 #### eval(args)
 
@@ -7648,7 +7652,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1618
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1623
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1623
 
 #### eval(args)
 
@@ -7668,7 +7672,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1623
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1628
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1628
 
 #### eval(args)
 
@@ -7688,7 +7692,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1628
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1634
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1634
 
 ***
 
@@ -7717,7 +7721,7 @@ Execute a read-only Lua script server side
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1645
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1645
 
 #### eval\_ro(args)
 
@@ -7737,7 +7741,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1645
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1651
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1651
 
 ***
 
@@ -7770,7 +7774,7 @@ Execute a Lua script server side
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1662
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1662
 
 #### evalsha(args)
 
@@ -7790,7 +7794,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1662
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1663
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1663
 
 #### evalsha(args)
 
@@ -7810,7 +7814,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1663
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1669
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1669
 
 #### evalsha(args)
 
@@ -7830,7 +7834,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1669
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1674
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1674
 
 #### evalsha(args)
 
@@ -7850,7 +7854,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1674
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1680
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1680
 
 #### evalsha(args)
 
@@ -7870,7 +7874,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1680
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1686
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1686
 
 #### evalsha(args)
 
@@ -7890,7 +7894,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1686
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1691
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1691
 
 #### evalsha(args)
 
@@ -7910,7 +7914,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1691
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1692
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1692
 
 #### evalsha(args)
 
@@ -7930,7 +7934,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1692
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1698
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1698
 
 ***
 
@@ -7959,7 +7963,7 @@ Execute a read-only Lua script server side
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1709
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1709
 
 #### evalsha\_ro(args)
 
@@ -7979,7 +7983,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1709
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1715
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1715
 
 ***
 
@@ -7991,8 +7995,7 @@ Returns an array listing the events for which the emitter has registered
 listeners. The values in the array are strings or `Symbol`s.
 
 ```js
-import { EventEmitter } from 'node:events';
-
+import EventEmitter from 'node:events';
 const myEE = new EventEmitter();
 myEE.on('foo', () => {});
 myEE.on('bar', () => {});
@@ -8018,7 +8021,7 @@ v6.0.0
 
 #### Defined in
 
-node\_modules/@types/node/events.d.ts:922
+node\_modules/.pnpm/@types+node@16.18.119/node\_modules/@types/node/events.d.ts:705
 
 ***
 
@@ -8045,7 +8048,7 @@ Execute all commands issued after MULTI
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1726
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1726
 
 ***
 
@@ -8074,7 +8077,7 @@ Determine if a key exists
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1733
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1733
 
 #### exists(args)
 
@@ -8094,7 +8097,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1733
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1734
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1734
 
 #### exists(args)
 
@@ -8114,7 +8117,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1734
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1735
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1735
 
 #### exists(args)
 
@@ -8134,7 +8137,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1735
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1736
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1736
 
 ***
 
@@ -8167,7 +8170,7 @@ Set a key's time to live in seconds
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1743
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1743
 
 #### expire(key, seconds, nx, callback)
 
@@ -8193,7 +8196,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1743
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1744
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1744
 
 #### expire(key, seconds, xx, callback)
 
@@ -8219,7 +8222,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1744
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1745
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1745
 
 #### expire(key, seconds, gt, callback)
 
@@ -8245,7 +8248,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1745
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1746
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1746
 
 #### expire(key, seconds, lt, callback)
 
@@ -8271,7 +8274,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1746
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1747
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1747
 
 ***
 
@@ -8304,7 +8307,7 @@ Set the expiration for a key as a UNIX timestamp
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1754
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1754
 
 #### expireat(key, unixTimeSeconds, nx, callback)
 
@@ -8330,7 +8333,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1754
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1755
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1755
 
 #### expireat(key, unixTimeSeconds, xx, callback)
 
@@ -8356,7 +8359,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1755
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1756
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1756
 
 #### expireat(key, unixTimeSeconds, gt, callback)
 
@@ -8382,7 +8385,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1756
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1757
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1757
 
 #### expireat(key, unixTimeSeconds, lt, callback)
 
@@ -8408,7 +8411,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1757
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1758
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1758
 
 ***
 
@@ -8437,7 +8440,7 @@ Get the expiration Unix timestamp for a key
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1765
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1765
 
 ***
 
@@ -8466,7 +8469,7 @@ Start a coordinated failover between this server and one of its replicas.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1772
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1772
 
 #### failover(millisecondsToken, milliseconds, callback)
 
@@ -8490,7 +8493,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1772
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1773
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1773
 
 #### failover(abort, callback)
 
@@ -8512,7 +8515,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1773
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1774
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1774
 
 #### failover(abort, millisecondsToken, milliseconds, callback)
 
@@ -8538,7 +8541,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1774
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1775
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1775
 
 #### failover(targetToken, host, port, callback)
 
@@ -8564,7 +8567,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1775
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1776
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1776
 
 #### failover(targetToken, host, port, millisecondsToken, milliseconds, callback)
 
@@ -8594,7 +8597,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1776
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1777
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1777
 
 #### failover(targetToken, host, port, abort, callback)
 
@@ -8622,7 +8625,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1777
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1778
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1778
 
 #### failover(targetToken, host, port, abort, millisecondsToken, milliseconds, callback)
 
@@ -8654,7 +8657,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1778
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1779
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1779
 
 #### failover(targetToken, host, port, force, callback)
 
@@ -8682,7 +8685,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1779
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1780
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1780
 
 #### failover(targetToken, host, port, force, millisecondsToken, milliseconds, callback)
 
@@ -8714,7 +8717,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1780
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1781
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1781
 
 #### failover(targetToken, host, port, force, abort, callback)
 
@@ -8744,7 +8747,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1781
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1782
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1782
 
 #### failover(targetToken, host, port, force, abort, millisecondsToken, milliseconds, callback)
 
@@ -8778,7 +8781,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1782
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1783
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1783
 
 ***
 
@@ -8807,7 +8810,7 @@ Invoke a function
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1790
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1790
 
 #### fcall(args)
 
@@ -8827,7 +8830,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1790
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1796
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1796
 
 ***
 
@@ -8856,7 +8859,7 @@ Invoke a read-only function
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1807
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1807
 
 #### fcall\_ro(args)
 
@@ -8876,7 +8879,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1807
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1813
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1813
 
 ***
 
@@ -8905,7 +8908,7 @@ Remove all keys from all databases
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1824
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1824
 
 #### flushall(async, callback)
 
@@ -8927,7 +8930,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1824
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1825
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1825
 
 #### flushall(sync, callback)
 
@@ -8949,7 +8952,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1825
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1826
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1826
 
 ***
 
@@ -8978,7 +8981,7 @@ Remove all keys from the current database
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1833
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1833
 
 #### flushdb(async, callback)
 
@@ -9000,7 +9003,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1833
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1834
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1834
 
 #### flushdb(sync, callback)
 
@@ -9022,7 +9025,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1834
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1835
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1835
 
 ***
 
@@ -9040,7 +9043,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1835
 
 #### Defined in
 
-[packages/redis/src/redis.service.ts:15](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/redis/src/redis.service.ts#L15)
+[packages/redis/src/redis.service.ts:15](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/redis/src/redis.service.ts#L15)
 
 ***
 
@@ -9073,7 +9076,7 @@ Delete a function by name
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1842
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1842
 
 #### function(subcommand, callback)
 
@@ -9100,7 +9103,7 @@ Dump all functions into a serialized binary payload
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1850
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1850
 
 #### function(subcommand, callback)
 
@@ -9127,7 +9130,7 @@ Deleting all functions
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1858
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1858
 
 #### function(subcommand, async, callback)
 
@@ -9151,7 +9154,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1858
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1860
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1860
 
 #### function(subcommand, sync, callback)
 
@@ -9175,7 +9178,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1860
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1862
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1862
 
 #### function(subcommand, callback)
 
@@ -9202,7 +9205,7 @@ Show helpful text about the different subcommands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1870
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1870
 
 #### function(subcommand, callback)
 
@@ -9229,7 +9232,7 @@ Kill the function currently in execution.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1877
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1877
 
 #### function(subcommand, callback)
 
@@ -9256,7 +9259,7 @@ List information about all the functions
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1885
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1885
 
 #### function(subcommand, withcode, callback)
 
@@ -9280,7 +9283,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1885
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1886
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1886
 
 #### function(subcommand, libraryNamePatternToken, libraryNamePattern, callback)
 
@@ -9306,7 +9309,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1886
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1887
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1887
 
 #### function(subcommand, libraryNamePatternToken, libraryNamePattern, withcode, callback)
 
@@ -9334,7 +9337,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1887
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1888
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1888
 
 #### function(subcommand, functionCode, callback)
 
@@ -9363,7 +9366,7 @@ Create a function with the given arguments (name, code, description)
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1895
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1895
 
 #### function(subcommand, replace, functionCode, callback)
 
@@ -9389,7 +9392,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1895
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1897
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1897
 
 #### function(subcommand, serializedValue, callback)
 
@@ -9418,7 +9421,7 @@ Restore all the functions on the given payload
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1905
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1905
 
 #### function(subcommand, serializedValue, flush, callback)
 
@@ -9444,7 +9447,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1905
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1907
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1907
 
 #### function(subcommand, serializedValue, append, callback)
 
@@ -9470,7 +9473,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1907
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1909
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1909
 
 #### function(subcommand, serializedValue, replace, callback)
 
@@ -9496,7 +9499,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1909
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1911
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1911
 
 #### function(subcommand, callback)
 
@@ -9523,7 +9526,7 @@ Return information about the function currently running (name, description, dura
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1919
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1919
 
 ***
 
@@ -9551,7 +9554,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1919
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1843
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1843
 
 #### functionBuffer(subcommand, callback)
 
@@ -9573,7 +9576,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1843
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1851
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1851
 
 #### functionBuffer(subcommand, callback)
 
@@ -9595,7 +9598,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1851
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1859
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1859
 
 #### functionBuffer(subcommand, async, callback)
 
@@ -9619,7 +9622,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1859
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1861
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1861
 
 #### functionBuffer(subcommand, sync, callback)
 
@@ -9643,7 +9646,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1861
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1863
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1863
 
 #### functionBuffer(subcommand, callback)
 
@@ -9665,7 +9668,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1863
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1878
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1878
 
 #### functionBuffer(subcommand, functionCode, callback)
 
@@ -9689,7 +9692,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1878
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1896
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1896
 
 #### functionBuffer(subcommand, replace, functionCode, callback)
 
@@ -9715,7 +9718,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1896
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1898
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1898
 
 #### functionBuffer(subcommand, serializedValue, callback)
 
@@ -9739,7 +9742,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1898
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1906
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1906
 
 #### functionBuffer(subcommand, serializedValue, flush, callback)
 
@@ -9765,7 +9768,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1906
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1908
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1908
 
 #### functionBuffer(subcommand, serializedValue, append, callback)
 
@@ -9791,7 +9794,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1908
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1910
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1910
 
 #### functionBuffer(subcommand, serializedValue, replace, callback)
 
@@ -9817,7 +9820,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1910
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1912
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1912
 
 ***
 
@@ -9846,7 +9849,7 @@ Add one or more geospatial items in the geospatial index represented using a sor
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1926
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1926
 
 #### geoadd(args)
 
@@ -9866,7 +9869,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1926
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1931
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1931
 
 #### geoadd(args)
 
@@ -9886,7 +9889,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1931
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1935
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1935
 
 #### geoadd(args)
 
@@ -9906,7 +9909,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1935
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1941
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1941
 
 #### geoadd(args)
 
@@ -9926,7 +9929,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1941
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1946
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1946
 
 #### geoadd(args)
 
@@ -9946,7 +9949,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1946
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1952
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1952
 
 #### geoadd(args)
 
@@ -9966,7 +9969,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1952
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1957
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1957
 
 #### geoadd(args)
 
@@ -9986,7 +9989,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1957
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1964
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1964
 
 #### geoadd(args)
 
@@ -10006,7 +10009,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1964
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1970
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1970
 
 #### geoadd(args)
 
@@ -10026,7 +10029,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1970
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1976
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1976
 
 #### geoadd(args)
 
@@ -10046,7 +10049,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1976
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1981
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1981
 
 #### geoadd(args)
 
@@ -10066,7 +10069,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:1981
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:1988
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:1988
 
 ***
 
@@ -10101,7 +10104,7 @@ Returns the distance between two members of a geospatial index
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2000
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2000
 
 #### geodist(key, member1, member2, m, callback)
 
@@ -10129,7 +10132,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2000
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2002
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2002
 
 #### geodist(key, member1, member2, km, callback)
 
@@ -10157,7 +10160,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2002
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2004
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2004
 
 #### geodist(key, member1, member2, ft, callback)
 
@@ -10185,7 +10188,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2004
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2006
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2006
 
 #### geodist(key, member1, member2, mi, callback)
 
@@ -10213,7 +10216,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2006
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2008
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2008
 
 ***
 
@@ -10243,7 +10246,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2008
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2001
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2001
 
 #### geodistBuffer(key, member1, member2, m, callback)
 
@@ -10271,7 +10274,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2001
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2003
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2003
 
 #### geodistBuffer(key, member1, member2, km, callback)
 
@@ -10299,7 +10302,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2003
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2005
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2005
 
 #### geodistBuffer(key, member1, member2, ft, callback)
 
@@ -10327,7 +10330,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2005
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2007
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2007
 
 #### geodistBuffer(key, member1, member2, mi, callback)
 
@@ -10355,7 +10358,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2007
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2009
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2009
 
 ***
 
@@ -10384,7 +10387,7 @@ Returns members of a geospatial index as standard geohash strings
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2016
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2016
 
 #### geohash(args)
 
@@ -10404,7 +10407,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2016
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2026
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2026
 
 #### geohash(args)
 
@@ -10424,7 +10427,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2026
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2036
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2036
 
 #### geohash(args)
 
@@ -10444,7 +10447,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2036
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2038
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2038
 
 ***
 
@@ -10468,7 +10471,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2038
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2021
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2021
 
 #### geohashBuffer(args)
 
@@ -10488,7 +10491,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2021
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2031
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2031
 
 #### geohashBuffer(args)
 
@@ -10508,7 +10511,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2031
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2037
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2037
 
 #### geohashBuffer(args)
 
@@ -10528,7 +10531,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2037
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2039
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2039
 
 ***
 
@@ -10557,7 +10560,7 @@ Returns longitude and latitude of members of a geospatial index
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2046
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2046
 
 #### geopos(args)
 
@@ -10577,7 +10580,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2046
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2051
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2051
 
 #### geopos(args)
 
@@ -10597,7 +10600,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2051
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2056
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2056
 
 #### geopos(args)
 
@@ -10617,7 +10620,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2056
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2057
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2057
 
 ***
 
@@ -10646,7 +10649,7 @@ Query a sorted set representing a geospatial index to fetch members matching a g
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2064
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2064
 
 #### georadius(args)
 
@@ -10666,7 +10669,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2064
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2072
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2072
 
 ***
 
@@ -10695,7 +10698,7 @@ A read-only variant for GEORADIUS
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2085
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2085
 
 #### georadius\_ro(args)
 
@@ -10715,7 +10718,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2085
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2093
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2093
 
 ***
 
@@ -10744,7 +10747,7 @@ Query a sorted set representing a geospatial index to fetch members matching a g
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2106
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2106
 
 #### georadiusbymember(args)
 
@@ -10764,7 +10767,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2106
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2113
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2113
 
 ***
 
@@ -10793,7 +10796,7 @@ A read-only variant for GEORADIUSBYMEMBER
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2125
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2125
 
 #### georadiusbymember\_ro(args)
 
@@ -10813,7 +10816,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2125
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2132
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2132
 
 ***
 
@@ -10842,7 +10845,7 @@ Query a sorted set representing a geospatial index to fetch members inside an ar
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2144
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2144
 
 #### geosearch(args)
 
@@ -10862,7 +10865,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2144
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2149
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2149
 
 ***
 
@@ -10891,7 +10894,7 @@ Query a sorted set representing a geospatial index to fetch members inside an ar
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2156
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2156
 
 #### geosearchstore(args)
 
@@ -10911,7 +10914,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2156
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2162
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2162
 
 ***
 
@@ -10940,7 +10943,7 @@ Get the value of a key
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2169
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2169
 
 ***
 
@@ -10971,7 +10974,7 @@ Returns the bit value at offset in the string value stored at key
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2177
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2177
 
 ***
 
@@ -10995,7 +10998,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2177
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2170
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2170
 
 ***
 
@@ -11015,7 +11018,7 @@ Return supported builtin commands
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/Commander.d.ts:23
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/Commander.d.ts:23
 
 ***
 
@@ -11044,7 +11047,7 @@ Get the value of a key and delete the key
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2184
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2184
 
 ***
 
@@ -11068,7 +11071,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2184
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2185
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2185
 
 ***
 
@@ -11099,7 +11102,7 @@ Get the value of a key and optionally set its expiration
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2192
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2192
 
 #### getex(key, secondsToken, seconds, callback)
 
@@ -11125,7 +11128,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2192
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2194
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2194
 
 #### getex(key, millisecondsToken, milliseconds, callback)
 
@@ -11151,7 +11154,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2194
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2196
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2196
 
 #### getex(key, unixTimeSecondsToken, unixTimeSeconds, callback)
 
@@ -11177,7 +11180,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2196
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2198
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2198
 
 #### getex(key, unixTimeMillisecondsToken, unixTimeMilliseconds, callback)
 
@@ -11203,7 +11206,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2198
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2200
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2200
 
 #### getex(key, persist, callback)
 
@@ -11227,7 +11230,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2200
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2202
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2202
 
 ***
 
@@ -11253,7 +11256,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2202
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2193
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2193
 
 #### getexBuffer(key, secondsToken, seconds, callback)
 
@@ -11279,7 +11282,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2193
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2195
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2195
 
 #### getexBuffer(key, millisecondsToken, milliseconds, callback)
 
@@ -11305,7 +11308,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2195
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2197
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2197
 
 #### getexBuffer(key, unixTimeSecondsToken, unixTimeSeconds, callback)
 
@@ -11331,7 +11334,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2197
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2199
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2199
 
 #### getexBuffer(key, unixTimeMillisecondsToken, unixTimeMilliseconds, callback)
 
@@ -11357,7 +11360,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2199
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2201
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2201
 
 #### getexBuffer(key, persist, callback)
 
@@ -11381,7 +11384,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2201
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2203
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2203
 
 ***
 
@@ -11406,7 +11409,7 @@ v1.0.0
 
 #### Defined in
 
-node\_modules/@types/node/events.d.ts:774
+node\_modules/.pnpm/@types+node@16.18.119/node\_modules/@types/node/events.d.ts:562
 
 ***
 
@@ -11439,7 +11442,7 @@ Get a substring of the string stored at a key
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2210
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2210
 
 ***
 
@@ -11467,7 +11470,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2210
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2211
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2211
 
 ***
 
@@ -11498,7 +11501,7 @@ Set the string value of a key and return its old value
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2218
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2218
 
 ***
 
@@ -11524,7 +11527,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2218
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2219
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2219
 
 ***
 
@@ -11553,7 +11556,7 @@ Delete one or more hash fields
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2226
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2226
 
 #### hdel(args)
 
@@ -11573,7 +11576,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2226
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2231
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2231
 
 ***
 
@@ -11602,7 +11605,7 @@ Handshake with Redis
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2238
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2238
 
 #### hello(protover, callback)
 
@@ -11624,7 +11627,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2238
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2239
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2239
 
 #### hello(protover, clientnameToken, clientname, callback)
 
@@ -11650,7 +11653,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2239
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2240
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2240
 
 #### hello(protover, usernamePasswordToken, username, password, callback)
 
@@ -11678,7 +11681,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2240
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2241
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2241
 
 #### hello(protover, usernamePasswordToken, username, password, clientnameToken, clientname, callback)
 
@@ -11710,7 +11713,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2241
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2242
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2242
 
 ***
 
@@ -11741,7 +11744,7 @@ Determine if a hash field exists
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2249
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2249
 
 ***
 
@@ -11772,7 +11775,7 @@ Get the value of a hash field
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2256
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2256
 
 ***
 
@@ -11801,7 +11804,7 @@ Get all the fields and values in a hash
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2264
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2264
 
 ***
 
@@ -11825,7 +11828,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2264
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2265
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2265
 
 ***
 
@@ -11851,7 +11854,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2265
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2257
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2257
 
 ***
 
@@ -11884,7 +11887,7 @@ Increment the integer value of a hash field by the given number
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2272
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2272
 
 ***
 
@@ -11917,7 +11920,7 @@ Increment the float value of a hash field by the given amount
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2279
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2279
 
 ***
 
@@ -11945,7 +11948,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2279
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2280
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2280
 
 ***
 
@@ -11974,7 +11977,7 @@ Get all the fields in a hash
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2287
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2287
 
 ***
 
@@ -11998,7 +12001,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2287
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2288
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2288
 
 ***
 
@@ -12027,7 +12030,7 @@ Get the number of fields in a hash
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2295
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2295
 
 ***
 
@@ -12056,7 +12059,7 @@ Get the values of all the given hash fields
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2302
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2302
 
 #### hmget(args)
 
@@ -12076,7 +12079,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2302
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2312
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2312
 
 ***
 
@@ -12100,7 +12103,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2312
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2307
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2307
 
 #### hmgetBuffer(args)
 
@@ -12120,7 +12123,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2307
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2313
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2313
 
 ***
 
@@ -12153,7 +12156,7 @@ Set multiple hash fields to multiple values
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2320
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2320
 
 #### hmset(key, map, callback)
 
@@ -12177,7 +12180,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2320
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2321
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2321
 
 #### hmset(args)
 
@@ -12197,7 +12200,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2321
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2322
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2322
 
 #### hmset(args)
 
@@ -12217,7 +12220,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2322
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2327
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2327
 
 ***
 
@@ -12248,7 +12251,7 @@ Get one or multiple random fields from a hash
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2334
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2334
 
 #### hrandfield(key, count, callback)
 
@@ -12272,7 +12275,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2334
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2336
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2336
 
 #### hrandfield(key, count, withvalues, callback)
 
@@ -12298,7 +12301,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2336
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2338
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2338
 
 ***
 
@@ -12324,7 +12327,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2338
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2335
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2335
 
 #### hrandfieldBuffer(key, count, callback)
 
@@ -12348,7 +12351,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2335
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2337
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2337
 
 #### hrandfieldBuffer(key, count, withvalues, callback)
 
@@ -12374,7 +12377,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2337
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2339
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2339
 
 ***
 
@@ -12407,7 +12410,7 @@ Incrementally iterate hash fields and associated values
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2346
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2346
 
 #### hscan(key, cursor, countToken, count, callback)
 
@@ -12435,7 +12438,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2346
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2348
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2348
 
 #### hscan(key, cursor, patternToken, pattern, callback)
 
@@ -12463,7 +12466,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2348
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2350
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2350
 
 #### hscan(key, cursor, patternToken, pattern, countToken, count, callback)
 
@@ -12495,7 +12498,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2350
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2352
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2352
 
 ***
 
@@ -12523,7 +12526,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2352
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2347
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2347
 
 #### hscanBuffer(key, cursor, countToken, count, callback)
 
@@ -12551,7 +12554,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2347
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2349
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2349
 
 #### hscanBuffer(key, cursor, patternToken, pattern, callback)
 
@@ -12579,7 +12582,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2349
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2351
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2351
 
 #### hscanBuffer(key, cursor, patternToken, pattern, countToken, count, callback)
 
@@ -12611,7 +12614,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2351
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2353
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2353
 
 ***
 
@@ -12635,7 +12638,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2353
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:169
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:169
 
 ***
 
@@ -12659,7 +12662,7 @@ node\_modules/ioredis/built/Redis.d.ts:169
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:168
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:168
 
 ***
 
@@ -12692,7 +12695,7 @@ Set the string value of a hash field
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2360
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2360
 
 #### hset(key, map, callback)
 
@@ -12716,7 +12719,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2360
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2361
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2361
 
 #### hset(args)
 
@@ -12736,7 +12739,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2361
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2362
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2362
 
 #### hset(args)
 
@@ -12756,7 +12759,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2362
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2367
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2367
 
 ***
 
@@ -12789,7 +12792,7 @@ Set the value of a hash field, only if the field does not exist
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2374
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2374
 
 ***
 
@@ -12820,7 +12823,7 @@ Get the length of the value of a hash field
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2381
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2381
 
 ***
 
@@ -12849,7 +12852,7 @@ Get all the values in a hash
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2388
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2388
 
 ***
 
@@ -12873,7 +12876,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2388
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2389
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2389
 
 ***
 
@@ -12902,7 +12905,7 @@ Increment the integer value of a key by one
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2396
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2396
 
 ***
 
@@ -12933,7 +12936,7 @@ Increment the integer value of a key by the given amount
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2403
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2403
 
 ***
 
@@ -12964,7 +12967,7 @@ Increment the float value of a key by the given amount
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2410
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2410
 
 ***
 
@@ -12993,7 +12996,7 @@ Get information and statistics about the server
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2417
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2417
 
 #### info(args)
 
@@ -13013,7 +13016,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2417
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2418
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2418
 
 #### info(args)
 
@@ -13033,7 +13036,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2418
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2419
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2419
 
 ***
 
@@ -13062,7 +13065,7 @@ Find all keys matching the given pattern
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2426
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2426
 
 ***
 
@@ -13086,7 +13089,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2426
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2427
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2427
 
 ***
 
@@ -13113,7 +13116,7 @@ Get the UNIX time stamp of the last successful save to disk
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2434
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2434
 
 ***
 
@@ -13144,7 +13147,7 @@ Return a human readable latency analysis report.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2441
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2441
 
 #### latency(subcommand, event, callback)
 
@@ -13173,7 +13176,7 @@ Return a latency graph for the event.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2448
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2448
 
 #### latency(subcommand, callback)
 
@@ -13200,7 +13203,7 @@ Show helpful text about the different subcommands.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2455
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2455
 
 #### latency(subcommand, callback)
 
@@ -13227,7 +13230,7 @@ Return the cumulative distribution of latencies of a subset of commands or all.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2462
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2462
 
 #### latency(args)
 
@@ -13247,7 +13250,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2462
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2463
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2463
 
 #### latency(args)
 
@@ -13267,7 +13270,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2463
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2468
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2468
 
 #### latency(subcommand, event, callback)
 
@@ -13296,7 +13299,7 @@ Return timestamp-latency samples for the event.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2475
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2475
 
 #### latency(subcommand, callback)
 
@@ -13323,7 +13326,7 @@ Return the latest latency samples for all events.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2482
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2482
 
 #### latency(subcommand, callback)
 
@@ -13350,7 +13353,7 @@ Reset latency data for one or more events.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2489
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2489
 
 #### latency(args)
 
@@ -13370,7 +13373,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2489
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2490
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2490
 
 #### latency(args)
 
@@ -13390,7 +13393,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2490
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2495
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2495
 
 ***
 
@@ -13423,7 +13426,7 @@ Find longest common substring
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2502
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2502
 
 #### lcs(key1, key2, withmatchlen, callback)
 
@@ -13449,7 +13452,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2502
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2503
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2503
 
 #### lcs(key1, key2, lenToken, len, callback)
 
@@ -13477,7 +13480,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2503
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2504
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2504
 
 #### lcs(key1, key2, lenToken, len, withmatchlen, callback)
 
@@ -13507,7 +13510,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2504
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2505
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2505
 
 #### lcs(key1, key2, idx, callback)
 
@@ -13533,7 +13536,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2505
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2506
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2506
 
 #### lcs(key1, key2, idx, withmatchlen, callback)
 
@@ -13561,7 +13564,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2506
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2507
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2507
 
 #### lcs(key1, key2, idx, lenToken, len, callback)
 
@@ -13591,7 +13594,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2507
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2508
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2508
 
 #### lcs(key1, key2, idx, lenToken, len, withmatchlen, callback)
 
@@ -13623,7 +13626,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2508
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2509
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2509
 
 #### lcs(key1, key2, len, callback)
 
@@ -13649,7 +13652,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2509
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2510
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2510
 
 #### lcs(key1, key2, len, withmatchlen, callback)
 
@@ -13677,7 +13680,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2510
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2511
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2511
 
 #### lcs(key1, key2, len, lenToken, len1, callback)
 
@@ -13707,7 +13710,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2511
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2512
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2512
 
 #### lcs(key1, key2, len, lenToken, len1, withmatchlen, callback)
 
@@ -13739,7 +13742,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2512
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2513
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2513
 
 #### lcs(key1, key2, len, idx, callback)
 
@@ -13767,7 +13770,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2513
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2514
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2514
 
 #### lcs(key1, key2, len, idx, withmatchlen, callback)
 
@@ -13797,7 +13800,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2514
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2515
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2515
 
 #### lcs(key1, key2, len, idx, lenToken, len1, callback)
 
@@ -13829,7 +13832,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2515
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2516
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2516
 
 #### lcs(key1, key2, len, idx, lenToken, len1, withmatchlen, callback)
 
@@ -13863,7 +13866,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2516
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2517
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2517
 
 ***
 
@@ -13894,7 +13897,7 @@ Get an element from a list by its index
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2524
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2524
 
 ***
 
@@ -13920,7 +13923,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2524
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2525
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2525
 
 ***
 
@@ -13957,7 +13960,7 @@ Insert an element before or after another element in a list
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2532
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2532
 
 #### linsert(key, after, pivot, element, callback)
 
@@ -13985,7 +13988,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2532
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2533
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2533
 
 ***
 
@@ -13993,9 +13996,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2533
 
 > **listenerCount**\<`K`\>(`eventName`, `listener`?): `number`
 
-Returns the number of listeners listening for the event named `eventName`.
-If `listener` is provided, it will return how many times the listener is found
-in the list of the listeners of the event.
+Returns the number of listeners listening to the event named `eventName`.
 
 #### Type Parameters
 
@@ -14008,8 +14009,6 @@ in the list of the listeners of the event.
 The name of the event being listened for
 
 • **listener?**: `Function`
-
-The event handler function
 
 #### Returns
 
@@ -14025,7 +14024,7 @@ v3.2.0
 
 #### Defined in
 
-node\_modules/@types/node/events.d.ts:868
+node\_modules/.pnpm/@types+node@16.18.119/node\_modules/@types/node/events.d.ts:652
 
 ***
 
@@ -14065,7 +14064,7 @@ v0.1.26
 
 #### Defined in
 
-node\_modules/@types/node/events.d.ts:787
+node\_modules/.pnpm/@types+node@16.18.119/node\_modules/@types/node/events.d.ts:575
 
 ***
 
@@ -14094,7 +14093,7 @@ Get the length of a list
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2540
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2540
 
 ***
 
@@ -14131,7 +14130,7 @@ Pop an element from a list, push it to another list and return it
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2547
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2547
 
 #### lmove(source, destination, left, right, callback)
 
@@ -14159,7 +14158,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2547
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2549
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2549
 
 #### lmove(source, destination, right, left, callback)
 
@@ -14187,7 +14186,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2549
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2551
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2551
 
 #### lmove(source, destination, right, right1, callback)
 
@@ -14215,7 +14214,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2551
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2553
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2553
 
 ***
 
@@ -14247,7 +14246,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2553
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2548
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2548
 
 #### lmoveBuffer(source, destination, left, right, callback)
 
@@ -14275,7 +14274,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2548
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2550
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2550
 
 #### lmoveBuffer(source, destination, right, left, callback)
 
@@ -14303,7 +14302,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2550
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2552
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2552
 
 #### lmoveBuffer(source, destination, right, right1, callback)
 
@@ -14331,7 +14330,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2552
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2554
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2554
 
 ***
 
@@ -14360,7 +14359,7 @@ Pop elements from a list
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2561
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2561
 
 #### lmpop(args)
 
@@ -14380,7 +14379,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2561
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2573
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2573
 
 #### lmpop(args)
 
@@ -14400,7 +14399,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2573
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2585
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2585
 
 #### lmpop(args)
 
@@ -14420,7 +14419,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2585
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2587
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2587
 
 #### lmpop(args)
 
@@ -14440,7 +14439,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2587
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2589
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2589
 
 #### lmpop(args)
 
@@ -14460,7 +14459,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2589
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2605
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2605
 
 #### lmpop(args)
 
@@ -14480,7 +14479,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2605
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2621
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2621
 
 #### lmpop(args)
 
@@ -14500,7 +14499,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2621
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2635
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2635
 
 #### lmpop(args)
 
@@ -14520,7 +14519,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2635
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2649
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2649
 
 #### lmpop(args)
 
@@ -14540,7 +14539,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2649
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2661
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2661
 
 #### lmpop(args)
 
@@ -14560,7 +14559,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2661
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2673
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2673
 
 #### lmpop(args)
 
@@ -14580,7 +14579,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2673
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2675
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2675
 
 #### lmpop(args)
 
@@ -14600,7 +14599,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2675
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2677
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2677
 
 #### lmpop(args)
 
@@ -14620,7 +14619,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2677
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2693
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2693
 
 #### lmpop(args)
 
@@ -14640,7 +14639,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2693
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2709
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2709
 
 #### lmpop(args)
 
@@ -14660,7 +14659,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2709
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2723
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2723
 
 ***
 
@@ -14684,7 +14683,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2723
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2567
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2567
 
 #### lmpopBuffer(args)
 
@@ -14704,7 +14703,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2567
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2579
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2579
 
 #### lmpopBuffer(args)
 
@@ -14724,7 +14723,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2579
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2586
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2586
 
 #### lmpopBuffer(args)
 
@@ -14744,7 +14743,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2586
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2588
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2588
 
 #### lmpopBuffer(args)
 
@@ -14764,7 +14763,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2588
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2597
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2597
 
 #### lmpopBuffer(args)
 
@@ -14784,7 +14783,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2597
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2613
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2613
 
 #### lmpopBuffer(args)
 
@@ -14804,7 +14803,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2613
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2628
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2628
 
 #### lmpopBuffer(args)
 
@@ -14824,7 +14823,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2628
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2642
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2642
 
 #### lmpopBuffer(args)
 
@@ -14844,7 +14843,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2642
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2655
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2655
 
 #### lmpopBuffer(args)
 
@@ -14864,7 +14863,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2655
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2667
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2667
 
 #### lmpopBuffer(args)
 
@@ -14884,7 +14883,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2667
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2674
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2674
 
 #### lmpopBuffer(args)
 
@@ -14904,7 +14903,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2674
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2676
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2676
 
 #### lmpopBuffer(args)
 
@@ -14924,7 +14923,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2676
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2685
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2685
 
 #### lmpopBuffer(args)
 
@@ -14944,7 +14943,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2685
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2701
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2701
 
 #### lmpopBuffer(args)
 
@@ -14964,7 +14963,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2701
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2716
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2716
 
 #### lmpopBuffer(args)
 
@@ -14984,7 +14983,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2716
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2730
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2730
 
 ***
 
@@ -15013,7 +15012,7 @@ Display some computer art and the Redis version
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2743
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2743
 
 #### lolwut(versionToken, version, callback)
 
@@ -15037,7 +15036,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2743
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2744
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2744
 
 ***
 
@@ -15068,7 +15067,7 @@ Remove and get the first elements in a list
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2751
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2751
 
 #### lpop(key, count, callback)
 
@@ -15092,7 +15091,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2751
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2753
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2753
 
 ***
 
@@ -15118,7 +15117,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2753
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2752
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2752
 
 #### lpopBuffer(key, count, callback)
 
@@ -15142,7 +15141,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2752
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2754
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2754
 
 ***
 
@@ -15175,7 +15174,7 @@ Return the index of matching elements on a list
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2761
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2761
 
 #### lpos(key, element, lenToken, len, callback)
 
@@ -15203,7 +15202,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2761
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2762
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2762
 
 #### lpos(key, element, numMatchesToken, numMatches, callback)
 
@@ -15231,7 +15230,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2762
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2763
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2763
 
 #### lpos(key, element, numMatchesToken, numMatches, lenToken, len, callback)
 
@@ -15263,7 +15262,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2763
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2764
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2764
 
 #### lpos(key, element, rankToken, rank, callback)
 
@@ -15291,7 +15290,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2764
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2765
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2765
 
 #### lpos(key, element, rankToken, rank, lenToken, len, callback)
 
@@ -15323,7 +15322,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2765
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2766
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2766
 
 #### lpos(key, element, rankToken, rank, numMatchesToken, numMatches, callback)
 
@@ -15355,7 +15354,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2766
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2767
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2767
 
 #### lpos(key, element, rankToken, rank, numMatchesToken, numMatches, lenToken, len, callback)
 
@@ -15391,7 +15390,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2767
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2768
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2768
 
 ***
 
@@ -15420,7 +15419,7 @@ Prepend one or multiple elements to a list
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2775
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2775
 
 #### lpush(args)
 
@@ -15440,7 +15439,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2775
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2780
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2780
 
 ***
 
@@ -15469,7 +15468,7 @@ Prepend an element to a list, only if the list exists
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2787
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2787
 
 #### lpushx(args)
 
@@ -15489,7 +15488,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2787
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2792
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2792
 
 ***
 
@@ -15522,7 +15521,7 @@ Get a range of elements from a list
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2799
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2799
 
 ***
 
@@ -15550,7 +15549,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2799
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2800
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2800
 
 ***
 
@@ -15583,7 +15582,7 @@ Remove elements from a list
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2807
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2807
 
 ***
 
@@ -15616,7 +15615,7 @@ Set the value of an element in a list by its index
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2814
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2814
 
 ***
 
@@ -15649,7 +15648,7 @@ Trim a list to the specified range
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2821
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2821
 
 ***
 
@@ -15680,7 +15679,7 @@ Outputs memory problems report
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2828
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2828
 
 #### memory(subcommand, callback)
 
@@ -15707,7 +15706,7 @@ Show helpful text about the different subcommands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2835
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2835
 
 #### memory(subcommand, callback)
 
@@ -15734,7 +15733,7 @@ Show allocator internal stats
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2842
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2842
 
 #### memory(subcommand, callback)
 
@@ -15761,7 +15760,7 @@ Ask the allocator to release memory
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2849
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2849
 
 #### memory(subcommand, callback)
 
@@ -15788,7 +15787,7 @@ Show memory usage details
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2856
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2856
 
 #### memory(subcommand, key, callback)
 
@@ -15817,7 +15816,7 @@ Estimate the memory usage of a key
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2863
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2863
 
 #### memory(subcommand, key, countToken, count, callback)
 
@@ -15845,7 +15844,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2863
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2864
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2864
 
 ***
 
@@ -15874,7 +15873,7 @@ Get the values of all the given keys
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2871
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2871
 
 #### mget(args)
 
@@ -15894,7 +15893,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2871
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2873
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2873
 
 #### mget(args)
 
@@ -15914,7 +15913,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2873
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2875
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2875
 
 #### mget(args)
 
@@ -15934,7 +15933,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2875
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2877
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2877
 
 ***
 
@@ -15958,7 +15957,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2877
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2872
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2872
 
 #### mgetBuffer(args)
 
@@ -15978,7 +15977,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2872
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2874
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2874
 
 #### mgetBuffer(args)
 
@@ -15998,7 +15997,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2874
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2876
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2876
 
 #### mgetBuffer(args)
 
@@ -16018,7 +16017,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2876
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2878
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2878
 
 ***
 
@@ -16047,7 +16046,7 @@ Atomically transfer a key from a Redis instance to another one.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2885
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2885
 
 #### migrate(args)
 
@@ -16067,7 +16066,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2885
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2891
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2891
 
 ***
 
@@ -16098,7 +16097,7 @@ Show helpful text about the different subcommands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2902
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2902
 
 #### module(subcommand, callback)
 
@@ -16125,7 +16124,7 @@ List all modules loaded by the server
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2909
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2909
 
 #### module(subcommand, path, callback)
 
@@ -16154,7 +16153,7 @@ Load a module
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2916
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2916
 
 #### module(args)
 
@@ -16174,7 +16173,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2916
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2917
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2917
 
 #### module(args)
 
@@ -16194,7 +16193,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2917
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2923
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2923
 
 #### module(subcommand, path, callback)
 
@@ -16223,7 +16222,7 @@ Load a module with extended parameters
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2934
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2934
 
 #### module(args)
 
@@ -16243,7 +16242,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2934
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2935
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2935
 
 #### module(args)
 
@@ -16263,7 +16262,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2935
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2942
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2942
 
 #### module(args)
 
@@ -16283,7 +16282,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2942
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2948
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2948
 
 #### module(args)
 
@@ -16303,7 +16302,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2948
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2955
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2955
 
 #### module(args)
 
@@ -16323,7 +16322,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2955
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2961
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2961
 
 #### module(args)
 
@@ -16343,7 +16342,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2961
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2968
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2968
 
 #### module(subcommand, name, callback)
 
@@ -16372,7 +16371,7 @@ Unload a module
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2980
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2980
 
 ***
 
@@ -16421,7 +16420,7 @@ redis.monitor().then(function (monitor) {
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:144
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:144
 
 ***
 
@@ -16452,7 +16451,7 @@ Move a key to another database
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2987
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2987
 
 ***
 
@@ -16483,7 +16482,7 @@ Set multiple keys to multiple values
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2994
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2994
 
 #### mset(map, callback)
 
@@ -16505,7 +16504,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2994
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2995
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2995
 
 #### mset(args)
 
@@ -16525,7 +16524,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2995
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:2996
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:2996
 
 #### mset(args)
 
@@ -16545,7 +16544,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:2996
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3000
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3000
 
 ***
 
@@ -16576,7 +16575,7 @@ Set multiple keys to multiple values, only if none of the keys exist
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3007
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3007
 
 #### msetnx(map, callback)
 
@@ -16598,7 +16597,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3007
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3008
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3008
 
 #### msetnx(args)
 
@@ -16618,7 +16617,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3008
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3009
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3009
 
 #### msetnx(args)
 
@@ -16638,7 +16637,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3009
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3013
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3013
 
 ***
 
@@ -16664,7 +16663,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3013
 
 ##### Defined in
 
-node\_modules/ioredis/built/transaction.d.ts:4
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/transaction.d.ts:4
 
 #### multi()
 
@@ -16680,7 +16679,7 @@ node\_modules/ioredis/built/transaction.d.ts:4
 
 ##### Defined in
 
-node\_modules/ioredis/built/transaction.d.ts:7
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/transaction.d.ts:7
 
 #### multi(options)
 
@@ -16702,7 +16701,7 @@ node\_modules/ioredis/built/transaction.d.ts:7
 
 ##### Defined in
 
-node\_modules/ioredis/built/transaction.d.ts:8
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/transaction.d.ts:8
 
 #### multi(commands)
 
@@ -16722,7 +16721,7 @@ node\_modules/ioredis/built/transaction.d.ts:8
 
 ##### Defined in
 
-node\_modules/ioredis/built/transaction.d.ts:11
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/transaction.d.ts:11
 
 ***
 
@@ -16755,7 +16754,7 @@ Inspect the internal encoding of a Redis object
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3020
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3020
 
 #### object(subcommand, key, callback)
 
@@ -16784,7 +16783,7 @@ Get the logarithmic access frequency counter of a Redis object
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3027
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3027
 
 #### object(subcommand, callback)
 
@@ -16811,7 +16810,7 @@ Show helpful text about the different subcommands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3034
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3034
 
 #### object(subcommand, key, callback)
 
@@ -16840,7 +16839,7 @@ Get the time since a Redis object was last accessed
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3041
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3041
 
 #### object(subcommand, key, callback)
 
@@ -16869,7 +16868,7 @@ Get the number of references to the value of the key
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3048
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3048
 
 ***
 
@@ -16903,7 +16902,7 @@ v10.0.0
 
 #### Defined in
 
-node\_modules/@types/node/events.d.ts:747
+node\_modules/.pnpm/@types+node@16.18.119/node\_modules/@types/node/events.d.ts:535
 
 ***
 
@@ -16913,10 +16912,10 @@ node\_modules/@types/node/events.d.ts:747
 
 > **on**(`event`, `cb`): `this`
 
-Adds the `listener` function to the end of the listeners array for the event
-named `eventName`. No checks are made to see if the `listener` has already
-been added. Multiple calls passing the same combination of `eventName` and
-`listener` will result in the `listener` being added, and called, multiple times.
+Adds the `listener` function to the end of the listeners array for the
+event named `eventName`. No checks are made to see if the `listener` has
+already been added. Multiple calls passing the same combination of `eventName` and `listener` will result in the `listener` being added, and called, multiple
+times.
 
 ```js
 server.on('connection', (stream) => {
@@ -16926,11 +16925,10 @@ server.on('connection', (stream) => {
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
-By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
+By default, event listeners are invoked in the order they are added. The`emitter.prependListener()` method can be used as an alternative to add the
 event listener to the beginning of the listeners array.
 
 ```js
-import { EventEmitter } from 'node:events';
 const myEE = new EventEmitter();
 myEE.on('foo', () => console.log('a'));
 myEE.prependListener('foo', () => console.log('b'));
@@ -16960,16 +16958,16 @@ v0.1.101
 
 ##### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:212
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:212
 
 #### on(event, cb)
 
 > **on**(`event`, `cb`): `this`
 
-Adds the `listener` function to the end of the listeners array for the event
-named `eventName`. No checks are made to see if the `listener` has already
-been added. Multiple calls passing the same combination of `eventName` and
-`listener` will result in the `listener` being added, and called, multiple times.
+Adds the `listener` function to the end of the listeners array for the
+event named `eventName`. No checks are made to see if the `listener` has
+already been added. Multiple calls passing the same combination of `eventName` and `listener` will result in the `listener` being added, and called, multiple
+times.
 
 ```js
 server.on('connection', (stream) => {
@@ -16979,11 +16977,10 @@ server.on('connection', (stream) => {
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
-By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
+By default, event listeners are invoked in the order they are added. The`emitter.prependListener()` method can be used as an alternative to add the
 event listener to the beginning of the listeners array.
 
 ```js
-import { EventEmitter } from 'node:events';
 const myEE = new EventEmitter();
 myEE.on('foo', () => console.log('a'));
 myEE.prependListener('foo', () => console.log('b'));
@@ -17013,16 +17010,16 @@ v0.1.101
 
 ##### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:214
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:214
 
 #### on(event, cb)
 
 > **on**(`event`, `cb`): `this`
 
-Adds the `listener` function to the end of the listeners array for the event
-named `eventName`. No checks are made to see if the `listener` has already
-been added. Multiple calls passing the same combination of `eventName` and
-`listener` will result in the `listener` being added, and called, multiple times.
+Adds the `listener` function to the end of the listeners array for the
+event named `eventName`. No checks are made to see if the `listener` has
+already been added. Multiple calls passing the same combination of `eventName` and `listener` will result in the `listener` being added, and called, multiple
+times.
 
 ```js
 server.on('connection', (stream) => {
@@ -17032,11 +17029,10 @@ server.on('connection', (stream) => {
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
-By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
+By default, event listeners are invoked in the order they are added. The`emitter.prependListener()` method can be used as an alternative to add the
 event listener to the beginning of the listeners array.
 
 ```js
-import { EventEmitter } from 'node:events';
 const myEE = new EventEmitter();
 myEE.on('foo', () => console.log('a'));
 myEE.prependListener('foo', () => console.log('b'));
@@ -17066,16 +17062,16 @@ v0.1.101
 
 ##### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:216
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:216
 
 #### on(event, cb)
 
 > **on**(`event`, `cb`): `this`
 
-Adds the `listener` function to the end of the listeners array for the event
-named `eventName`. No checks are made to see if the `listener` has already
-been added. Multiple calls passing the same combination of `eventName` and
-`listener` will result in the `listener` being added, and called, multiple times.
+Adds the `listener` function to the end of the listeners array for the
+event named `eventName`. No checks are made to see if the `listener` has
+already been added. Multiple calls passing the same combination of `eventName` and `listener` will result in the `listener` being added, and called, multiple
+times.
 
 ```js
 server.on('connection', (stream) => {
@@ -17085,11 +17081,10 @@ server.on('connection', (stream) => {
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
-By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
+By default, event listeners are invoked in the order they are added. The`emitter.prependListener()` method can be used as an alternative to add the
 event listener to the beginning of the listeners array.
 
 ```js
-import { EventEmitter } from 'node:events';
 const myEE = new EventEmitter();
 myEE.on('foo', () => console.log('a'));
 myEE.prependListener('foo', () => console.log('b'));
@@ -17119,16 +17114,16 @@ v0.1.101
 
 ##### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:218
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:218
 
 #### on(event, cb)
 
 > **on**(`event`, `cb`): `this`
 
-Adds the `listener` function to the end of the listeners array for the event
-named `eventName`. No checks are made to see if the `listener` has already
-been added. Multiple calls passing the same combination of `eventName` and
-`listener` will result in the `listener` being added, and called, multiple times.
+Adds the `listener` function to the end of the listeners array for the
+event named `eventName`. No checks are made to see if the `listener` has
+already been added. Multiple calls passing the same combination of `eventName` and `listener` will result in the `listener` being added, and called, multiple
+times.
 
 ```js
 server.on('connection', (stream) => {
@@ -17138,11 +17133,10 @@ server.on('connection', (stream) => {
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
-By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
+By default, event listeners are invoked in the order they are added. The`emitter.prependListener()` method can be used as an alternative to add the
 event listener to the beginning of the listeners array.
 
 ```js
-import { EventEmitter } from 'node:events';
 const myEE = new EventEmitter();
 myEE.on('foo', () => console.log('a'));
 myEE.prependListener('foo', () => console.log('b'));
@@ -17172,16 +17166,16 @@ v0.1.101
 
 ##### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:220
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:220
 
 #### on(event, cb)
 
 > **on**(`event`, `cb`): `this`
 
-Adds the `listener` function to the end of the listeners array for the event
-named `eventName`. No checks are made to see if the `listener` has already
-been added. Multiple calls passing the same combination of `eventName` and
-`listener` will result in the `listener` being added, and called, multiple times.
+Adds the `listener` function to the end of the listeners array for the
+event named `eventName`. No checks are made to see if the `listener` has
+already been added. Multiple calls passing the same combination of `eventName` and `listener` will result in the `listener` being added, and called, multiple
+times.
 
 ```js
 server.on('connection', (stream) => {
@@ -17191,11 +17185,10 @@ server.on('connection', (stream) => {
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
-By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
+By default, event listeners are invoked in the order they are added. The`emitter.prependListener()` method can be used as an alternative to add the
 event listener to the beginning of the listeners array.
 
 ```js
-import { EventEmitter } from 'node:events';
 const myEE = new EventEmitter();
 myEE.on('foo', () => console.log('a'));
 myEE.prependListener('foo', () => console.log('b'));
@@ -17225,16 +17218,16 @@ v0.1.101
 
 ##### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:222
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:222
 
 #### on(event, listener)
 
 > **on**(`event`, `listener`): `this`
 
-Adds the `listener` function to the end of the listeners array for the event
-named `eventName`. No checks are made to see if the `listener` has already
-been added. Multiple calls passing the same combination of `eventName` and
-`listener` will result in the `listener` being added, and called, multiple times.
+Adds the `listener` function to the end of the listeners array for the
+event named `eventName`. No checks are made to see if the `listener` has
+already been added. Multiple calls passing the same combination of `eventName` and `listener` will result in the `listener` being added, and called, multiple
+times.
 
 ```js
 server.on('connection', (stream) => {
@@ -17244,11 +17237,10 @@ server.on('connection', (stream) => {
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
-By default, event listeners are invoked in the order they are added. The `emitter.prependListener()` method can be used as an alternative to add the
+By default, event listeners are invoked in the order they are added. The`emitter.prependListener()` method can be used as an alternative to add the
 event listener to the beginning of the listeners array.
 
 ```js
-import { EventEmitter } from 'node:events';
 const myEE = new EventEmitter();
 myEE.on('foo', () => console.log('a'));
 myEE.prependListener('foo', () => console.log('b'));
@@ -17280,7 +17272,7 @@ v0.1.101
 
 ##### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:224
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:224
 
 ***
 
@@ -17290,7 +17282,7 @@ node\_modules/ioredis/built/Redis.d.ts:224
 
 > **once**(`event`, `cb`): `this`
 
-Adds a **one-time** `listener` function for the event named `eventName`. The
+Adds a **one-time**`listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
 
 ```js
@@ -17301,11 +17293,10 @@ server.once('connection', (stream) => {
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
-By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
+By default, event listeners are invoked in the order they are added. The`emitter.prependOnceListener()` method can be used as an alternative to add the
 event listener to the beginning of the listeners array.
 
 ```js
-import { EventEmitter } from 'node:events';
 const myEE = new EventEmitter();
 myEE.once('foo', () => console.log('a'));
 myEE.prependOnceListener('foo', () => console.log('b'));
@@ -17335,13 +17326,13 @@ v0.3.0
 
 ##### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:213
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:213
 
 #### once(event, cb)
 
 > **once**(`event`, `cb`): `this`
 
-Adds a **one-time** `listener` function for the event named `eventName`. The
+Adds a **one-time**`listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
 
 ```js
@@ -17352,11 +17343,10 @@ server.once('connection', (stream) => {
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
-By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
+By default, event listeners are invoked in the order they are added. The`emitter.prependOnceListener()` method can be used as an alternative to add the
 event listener to the beginning of the listeners array.
 
 ```js
-import { EventEmitter } from 'node:events';
 const myEE = new EventEmitter();
 myEE.once('foo', () => console.log('a'));
 myEE.prependOnceListener('foo', () => console.log('b'));
@@ -17386,13 +17376,13 @@ v0.3.0
 
 ##### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:215
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:215
 
 #### once(event, cb)
 
 > **once**(`event`, `cb`): `this`
 
-Adds a **one-time** `listener` function for the event named `eventName`. The
+Adds a **one-time**`listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
 
 ```js
@@ -17403,11 +17393,10 @@ server.once('connection', (stream) => {
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
-By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
+By default, event listeners are invoked in the order they are added. The`emitter.prependOnceListener()` method can be used as an alternative to add the
 event listener to the beginning of the listeners array.
 
 ```js
-import { EventEmitter } from 'node:events';
 const myEE = new EventEmitter();
 myEE.once('foo', () => console.log('a'));
 myEE.prependOnceListener('foo', () => console.log('b'));
@@ -17437,13 +17426,13 @@ v0.3.0
 
 ##### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:217
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:217
 
 #### once(event, cb)
 
 > **once**(`event`, `cb`): `this`
 
-Adds a **one-time** `listener` function for the event named `eventName`. The
+Adds a **one-time**`listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
 
 ```js
@@ -17454,11 +17443,10 @@ server.once('connection', (stream) => {
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
-By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
+By default, event listeners are invoked in the order they are added. The`emitter.prependOnceListener()` method can be used as an alternative to add the
 event listener to the beginning of the listeners array.
 
 ```js
-import { EventEmitter } from 'node:events';
 const myEE = new EventEmitter();
 myEE.once('foo', () => console.log('a'));
 myEE.prependOnceListener('foo', () => console.log('b'));
@@ -17488,13 +17476,13 @@ v0.3.0
 
 ##### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:219
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:219
 
 #### once(event, cb)
 
 > **once**(`event`, `cb`): `this`
 
-Adds a **one-time** `listener` function for the event named `eventName`. The
+Adds a **one-time**`listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
 
 ```js
@@ -17505,11 +17493,10 @@ server.once('connection', (stream) => {
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
-By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
+By default, event listeners are invoked in the order they are added. The`emitter.prependOnceListener()` method can be used as an alternative to add the
 event listener to the beginning of the listeners array.
 
 ```js
-import { EventEmitter } from 'node:events';
 const myEE = new EventEmitter();
 myEE.once('foo', () => console.log('a'));
 myEE.prependOnceListener('foo', () => console.log('b'));
@@ -17539,13 +17526,13 @@ v0.3.0
 
 ##### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:221
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:221
 
 #### once(event, cb)
 
 > **once**(`event`, `cb`): `this`
 
-Adds a **one-time** `listener` function for the event named `eventName`. The
+Adds a **one-time**`listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
 
 ```js
@@ -17556,11 +17543,10 @@ server.once('connection', (stream) => {
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
-By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
+By default, event listeners are invoked in the order they are added. The`emitter.prependOnceListener()` method can be used as an alternative to add the
 event listener to the beginning of the listeners array.
 
 ```js
-import { EventEmitter } from 'node:events';
 const myEE = new EventEmitter();
 myEE.once('foo', () => console.log('a'));
 myEE.prependOnceListener('foo', () => console.log('b'));
@@ -17590,13 +17576,13 @@ v0.3.0
 
 ##### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:223
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:223
 
 #### once(event, listener)
 
 > **once**(`event`, `listener`): `this`
 
-Adds a **one-time** `listener` function for the event named `eventName`. The
+Adds a **one-time**`listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
 
 ```js
@@ -17607,11 +17593,10 @@ server.once('connection', (stream) => {
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
-By default, event listeners are invoked in the order they are added. The `emitter.prependOnceListener()` method can be used as an alternative to add the
+By default, event listeners are invoked in the order they are added. The`emitter.prependOnceListener()` method can be used as an alternative to add the
 event listener to the beginning of the listeners array.
 
 ```js
-import { EventEmitter } from 'node:events';
 const myEE = new EventEmitter();
 myEE.once('foo', () => console.log('a'));
 myEE.prependOnceListener('foo', () => console.log('b'));
@@ -17643,7 +17628,7 @@ v0.3.0
 
 ##### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:225
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:225
 
 ***
 
@@ -17672,7 +17657,7 @@ Remove the expiration from a key
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3055
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3055
 
 ***
 
@@ -17705,7 +17690,7 @@ Set a key's time to live in milliseconds
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3062
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3062
 
 #### pexpire(key, milliseconds, nx, callback)
 
@@ -17731,7 +17716,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3062
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3063
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3063
 
 #### pexpire(key, milliseconds, xx, callback)
 
@@ -17757,7 +17742,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3063
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3064
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3064
 
 #### pexpire(key, milliseconds, gt, callback)
 
@@ -17783,7 +17768,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3064
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3065
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3065
 
 #### pexpire(key, milliseconds, lt, callback)
 
@@ -17809,7 +17794,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3065
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3066
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3066
 
 ***
 
@@ -17842,7 +17827,7 @@ Set the expiration for a key as a UNIX timestamp specified in milliseconds
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3073
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3073
 
 #### pexpireat(key, unixTimeMilliseconds, nx, callback)
 
@@ -17868,7 +17853,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3073
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3074
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3074
 
 #### pexpireat(key, unixTimeMilliseconds, xx, callback)
 
@@ -17894,7 +17879,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3074
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3075
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3075
 
 #### pexpireat(key, unixTimeMilliseconds, gt, callback)
 
@@ -17920,7 +17905,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3075
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3076
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3076
 
 #### pexpireat(key, unixTimeMilliseconds, lt, callback)
 
@@ -17946,7 +17931,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3076
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3077
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3077
 
 ***
 
@@ -17975,7 +17960,7 @@ Get the expiration Unix timestamp for a key in milliseconds
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3084
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3084
 
 ***
 
@@ -18006,7 +17991,7 @@ Adds the specified elements to the specified HyperLogLog.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3091
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3091
 
 #### pfadd(args)
 
@@ -18026,7 +18011,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3091
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3092
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3092
 
 #### pfadd(args)
 
@@ -18046,7 +18031,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3092
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3097
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3097
 
 ***
 
@@ -18075,7 +18060,7 @@ Return the approximated cardinality of the set(s) observed by the HyperLogLog at
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3104
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3104
 
 #### pfcount(args)
 
@@ -18095,7 +18080,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3104
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3105
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3105
 
 #### pfcount(args)
 
@@ -18115,7 +18100,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3105
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3106
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3106
 
 #### pfcount(args)
 
@@ -18135,7 +18120,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3106
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3107
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3107
 
 ***
 
@@ -18166,7 +18151,7 @@ Internal commands for debugging HyperLogLog values
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3114
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3114
 
 ***
 
@@ -18195,7 +18180,7 @@ Merge N different HyperLogLogs into a single one.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3121
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3121
 
 #### pfmerge(args)
 
@@ -18215,7 +18200,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3121
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3126
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3126
 
 #### pfmerge(args)
 
@@ -18235,7 +18220,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3126
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3131
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3131
 
 #### pfmerge(args)
 
@@ -18255,7 +18240,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3131
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3132
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3132
 
 ***
 
@@ -18282,7 +18267,7 @@ An internal command for testing HyperLogLog values
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3139
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3139
 
 ***
 
@@ -18311,7 +18296,7 @@ Ping the server
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3146
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3146
 
 #### ping(message, callback)
 
@@ -18333,7 +18318,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3146
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3147
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3147
 
 ***
 
@@ -18357,7 +18342,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3147
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3148
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3148
 
 ***
 
@@ -18379,7 +18364,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3148
 
 #### Defined in
 
-node\_modules/ioredis/built/transaction.d.ts:3
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/transaction.d.ts:3
 
 ***
 
@@ -18389,8 +18374,8 @@ node\_modules/ioredis/built/transaction.d.ts:3
 
 Adds the `listener` function to the _beginning_ of the listeners array for the
 event named `eventName`. No checks are made to see if the `listener` has
-already been added. Multiple calls passing the same combination of `eventName`
-and `listener` will result in the `listener` being added, and called, multiple times.
+already been added. Multiple calls passing the same combination of `eventName` and `listener` will result in the `listener` being added, and called, multiple
+times.
 
 ```js
 server.prependListener('connection', (stream) => {
@@ -18428,7 +18413,7 @@ v6.0.0
 
 #### Defined in
 
-node\_modules/@types/node/events.d.ts:886
+node\_modules/.pnpm/@types+node@16.18.119/node\_modules/@types/node/events.d.ts:670
 
 ***
 
@@ -18436,7 +18421,7 @@ node\_modules/@types/node/events.d.ts:886
 
 > **prependOnceListener**\<`K`\>(`eventName`, `listener`): `this`
 
-Adds a **one-time**`listener` function for the event named `eventName` to the _beginning_ of the listeners array. The next time `eventName` is triggered, this
+Adds a **one-time**`listener` function for the event named `eventName` to the_beginning_ of the listeners array. The next time `eventName` is triggered, this
 listener is removed, and then invoked.
 
 ```js
@@ -18475,7 +18460,7 @@ v6.0.0
 
 #### Defined in
 
-node\_modules/@types/node/events.d.ts:902
+node\_modules/.pnpm/@types+node@16.18.119/node\_modules/@types/node/events.d.ts:686
 
 ***
 
@@ -18508,7 +18493,7 @@ Set the value and expiration in milliseconds of a key
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3155
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3155
 
 ***
 
@@ -18537,7 +18522,7 @@ Listen for messages published to channels matching the given patterns
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3162
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3162
 
 #### psubscribe(args)
 
@@ -18557,7 +18542,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3162
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3163
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3163
 
 ***
 
@@ -18588,7 +18573,7 @@ Internal command used for replication
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3170
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3170
 
 ***
 
@@ -18617,7 +18602,7 @@ Get the time to live for a key in milliseconds
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3177
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3177
 
 ***
 
@@ -18648,7 +18633,7 @@ Post a message to a channel
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3184
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3184
 
 ***
 
@@ -18679,7 +18664,7 @@ List active channels
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3191
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3191
 
 #### pubsub(subcommand, pattern, callback)
 
@@ -18703,7 +18688,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3191
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3192
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3192
 
 #### pubsub(subcommand, callback)
 
@@ -18730,7 +18715,7 @@ Show helpful text about the different subcommands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3199
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3199
 
 #### pubsub(subcommand, callback)
 
@@ -18757,7 +18742,7 @@ Get the count of unique patterns pattern subscriptions
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3206
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3206
 
 #### pubsub(subcommand, callback)
 
@@ -18784,7 +18769,7 @@ Get the count of subscribers for channels
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3213
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3213
 
 #### pubsub(args)
 
@@ -18804,7 +18789,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3213
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3214
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3214
 
 #### pubsub(args)
 
@@ -18824,7 +18809,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3214
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3219
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3219
 
 #### pubsub(subcommand, callback)
 
@@ -18851,7 +18836,7 @@ List active shard channels
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3226
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3226
 
 #### pubsub(subcommand, pattern, callback)
 
@@ -18875,7 +18860,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3226
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3227
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3227
 
 #### pubsub(subcommand, callback)
 
@@ -18902,7 +18887,7 @@ Get the count of subscribers for shard channels
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3234
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3234
 
 #### pubsub(args)
 
@@ -18922,7 +18907,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3234
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3235
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3235
 
 #### pubsub(args)
 
@@ -18942,7 +18927,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3235
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3240
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3240
 
 ***
 
@@ -18971,7 +18956,7 @@ Stop listening for messages posted to channels matching the given patterns
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3247
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3247
 
 #### punsubscribe(args)
 
@@ -18991,7 +18976,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3247
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3248
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3248
 
 #### punsubscribe(args)
 
@@ -19011,7 +18996,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3248
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3249
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3249
 
 ***
 
@@ -19038,7 +19023,7 @@ Close the connection
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3256
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3256
 
 ***
 
@@ -19065,7 +19050,7 @@ Return a random key from the keyspace
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3263
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3263
 
 ***
 
@@ -19087,7 +19072,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3263
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3264
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3264
 
 ***
 
@@ -19099,7 +19084,6 @@ Returns a copy of the array of listeners for the event named `eventName`,
 including any wrappers (such as those created by `.once()`).
 
 ```js
-import { EventEmitter } from 'node:events';
 const emitter = new EventEmitter();
 emitter.once('log', () => console.log('log once'));
 
@@ -19145,7 +19129,7 @@ v9.4.0
 
 #### Defined in
 
-node\_modules/@types/node/events.d.ts:818
+node\_modules/.pnpm/@types+node@16.18.119/node\_modules/@types/node/events.d.ts:605
 
 ***
 
@@ -19172,7 +19156,7 @@ Enables read queries for a connection to a cluster replica node
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3271
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3271
 
 ***
 
@@ -19199,13 +19183,13 @@ Disables read queries for a connection to a cluster replica node
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3278
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3278
 
 ***
 
 ### removeAllListeners()
 
-> **removeAllListeners**(`eventName`?): `this`
+> **removeAllListeners**(`event`?): `this`
 
 Removes all listeners, or those of the specified `eventName`.
 
@@ -19217,7 +19201,7 @@ Returns a reference to the `EventEmitter`, so that calls can be chained.
 
 #### Parameters
 
-• **eventName?**: `string` \| `symbol`
+• **event?**: `string` \| `symbol`
 
 #### Returns
 
@@ -19233,7 +19217,7 @@ v0.1.26
 
 #### Defined in
 
-node\_modules/@types/node/events.d.ts:758
+node\_modules/.pnpm/@types+node@16.18.119/node\_modules/@types/node/events.d.ts:546
 
 ***
 
@@ -19241,7 +19225,7 @@ node\_modules/@types/node/events.d.ts:758
 
 > **removeListener**\<`K`\>(`eventName`, `listener`): `this`
 
-Removes the specified `listener` from the listener array for the event named `eventName`.
+Removes the specified `listener` from the listener array for the event named`eventName`.
 
 ```js
 const callback = (stream) => {
@@ -19258,12 +19242,10 @@ listener array for the specified `eventName`, then `removeListener()` must be
 called multiple times to remove each instance.
 
 Once an event is emitted, all listeners attached to it at the
-time of emitting are called in order. This implies that any `removeListener()` or `removeAllListeners()` calls _after_ emitting and _before_ the last listener finishes execution
-will not remove them from`emit()` in progress. Subsequent events behave as expected.
+time of emitting are called in order. This implies that any`removeListener()` or `removeAllListeners()` calls _after_ emitting and_before_ the last listener finishes execution will
+not remove them from`emit()` in progress. Subsequent events behave as expected.
 
 ```js
-import { EventEmitter } from 'node:events';
-class MyEmitter extends EventEmitter {}
 const myEmitter = new MyEmitter();
 
 const callbackA = () => {
@@ -19301,10 +19283,9 @@ the `emitter.listeners()` method will need to be recreated.
 
 When a single function has been added as a handler multiple times for a single
 event (as in the example below), `removeListener()` will remove the most
-recently added instance. In the example the `once('ping')` listener is removed:
+recently added instance. In the example the `once('ping')`listener is removed:
 
 ```js
-import { EventEmitter } from 'node:events';
 const ee = new EventEmitter();
 
 function pong() {
@@ -19345,7 +19326,7 @@ v0.1.26
 
 #### Defined in
 
-node\_modules/@types/node/events.d.ts:742
+node\_modules/.pnpm/@types+node@16.18.119/node\_modules/@types/node/events.d.ts:530
 
 ***
 
@@ -19376,7 +19357,7 @@ Rename a key
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3285
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3285
 
 ***
 
@@ -19407,7 +19388,7 @@ Rename a key, only if the new key does not exist
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3292
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3292
 
 ***
 
@@ -19434,7 +19415,7 @@ An internal command for configuring the replication stream
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3299
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3299
 
 ***
 
@@ -19465,7 +19446,7 @@ Make the server a replica of another instance, or promote it as master.
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3306
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3306
 
 ***
 
@@ -19492,7 +19473,7 @@ Reset the connection
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3313
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3313
 
 ***
 
@@ -19527,7 +19508,7 @@ Create a key using the provided serialized value, previously obtained using DUMP
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3320
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3320
 
 #### restore(key, ttl, serializedValue, frequencyToken, frequency, callback)
 
@@ -19557,7 +19538,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3320
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3321
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3321
 
 #### restore(key, ttl, serializedValue, secondsToken, seconds, callback)
 
@@ -19587,7 +19568,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3321
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3322
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3322
 
 #### restore(key, ttl, serializedValue, secondsToken, seconds, frequencyToken, frequency, callback)
 
@@ -19621,7 +19602,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3322
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3323
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3323
 
 #### restore(key, ttl, serializedValue, absttl, callback)
 
@@ -19649,7 +19630,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3323
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3324
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3324
 
 #### restore(key, ttl, serializedValue, absttl, frequencyToken, frequency, callback)
 
@@ -19681,7 +19662,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3324
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3325
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3325
 
 #### restore(key, ttl, serializedValue, absttl, secondsToken, seconds, callback)
 
@@ -19713,7 +19694,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3325
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3326
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3326
 
 #### restore(key, ttl, serializedValue, absttl, secondsToken, seconds, frequencyToken, frequency, callback)
 
@@ -19749,7 +19730,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3326
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3327
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3327
 
 #### restore(key, ttl, serializedValue, replace, callback)
 
@@ -19777,7 +19758,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3327
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3328
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3328
 
 #### restore(key, ttl, serializedValue, replace, frequencyToken, frequency, callback)
 
@@ -19809,7 +19790,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3328
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3329
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3329
 
 #### restore(key, ttl, serializedValue, replace, secondsToken, seconds, callback)
 
@@ -19841,7 +19822,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3329
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3330
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3330
 
 #### restore(key, ttl, serializedValue, replace, secondsToken, seconds, frequencyToken, frequency, callback)
 
@@ -19877,7 +19858,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3330
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3331
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3331
 
 #### restore(key, ttl, serializedValue, replace, absttl, callback)
 
@@ -19907,7 +19888,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3331
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3332
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3332
 
 #### restore(key, ttl, serializedValue, replace, absttl, frequencyToken, frequency, callback)
 
@@ -19941,7 +19922,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3332
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3333
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3333
 
 #### restore(key, ttl, serializedValue, replace, absttl, secondsToken, seconds, callback)
 
@@ -19975,7 +19956,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3333
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3334
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3334
 
 #### restore(key, ttl, serializedValue, replace, absttl, secondsToken, seconds, frequencyToken, frequency, callback)
 
@@ -20013,7 +19994,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3334
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3335
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3335
 
 ***
 
@@ -20048,7 +20029,7 @@ An internal command for migrating keys in a cluster
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3342
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3342
 
 #### restore-asking(key, ttl, serializedValue, frequencyToken, frequency, callback)
 
@@ -20078,7 +20059,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3342
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3343
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3343
 
 #### restore-asking(key, ttl, serializedValue, secondsToken, seconds, callback)
 
@@ -20108,7 +20089,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3343
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3344
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3344
 
 #### restore-asking(key, ttl, serializedValue, secondsToken, seconds, frequencyToken, frequency, callback)
 
@@ -20142,7 +20123,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3344
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3345
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3345
 
 #### restore-asking(key, ttl, serializedValue, absttl, callback)
 
@@ -20170,7 +20151,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3345
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3346
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3346
 
 #### restore-asking(key, ttl, serializedValue, absttl, frequencyToken, frequency, callback)
 
@@ -20202,7 +20183,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3346
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3347
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3347
 
 #### restore-asking(key, ttl, serializedValue, absttl, secondsToken, seconds, callback)
 
@@ -20234,7 +20215,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3347
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3348
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3348
 
 #### restore-asking(key, ttl, serializedValue, absttl, secondsToken, seconds, frequencyToken, frequency, callback)
 
@@ -20270,7 +20251,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3348
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3349
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3349
 
 #### restore-asking(key, ttl, serializedValue, replace, callback)
 
@@ -20298,7 +20279,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3349
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3350
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3350
 
 #### restore-asking(key, ttl, serializedValue, replace, frequencyToken, frequency, callback)
 
@@ -20330,7 +20311,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3350
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3351
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3351
 
 #### restore-asking(key, ttl, serializedValue, replace, secondsToken, seconds, callback)
 
@@ -20362,7 +20343,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3351
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3352
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3352
 
 #### restore-asking(key, ttl, serializedValue, replace, secondsToken, seconds, frequencyToken, frequency, callback)
 
@@ -20398,7 +20379,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3352
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3353
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3353
 
 #### restore-asking(key, ttl, serializedValue, replace, absttl, callback)
 
@@ -20428,7 +20409,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3353
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3354
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3354
 
 #### restore-asking(key, ttl, serializedValue, replace, absttl, frequencyToken, frequency, callback)
 
@@ -20462,7 +20443,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3354
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3355
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3355
 
 #### restore-asking(key, ttl, serializedValue, replace, absttl, secondsToken, seconds, callback)
 
@@ -20496,7 +20477,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3355
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3356
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3356
 
 #### restore-asking(key, ttl, serializedValue, replace, absttl, secondsToken, seconds, frequencyToken, frequency, callback)
 
@@ -20534,7 +20515,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3356
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3357
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3357
 
 ***
 
@@ -20561,7 +20542,7 @@ Return the role of the instance in the context of replication
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3364
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3364
 
 ***
 
@@ -20592,7 +20573,7 @@ Remove and get the last elements in a list
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3371
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3371
 
 #### rpop(key, count, callback)
 
@@ -20616,7 +20597,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3371
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3373
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3373
 
 ***
 
@@ -20642,7 +20623,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3373
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3372
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3372
 
 #### rpopBuffer(key, count, callback)
 
@@ -20666,7 +20647,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3372
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3374
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3374
 
 ***
 
@@ -20697,7 +20678,7 @@ Remove the last element in a list, prepend it to another list and return it
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3381
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3381
 
 ***
 
@@ -20723,7 +20704,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3381
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3382
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3382
 
 ***
 
@@ -20752,7 +20733,7 @@ Append one or multiple elements to a list
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3389
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3389
 
 #### rpush(args)
 
@@ -20772,7 +20753,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3389
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3394
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3394
 
 ***
 
@@ -20801,7 +20782,7 @@ Append an element to a list, only if the list exists
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3401
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3401
 
 #### rpushx(args)
 
@@ -20821,7 +20802,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3401
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3406
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3406
 
 ***
 
@@ -20850,7 +20831,7 @@ Add one or more members to a set
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3413
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3413
 
 #### sadd(args)
 
@@ -20870,7 +20851,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3413
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3418
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3418
 
 #### sadd(args)
 
@@ -20890,7 +20871,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3418
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3423
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3423
 
 #### sadd(args)
 
@@ -20910,7 +20891,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3423
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3424
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3424
 
 ***
 
@@ -20937,7 +20918,7 @@ Synchronously save the dataset to disk
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3431
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3431
 
 ***
 
@@ -20968,7 +20949,7 @@ Incrementally iterate the keys space
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3438
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3438
 
 #### scan(cursor, typeToken, type, callback)
 
@@ -20994,7 +20975,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3438
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3440
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3440
 
 #### scan(cursor, countToken, count, callback)
 
@@ -21020,7 +21001,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3440
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3442
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3442
 
 #### scan(cursor, countToken, count, typeToken, type, callback)
 
@@ -21050,7 +21031,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3442
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3444
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3444
 
 #### scan(cursor, patternToken, pattern, callback)
 
@@ -21076,7 +21057,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3444
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3446
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3446
 
 #### scan(cursor, patternToken, pattern, typeToken, type, callback)
 
@@ -21106,7 +21087,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3446
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3448
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3448
 
 #### scan(cursor, patternToken, pattern, countToken, count, callback)
 
@@ -21136,7 +21117,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3448
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3450
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3450
 
 #### scan(cursor, patternToken, pattern, countToken, count, typeToken, type, callback)
 
@@ -21170,7 +21151,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3450
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3452
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3452
 
 ***
 
@@ -21196,7 +21177,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3452
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3439
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3439
 
 #### scanBuffer(cursor, typeToken, type, callback)
 
@@ -21222,7 +21203,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3439
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3441
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3441
 
 #### scanBuffer(cursor, countToken, count, callback)
 
@@ -21248,7 +21229,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3441
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3443
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3443
 
 #### scanBuffer(cursor, countToken, count, typeToken, type, callback)
 
@@ -21278,7 +21259,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3443
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3445
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3445
 
 #### scanBuffer(cursor, patternToken, pattern, callback)
 
@@ -21304,7 +21285,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3445
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3447
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3447
 
 #### scanBuffer(cursor, patternToken, pattern, typeToken, type, callback)
 
@@ -21334,7 +21315,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3447
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3449
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3449
 
 #### scanBuffer(cursor, patternToken, pattern, countToken, count, callback)
 
@@ -21364,7 +21345,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3449
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3451
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3451
 
 #### scanBuffer(cursor, patternToken, pattern, countToken, count, typeToken, type, callback)
 
@@ -21398,7 +21379,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3451
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3453
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3453
 
 ***
 
@@ -21420,7 +21401,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3453
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:165
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:165
 
 ***
 
@@ -21442,7 +21423,7 @@ node\_modules/ioredis/built/Redis.d.ts:165
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:164
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:164
 
 ***
 
@@ -21471,7 +21452,7 @@ Get the number of members in a set
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3460
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3460
 
 ***
 
@@ -21504,7 +21485,7 @@ Set the debug mode for executed scripts.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3467
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3467
 
 #### script(subcommand, sync, callback)
 
@@ -21528,7 +21509,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3467
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3468
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3468
 
 #### script(subcommand, no, callback)
 
@@ -21552,7 +21533,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3468
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3469
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3469
 
 #### script(args)
 
@@ -21577,7 +21558,7 @@ Check existence of scripts in the script cache.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3476
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3476
 
 #### script(args)
 
@@ -21597,7 +21578,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3476
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3481
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3481
 
 #### script(subcommand, callback)
 
@@ -21624,7 +21605,7 @@ Remove all the scripts from the script cache.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3488
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3488
 
 #### script(subcommand, async, callback)
 
@@ -21648,7 +21629,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3488
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3489
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3489
 
 #### script(subcommand, sync, callback)
 
@@ -21672,7 +21653,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3489
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3490
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3490
 
 #### script(subcommand, callback)
 
@@ -21699,7 +21680,7 @@ Show helpful text about the different subcommands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3497
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3497
 
 #### script(subcommand, callback)
 
@@ -21726,7 +21707,7 @@ Kill the script currently in execution.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3504
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3504
 
 #### script(subcommand, script, callback)
 
@@ -21755,7 +21736,7 @@ Load the specified Lua script into the script cache.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3511
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3511
 
 ***
 
@@ -21784,7 +21765,7 @@ Subtract multiple sets
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3518
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3518
 
 #### sdiff(args)
 
@@ -21804,7 +21785,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3518
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3520
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3520
 
 #### sdiff(args)
 
@@ -21824,7 +21805,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3520
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3522
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3522
 
 #### sdiff(args)
 
@@ -21844,7 +21825,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3522
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3524
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3524
 
 ***
 
@@ -21868,7 +21849,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3524
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3519
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3519
 
 #### sdiffBuffer(args)
 
@@ -21888,7 +21869,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3519
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3521
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3521
 
 #### sdiffBuffer(args)
 
@@ -21908,7 +21889,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3521
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3523
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3523
 
 #### sdiffBuffer(args)
 
@@ -21928,7 +21909,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3523
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3525
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3525
 
 ***
 
@@ -21957,7 +21938,7 @@ Subtract multiple sets and store the resulting set in a key
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3532
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3532
 
 #### sdiffstore(args)
 
@@ -21977,7 +21958,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3532
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3537
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3537
 
 #### sdiffstore(args)
 
@@ -21997,7 +21978,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3537
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3542
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3542
 
 #### sdiffstore(args)
 
@@ -22017,7 +21998,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3542
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3543
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3543
 
 ***
 
@@ -22046,7 +22027,7 @@ Change the selected database for the current connection
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3550
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3550
 
 ***
 
@@ -22079,7 +22060,7 @@ Set the string value of a key
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3557
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3557
 
 #### set(key, value, get, callback)
 
@@ -22105,7 +22086,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3557
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3558
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3558
 
 #### set(key, value, nx, callback)
 
@@ -22131,7 +22112,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3558
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3560
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3560
 
 #### set(key, value, nx, get, callback)
 
@@ -22159,7 +22140,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3560
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3561
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3561
 
 #### set(key, value, xx, callback)
 
@@ -22185,7 +22166,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3561
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3563
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3563
 
 #### set(key, value, xx, get, callback)
 
@@ -22213,7 +22194,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3563
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3564
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3564
 
 #### set(key, value, secondsToken, seconds, callback)
 
@@ -22241,7 +22222,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3564
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3566
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3566
 
 #### set(key, value, secondsToken, seconds, get, callback)
 
@@ -22271,7 +22252,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3566
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3567
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3567
 
 #### set(key, value, secondsToken, seconds, nx, callback)
 
@@ -22301,7 +22282,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3567
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3569
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3569
 
 #### set(key, value, secondsToken, seconds, nx, get, callback)
 
@@ -22333,7 +22314,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3569
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3570
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3570
 
 #### set(key, value, secondsToken, seconds, xx, callback)
 
@@ -22363,7 +22344,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3570
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3572
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3572
 
 #### set(key, value, secondsToken, seconds, xx, get, callback)
 
@@ -22395,7 +22376,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3572
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3573
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3573
 
 #### set(key, value, millisecondsToken, milliseconds, callback)
 
@@ -22423,7 +22404,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3573
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3575
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3575
 
 #### set(key, value, millisecondsToken, milliseconds, get, callback)
 
@@ -22453,7 +22434,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3575
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3576
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3576
 
 #### set(key, value, millisecondsToken, milliseconds, nx, callback)
 
@@ -22483,7 +22464,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3576
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3578
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3578
 
 #### set(key, value, millisecondsToken, milliseconds, nx, get, callback)
 
@@ -22515,7 +22496,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3578
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3579
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3579
 
 #### set(key, value, millisecondsToken, milliseconds, xx, callback)
 
@@ -22545,7 +22526,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3579
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3581
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3581
 
 #### set(key, value, millisecondsToken, milliseconds, xx, get, callback)
 
@@ -22577,7 +22558,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3581
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3582
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3582
 
 #### set(key, value, unixTimeSecondsToken, unixTimeSeconds, callback)
 
@@ -22605,7 +22586,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3582
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3584
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3584
 
 #### set(key, value, unixTimeSecondsToken, unixTimeSeconds, get, callback)
 
@@ -22635,7 +22616,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3584
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3585
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3585
 
 #### set(key, value, unixTimeSecondsToken, unixTimeSeconds, nx, callback)
 
@@ -22665,7 +22646,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3585
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3587
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3587
 
 #### set(key, value, unixTimeSecondsToken, unixTimeSeconds, nx, get, callback)
 
@@ -22697,7 +22678,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3587
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3588
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3588
 
 #### set(key, value, unixTimeSecondsToken, unixTimeSeconds, xx, callback)
 
@@ -22727,7 +22708,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3588
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3590
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3590
 
 #### set(key, value, unixTimeSecondsToken, unixTimeSeconds, xx, get, callback)
 
@@ -22759,7 +22740,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3590
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3591
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3591
 
 #### set(key, value, unixTimeMillisecondsToken, unixTimeMilliseconds, callback)
 
@@ -22787,7 +22768,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3591
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3593
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3593
 
 #### set(key, value, unixTimeMillisecondsToken, unixTimeMilliseconds, get, callback)
 
@@ -22817,7 +22798,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3593
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3594
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3594
 
 #### set(key, value, unixTimeMillisecondsToken, unixTimeMilliseconds, nx, callback)
 
@@ -22847,7 +22828,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3594
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3596
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3596
 
 #### set(key, value, unixTimeMillisecondsToken, unixTimeMilliseconds, nx, get, callback)
 
@@ -22879,7 +22860,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3596
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3597
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3597
 
 #### set(key, value, unixTimeMillisecondsToken, unixTimeMilliseconds, xx, callback)
 
@@ -22909,7 +22890,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3597
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3599
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3599
 
 #### set(key, value, unixTimeMillisecondsToken, unixTimeMilliseconds, xx, get, callback)
 
@@ -22941,7 +22922,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3599
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3600
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3600
 
 #### set(key, value, keepttl, callback)
 
@@ -22967,7 +22948,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3600
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3602
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3602
 
 #### set(key, value, keepttl, get, callback)
 
@@ -22995,7 +22976,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3602
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3603
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3603
 
 #### set(key, value, keepttl, nx, callback)
 
@@ -23023,7 +23004,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3603
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3605
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3605
 
 #### set(key, value, keepttl, nx, get, callback)
 
@@ -23053,7 +23034,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3605
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3606
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3606
 
 #### set(key, value, keepttl, xx, callback)
 
@@ -23081,7 +23062,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3606
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3608
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3608
 
 #### set(key, value, keepttl, xx, get, callback)
 
@@ -23111,7 +23092,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3608
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3609
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3609
 
 ***
 
@@ -23144,7 +23125,7 @@ Sets or clears the bit at offset in the string value stored at key
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3617
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3617
 
 ***
 
@@ -23174,7 +23155,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3617
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3559
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3559
 
 #### setBuffer(key, value, nx, get, callback)
 
@@ -23202,7 +23183,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3559
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3562
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3562
 
 #### setBuffer(key, value, xx, get, callback)
 
@@ -23230,7 +23211,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3562
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3565
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3565
 
 #### setBuffer(key, value, secondsToken, seconds, get, callback)
 
@@ -23260,7 +23241,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3565
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3568
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3568
 
 #### setBuffer(key, value, secondsToken, seconds, nx, get, callback)
 
@@ -23292,7 +23273,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3568
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3571
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3571
 
 #### setBuffer(key, value, secondsToken, seconds, xx, get, callback)
 
@@ -23324,7 +23305,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3571
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3574
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3574
 
 #### setBuffer(key, value, millisecondsToken, milliseconds, get, callback)
 
@@ -23354,7 +23335,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3574
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3577
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3577
 
 #### setBuffer(key, value, millisecondsToken, milliseconds, nx, get, callback)
 
@@ -23386,7 +23367,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3577
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3580
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3580
 
 #### setBuffer(key, value, millisecondsToken, milliseconds, xx, get, callback)
 
@@ -23418,7 +23399,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3580
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3583
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3583
 
 #### setBuffer(key, value, unixTimeSecondsToken, unixTimeSeconds, get, callback)
 
@@ -23448,7 +23429,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3583
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3586
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3586
 
 #### setBuffer(key, value, unixTimeSecondsToken, unixTimeSeconds, nx, get, callback)
 
@@ -23480,7 +23461,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3586
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3589
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3589
 
 #### setBuffer(key, value, unixTimeSecondsToken, unixTimeSeconds, xx, get, callback)
 
@@ -23512,7 +23493,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3589
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3592
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3592
 
 #### setBuffer(key, value, unixTimeMillisecondsToken, unixTimeMilliseconds, get, callback)
 
@@ -23542,7 +23523,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3592
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3595
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3595
 
 #### setBuffer(key, value, unixTimeMillisecondsToken, unixTimeMilliseconds, nx, get, callback)
 
@@ -23574,7 +23555,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3595
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3598
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3598
 
 #### setBuffer(key, value, unixTimeMillisecondsToken, unixTimeMilliseconds, xx, get, callback)
 
@@ -23606,7 +23587,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3598
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3601
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3601
 
 #### setBuffer(key, value, keepttl, get, callback)
 
@@ -23634,7 +23615,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3601
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3604
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3604
 
 #### setBuffer(key, value, keepttl, nx, get, callback)
 
@@ -23664,7 +23645,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3604
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3607
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3607
 
 #### setBuffer(key, value, keepttl, xx, get, callback)
 
@@ -23694,7 +23675,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3607
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3610
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3610
 
 ***
 
@@ -23727,7 +23708,7 @@ Set the value and expiration of a key
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3624
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3624
 
 ***
 
@@ -23738,7 +23719,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3624
 By default `EventEmitter`s will print a warning if more than `10` listeners are
 added for a particular event. This is a useful default that helps finding
 memory leaks. The `emitter.setMaxListeners()` method allows the limit to be
-modified for this specific `EventEmitter` instance. The value can be set to `Infinity` (or `0`) to indicate an unlimited number of listeners.
+modified for this specific `EventEmitter` instance. The value can be set to`Infinity` (or `0`) to indicate an unlimited number of listeners.
 
 Returns a reference to the `EventEmitter`, so that calls can be chained.
 
@@ -23760,7 +23741,7 @@ v0.3.5
 
 #### Defined in
 
-node\_modules/@types/node/events.d.ts:768
+node\_modules/.pnpm/@types+node@16.18.119/node\_modules/@types/node/events.d.ts:556
 
 ***
 
@@ -23791,7 +23772,7 @@ Set the value of a key, only if the key does not exist
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3631
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3631
 
 ***
 
@@ -23824,7 +23805,7 @@ Overwrite part of a string at key starting at the specified offset
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3638
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3638
 
 ***
 
@@ -23853,7 +23834,7 @@ Synchronously save the dataset to disk and then shut down the server
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3645
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3645
 
 #### shutdown(abort, callback)
 
@@ -23875,7 +23856,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3645
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3646
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3646
 
 #### shutdown(force, callback)
 
@@ -23897,7 +23878,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3646
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3647
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3647
 
 #### shutdown(force, abort, callback)
 
@@ -23921,7 +23902,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3647
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3648
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3648
 
 #### shutdown(now, callback)
 
@@ -23943,7 +23924,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3648
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3649
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3649
 
 #### shutdown(now, abort, callback)
 
@@ -23967,7 +23948,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3649
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3650
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3650
 
 #### shutdown(now, force, callback)
 
@@ -23991,7 +23972,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3650
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3651
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3651
 
 #### shutdown(now, force, abort, callback)
 
@@ -24017,7 +23998,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3651
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3652
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3652
 
 #### shutdown(nosave, callback)
 
@@ -24039,7 +24020,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3652
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3653
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3653
 
 #### shutdown(nosave, abort, callback)
 
@@ -24063,7 +24044,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3653
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3654
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3654
 
 #### shutdown(nosave, force, callback)
 
@@ -24087,7 +24068,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3654
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3655
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3655
 
 #### shutdown(nosave, force, abort, callback)
 
@@ -24113,7 +24094,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3655
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3656
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3656
 
 #### shutdown(nosave, now, callback)
 
@@ -24137,7 +24118,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3656
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3657
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3657
 
 #### shutdown(nosave, now, abort, callback)
 
@@ -24163,7 +24144,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3657
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3658
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3658
 
 #### shutdown(nosave, now, force, callback)
 
@@ -24189,7 +24170,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3658
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3659
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3659
 
 #### shutdown(nosave, now, force, abort, callback)
 
@@ -24217,7 +24198,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3659
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3660
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3660
 
 #### shutdown(save, callback)
 
@@ -24239,7 +24220,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3660
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3661
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3661
 
 #### shutdown(save, abort, callback)
 
@@ -24263,7 +24244,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3661
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3662
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3662
 
 #### shutdown(save, force, callback)
 
@@ -24287,7 +24268,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3662
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3663
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3663
 
 #### shutdown(save, force, abort, callback)
 
@@ -24313,7 +24294,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3663
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3664
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3664
 
 #### shutdown(save, now, callback)
 
@@ -24337,7 +24318,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3664
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3665
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3665
 
 #### shutdown(save, now, abort, callback)
 
@@ -24363,7 +24344,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3665
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3666
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3666
 
 #### shutdown(save, now, force, callback)
 
@@ -24389,7 +24370,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3666
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3667
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3667
 
 #### shutdown(save, now, force, abort, callback)
 
@@ -24417,7 +24398,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3667
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3668
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3668
 
 ***
 
@@ -24446,7 +24427,7 @@ Intersect multiple sets
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3675
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3675
 
 #### sinter(args)
 
@@ -24466,7 +24447,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3675
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3677
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3677
 
 #### sinter(args)
 
@@ -24486,7 +24467,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3677
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3679
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3679
 
 #### sinter(args)
 
@@ -24506,7 +24487,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3679
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3681
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3681
 
 ***
 
@@ -24530,7 +24511,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3681
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3676
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3676
 
 #### sinterBuffer(args)
 
@@ -24550,7 +24531,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3676
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3678
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3678
 
 #### sinterBuffer(args)
 
@@ -24570,7 +24551,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3678
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3680
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3680
 
 #### sinterBuffer(args)
 
@@ -24590,7 +24571,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3680
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3682
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3682
 
 ***
 
@@ -24619,7 +24600,7 @@ Intersect multiple sets and return the cardinality of the result
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3689
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3689
 
 #### sintercard(args)
 
@@ -24639,7 +24620,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3689
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3694
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3694
 
 #### sintercard(args)
 
@@ -24659,7 +24640,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3694
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3699
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3699
 
 #### sintercard(args)
 
@@ -24679,7 +24660,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3699
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3700
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3700
 
 #### sintercard(args)
 
@@ -24699,7 +24680,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3700
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3701
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3701
 
 #### sintercard(args)
 
@@ -24719,7 +24700,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3701
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3708
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3708
 
 #### sintercard(args)
 
@@ -24739,7 +24720,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3708
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3715
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3715
 
 #### sintercard(args)
 
@@ -24759,7 +24740,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3715
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3721
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3721
 
 ***
 
@@ -24788,7 +24769,7 @@ Intersect multiple sets and store the resulting set in a key
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3733
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3733
 
 #### sinterstore(args)
 
@@ -24808,7 +24789,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3733
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3738
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3738
 
 #### sinterstore(args)
 
@@ -24828,7 +24809,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3738
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3743
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3743
 
 #### sinterstore(args)
 
@@ -24848,7 +24829,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3743
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3744
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3744
 
 ***
 
@@ -24879,7 +24860,7 @@ Determine if a given value is a member of a set
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3751
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3751
 
 ***
 
@@ -24910,7 +24891,7 @@ Make the server a replica of another instance, or promote it as master.
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3758
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3758
 
 ***
 
@@ -24941,7 +24922,7 @@ Get the slow log's entries
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3765
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3765
 
 #### slowlog(subcommand, count, callback)
 
@@ -24965,7 +24946,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3765
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3766
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3766
 
 #### slowlog(subcommand, callback)
 
@@ -24992,7 +24973,7 @@ Show helpful text about the different subcommands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3773
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3773
 
 #### slowlog(subcommand, callback)
 
@@ -25019,7 +25000,7 @@ Get the slow log's length
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3780
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3780
 
 #### slowlog(subcommand, callback)
 
@@ -25046,7 +25027,7 @@ Clear all entries from the slow log
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3787
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3787
 
 ***
 
@@ -25075,7 +25056,7 @@ Get all the members in a set
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3794
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3794
 
 ***
 
@@ -25099,7 +25080,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3794
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3795
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3795
 
 ***
 
@@ -25128,7 +25109,7 @@ Returns the membership associated with the given elements for a set
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3802
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3802
 
 #### smismember(args)
 
@@ -25148,7 +25129,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3802
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3807
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3807
 
 #### smismember(args)
 
@@ -25168,7 +25149,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3807
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3812
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3812
 
 #### smismember(args)
 
@@ -25188,7 +25169,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3812
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3813
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3813
 
 ***
 
@@ -25221,7 +25202,7 @@ Move a member from one set to another
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3820
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3820
 
 ***
 
@@ -25250,7 +25231,7 @@ Sort the elements in a list, set or sorted set
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3827
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3827
 
 #### sort(args)
 
@@ -25270,7 +25251,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3827
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3828
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3828
 
 ***
 
@@ -25301,7 +25282,7 @@ Sort the elements in a list, set or sorted set. Read-only variant of SORT.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3835
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3835
 
 #### sort\_ro(key, alpha, callback)
 
@@ -25325,7 +25306,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3835
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3836
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3836
 
 #### sort\_ro(key, asc, callback)
 
@@ -25349,7 +25330,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3836
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3837
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3837
 
 #### sort\_ro(key, asc, alpha, callback)
 
@@ -25375,7 +25356,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3837
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3838
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3838
 
 #### sort\_ro(key, desc, callback)
 
@@ -25399,7 +25380,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3838
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3839
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3839
 
 #### sort\_ro(key, desc, alpha, callback)
 
@@ -25425,7 +25406,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3839
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3840
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3840
 
 #### sort\_ro(args)
 
@@ -25445,7 +25426,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3840
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3841
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3841
 
 #### sort\_ro(args)
 
@@ -25465,7 +25446,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3841
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3847
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3847
 
 #### sort\_ro(args)
 
@@ -25485,7 +25466,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3847
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3848
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3848
 
 #### sort\_ro(args)
 
@@ -25505,7 +25486,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3848
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3855
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3855
 
 #### sort\_ro(args)
 
@@ -25525,7 +25506,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3855
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3861
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3861
 
 #### sort\_ro(args)
 
@@ -25545,7 +25526,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3861
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3868
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3868
 
 #### sort\_ro(args)
 
@@ -25565,7 +25546,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3868
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3874
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3874
 
 #### sort\_ro(args)
 
@@ -25585,7 +25566,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3874
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3882
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3882
 
 #### sort\_ro(args)
 
@@ -25605,7 +25586,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3882
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3889
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3889
 
 #### sort\_ro(args)
 
@@ -25625,7 +25606,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3889
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3896
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3896
 
 #### sort\_ro(args)
 
@@ -25645,7 +25626,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3896
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3902
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3902
 
 #### sort\_ro(args)
 
@@ -25665,7 +25646,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3902
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3910
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3910
 
 #### sort\_ro(key, offsetCountToken, offset, count, callback)
 
@@ -25693,7 +25674,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3910
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3917
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3917
 
 #### sort\_ro(key, offsetCountToken, offset, count, alpha, callback)
 
@@ -25723,7 +25704,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3917
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3918
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3918
 
 #### sort\_ro(key, offsetCountToken, offset, count, asc, callback)
 
@@ -25753,7 +25734,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3918
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3919
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3919
 
 #### sort\_ro(key, offsetCountToken, offset, count, asc, alpha, callback)
 
@@ -25785,7 +25766,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3919
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3920
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3920
 
 #### sort\_ro(key, offsetCountToken, offset, count, desc, callback)
 
@@ -25815,7 +25796,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3920
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3921
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3921
 
 #### sort\_ro(key, offsetCountToken, offset, count, desc, alpha, callback)
 
@@ -25847,7 +25828,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3921
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3922
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3922
 
 #### sort\_ro(args)
 
@@ -25867,7 +25848,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3922
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3923
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3923
 
 #### sort\_ro(args)
 
@@ -25887,7 +25868,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3923
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3932
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3932
 
 #### sort\_ro(args)
 
@@ -25907,7 +25888,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3932
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3940
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3940
 
 #### sort\_ro(args)
 
@@ -25927,7 +25908,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3940
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3950
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3950
 
 #### sort\_ro(args)
 
@@ -25947,7 +25928,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3950
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3959
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3959
 
 #### sort\_ro(args)
 
@@ -25967,7 +25948,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3959
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3969
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3969
 
 #### sort\_ro(args)
 
@@ -25987,7 +25968,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3969
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3978
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3978
 
 #### sort\_ro(args)
 
@@ -26007,7 +25988,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3978
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3989
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3989
 
 #### sort\_ro(args)
 
@@ -26027,7 +26008,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3989
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:3999
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:3999
 
 #### sort\_ro(args)
 
@@ -26047,7 +26028,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:3999
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4009
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4009
 
 #### sort\_ro(args)
 
@@ -26067,7 +26048,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4009
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4018
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4018
 
 #### sort\_ro(args)
 
@@ -26087,7 +26068,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4018
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4029
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4029
 
 #### sort\_ro(key, patternToken, pattern, callback)
 
@@ -26113,7 +26094,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4029
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4039
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4039
 
 #### sort\_ro(key, patternToken, pattern, alpha, callback)
 
@@ -26141,7 +26122,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4039
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4040
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4040
 
 #### sort\_ro(key, patternToken, pattern, asc, callback)
 
@@ -26169,7 +26150,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4040
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4041
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4041
 
 #### sort\_ro(key, patternToken, pattern, asc, alpha, callback)
 
@@ -26199,7 +26180,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4041
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4042
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4042
 
 #### sort\_ro(key, patternToken, pattern, desc, callback)
 
@@ -26227,7 +26208,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4042
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4043
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4043
 
 #### sort\_ro(key, patternToken, pattern, desc, alpha, callback)
 
@@ -26257,7 +26238,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4043
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4044
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4044
 
 #### sort\_ro(args)
 
@@ -26277,7 +26258,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4044
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4045
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4045
 
 #### sort\_ro(args)
 
@@ -26297,7 +26278,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4045
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4053
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4053
 
 #### sort\_ro(args)
 
@@ -26317,7 +26298,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4053
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4060
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4060
 
 #### sort\_ro(args)
 
@@ -26337,7 +26318,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4060
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4069
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4069
 
 #### sort\_ro(args)
 
@@ -26357,7 +26338,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4069
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4077
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4077
 
 #### sort\_ro(args)
 
@@ -26377,7 +26358,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4077
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4086
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4086
 
 #### sort\_ro(args)
 
@@ -26397,7 +26378,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4086
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4094
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4094
 
 #### sort\_ro(args)
 
@@ -26417,7 +26398,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4094
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4104
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4104
 
 #### sort\_ro(args)
 
@@ -26437,7 +26418,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4104
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4113
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4113
 
 #### sort\_ro(args)
 
@@ -26457,7 +26438,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4113
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4122
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4122
 
 #### sort\_ro(args)
 
@@ -26477,7 +26458,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4122
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4130
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4130
 
 #### sort\_ro(args)
 
@@ -26497,7 +26478,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4130
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4140
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4140
 
 #### sort\_ro(key, patternToken, pattern, offsetCountToken, offset, count, callback)
 
@@ -26529,7 +26510,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4140
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4149
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4149
 
 #### sort\_ro(key, patternToken, pattern, offsetCountToken, offset, count, alpha, callback)
 
@@ -26563,7 +26544,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4149
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4150
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4150
 
 #### sort\_ro(key, patternToken, pattern, offsetCountToken, offset, count, asc, callback)
 
@@ -26597,7 +26578,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4150
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4151
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4151
 
 #### sort\_ro(key, patternToken, pattern, offsetCountToken, offset, count, asc, alpha, callback)
 
@@ -26633,7 +26614,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4151
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4152
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4152
 
 #### sort\_ro(key, patternToken, pattern, offsetCountToken, offset, count, desc, callback)
 
@@ -26667,7 +26648,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4152
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4153
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4153
 
 #### sort\_ro(key, patternToken, pattern, offsetCountToken, offset, count, desc, alpha, callback)
 
@@ -26703,7 +26684,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4153
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4154
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4154
 
 #### sort\_ro(args)
 
@@ -26723,7 +26704,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4154
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4155
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4155
 
 #### sort\_ro(args)
 
@@ -26743,7 +26724,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4155
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4166
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4166
 
 #### sort\_ro(args)
 
@@ -26763,7 +26744,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4166
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4176
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4176
 
 #### sort\_ro(args)
 
@@ -26783,7 +26764,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4176
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4188
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4188
 
 #### sort\_ro(args)
 
@@ -26803,7 +26784,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4188
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4199
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4199
 
 #### sort\_ro(args)
 
@@ -26823,7 +26804,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4199
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4211
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4211
 
 #### sort\_ro(args)
 
@@ -26843,7 +26824,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4211
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4222
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4222
 
 #### sort\_ro(args)
 
@@ -26863,7 +26844,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4222
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4235
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4235
 
 #### sort\_ro(args)
 
@@ -26883,7 +26864,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4235
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4247
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4247
 
 #### sort\_ro(args)
 
@@ -26903,7 +26884,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4247
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4259
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4259
 
 #### sort\_ro(args)
 
@@ -26923,7 +26904,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4259
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4270
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4270
 
 #### sort\_ro(args)
 
@@ -26943,7 +26924,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4270
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4283
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4283
 
 ***
 
@@ -26974,7 +26955,7 @@ Remove and return one or multiple random members from a set
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4301
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4301
 
 #### spop(key, count, callback)
 
@@ -26998,7 +26979,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4301
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4303
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4303
 
 ***
 
@@ -27024,7 +27005,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4303
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4302
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4302
 
 #### spopBuffer(key, count, callback)
 
@@ -27048,7 +27029,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4302
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4304
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4304
 
 ***
 
@@ -27079,7 +27060,7 @@ Post a message to a shard channel
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4311
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4311
 
 ***
 
@@ -27110,7 +27091,7 @@ Get one or multiple random members from a set
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4318
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4318
 
 #### srandmember(key, count, callback)
 
@@ -27134,7 +27115,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4318
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4320
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4320
 
 ***
 
@@ -27160,7 +27141,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4320
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4319
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4319
 
 #### srandmemberBuffer(key, count, callback)
 
@@ -27184,7 +27165,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4319
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4321
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4321
 
 ***
 
@@ -27213,7 +27194,7 @@ Remove one or more members from a set
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4328
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4328
 
 #### srem(args)
 
@@ -27233,7 +27214,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4328
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4333
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4333
 
 #### srem(args)
 
@@ -27253,7 +27234,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4333
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4338
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4338
 
 #### srem(args)
 
@@ -27273,7 +27254,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4338
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4339
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4339
 
 ***
 
@@ -27306,7 +27287,7 @@ Incrementally iterate Set elements
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4346
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4346
 
 #### sscan(key, cursor, countToken, count, callback)
 
@@ -27334,7 +27315,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4346
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4348
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4348
 
 #### sscan(key, cursor, patternToken, pattern, callback)
 
@@ -27362,7 +27343,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4348
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4350
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4350
 
 #### sscan(key, cursor, patternToken, pattern, countToken, count, callback)
 
@@ -27394,7 +27375,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4350
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4352
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4352
 
 ***
 
@@ -27422,7 +27403,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4352
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4347
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4347
 
 #### sscanBuffer(key, cursor, countToken, count, callback)
 
@@ -27450,7 +27431,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4347
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4349
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4349
 
 #### sscanBuffer(key, cursor, patternToken, pattern, callback)
 
@@ -27478,7 +27459,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4349
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4351
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4351
 
 #### sscanBuffer(key, cursor, patternToken, pattern, countToken, count, callback)
 
@@ -27510,7 +27491,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4351
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4353
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4353
 
 ***
 
@@ -27534,7 +27515,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4353
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:167
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:167
 
 ***
 
@@ -27558,7 +27539,7 @@ node\_modules/ioredis/built/Redis.d.ts:167
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:166
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:166
 
 ***
 
@@ -27587,7 +27568,7 @@ Listen for messages published to the given shard channels
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4360
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4360
 
 #### ssubscribe(args)
 
@@ -27607,7 +27588,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4360
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4364
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4364
 
 ***
 
@@ -27636,7 +27617,7 @@ Get the length of the value stored in a key
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4371
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4371
 
 ***
 
@@ -27665,7 +27646,7 @@ Listen for messages published to the given channels
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4378
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4378
 
 #### subscribe(args)
 
@@ -27685,7 +27666,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4378
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4379
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4379
 
 ***
 
@@ -27718,7 +27699,7 @@ Get a substring of the string stored at a key
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4386
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4386
 
 ***
 
@@ -27747,7 +27728,7 @@ Add multiple sets
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4393
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4393
 
 #### sunion(args)
 
@@ -27767,7 +27748,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4393
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4395
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4395
 
 #### sunion(args)
 
@@ -27787,7 +27768,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4395
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4397
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4397
 
 #### sunion(args)
 
@@ -27807,7 +27788,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4397
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4399
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4399
 
 ***
 
@@ -27831,7 +27812,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4399
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4394
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4394
 
 #### sunionBuffer(args)
 
@@ -27851,7 +27832,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4394
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4396
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4396
 
 #### sunionBuffer(args)
 
@@ -27871,7 +27852,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4396
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4398
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4398
 
 #### sunionBuffer(args)
 
@@ -27891,7 +27872,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4398
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4400
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4400
 
 ***
 
@@ -27920,7 +27901,7 @@ Add multiple sets and store the resulting set in a key
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4407
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4407
 
 #### sunionstore(args)
 
@@ -27940,7 +27921,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4407
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4412
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4412
 
 #### sunionstore(args)
 
@@ -27960,7 +27941,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4412
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4417
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4417
 
 #### sunionstore(args)
 
@@ -27980,7 +27961,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4417
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4418
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4418
 
 ***
 
@@ -28009,7 +27990,7 @@ Stop listening for messages posted to the given shard channels
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4425
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4425
 
 #### sunsubscribe(args)
 
@@ -28029,7 +28010,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4425
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4426
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4426
 
 #### sunsubscribe(args)
 
@@ -28049,7 +28030,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4426
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4430
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4430
 
 ***
 
@@ -28080,7 +28061,7 @@ Swaps two Redis databases
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4437
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4437
 
 ***
 
@@ -28107,7 +28088,7 @@ Internal command used for replication
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4444
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4444
 
 ***
 
@@ -28134,7 +28115,7 @@ Return the current server time
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4451
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4451
 
 ***
 
@@ -28163,7 +28144,7 @@ Alters the last access time of a key(s). Returns the number of existing keys spe
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4458
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4458
 
 #### touch(args)
 
@@ -28183,7 +28164,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4458
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4459
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4459
 
 #### touch(args)
 
@@ -28203,7 +28184,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4459
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4460
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4460
 
 #### touch(args)
 
@@ -28223,7 +28204,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4460
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4461
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4461
 
 ***
 
@@ -28252,7 +28233,7 @@ Get the time to live for a key in seconds
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4468
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4468
 
 ***
 
@@ -28281,7 +28262,7 @@ Determine the type stored at key
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4475
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4475
 
 ***
 
@@ -28310,7 +28291,7 @@ Delete a key asynchronously in another thread. Otherwise it is just as DEL, but 
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4482
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4482
 
 #### unlink(args)
 
@@ -28330,7 +28311,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4482
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4483
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4483
 
 #### unlink(args)
 
@@ -28350,7 +28331,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4483
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4484
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4484
 
 #### unlink(args)
 
@@ -28370,7 +28351,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4484
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4485
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4485
 
 ***
 
@@ -28399,7 +28380,7 @@ Stop listening for messages posted to the given channels
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4492
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4492
 
 #### unsubscribe(args)
 
@@ -28419,7 +28400,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4492
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4493
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4493
 
 #### unsubscribe(args)
 
@@ -28439,7 +28420,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4493
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4494
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4494
 
 ***
 
@@ -28466,7 +28447,7 @@ Forget about all watched keys
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4501
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4501
 
 ***
 
@@ -28497,7 +28478,7 @@ Wait for the synchronous replication of all the write commands sent in the conte
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4508
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4508
 
 ***
 
@@ -28526,7 +28507,7 @@ Watch the given keys to determine execution of the MULTI/EXEC block
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4515
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4515
 
 #### watch(args)
 
@@ -28546,7 +28527,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4515
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4516
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4516
 
 #### watch(args)
 
@@ -28566,7 +28547,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4516
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4517
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4517
 
 #### watch(args)
 
@@ -28586,7 +28567,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4517
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4518
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4518
 
 ***
 
@@ -28615,7 +28596,7 @@ Marks a pending message as correctly processed, effectively removing it from the
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4525
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4525
 
 #### xack(args)
 
@@ -28635,7 +28616,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4525
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4531
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4531
 
 ***
 
@@ -28664,7 +28645,7 @@ Appends a new entry to a stream
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4542
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4542
 
 #### xadd(args)
 
@@ -28684,7 +28665,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4542
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4552
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4552
 
 ***
 
@@ -28708,7 +28689,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4552
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4547
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4547
 
 #### xaddBuffer(args)
 
@@ -28728,7 +28709,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4547
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4553
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4553
 
 ***
 
@@ -28767,7 +28748,7 @@ Changes (or acquires) ownership of messages in a consumer group, as if the messa
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4560
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4560
 
 #### xautoclaim(key, group, consumer, minIdleTime, start, justid, callback)
 
@@ -28799,7 +28780,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4560
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4561
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4561
 
 #### xautoclaim(key, group, consumer, minIdleTime, start, countToken, count, callback)
 
@@ -28833,7 +28814,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4561
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4562
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4562
 
 #### xautoclaim(key, group, consumer, minIdleTime, start, countToken, count, justid, callback)
 
@@ -28869,7 +28850,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4562
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4563
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4563
 
 ***
 
@@ -28898,7 +28879,7 @@ Changes (or acquires) ownership of a message in a consumer group, as if the mess
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4570
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4570
 
 #### xclaim(args)
 
@@ -28918,7 +28899,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4570
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4578
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4578
 
 #### xclaim(args)
 
@@ -28938,7 +28919,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4578
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4585
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4585
 
 #### xclaim(args)
 
@@ -28958,7 +28939,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4585
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4594
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4594
 
 #### xclaim(args)
 
@@ -28978,7 +28959,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4594
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4602
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4602
 
 #### xclaim(args)
 
@@ -28998,7 +28979,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4602
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4611
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4611
 
 #### xclaim(args)
 
@@ -29018,7 +28999,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4611
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4619
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4619
 
 #### xclaim(args)
 
@@ -29038,7 +29019,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4619
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4629
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4629
 
 #### xclaim(args)
 
@@ -29058,7 +29039,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4629
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4638
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4638
 
 #### xclaim(args)
 
@@ -29078,7 +29059,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4638
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4648
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4648
 
 #### xclaim(args)
 
@@ -29098,7 +29079,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4648
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4657
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4657
 
 #### xclaim(args)
 
@@ -29118,7 +29099,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4657
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4668
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4668
 
 #### xclaim(args)
 
@@ -29138,7 +29119,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4668
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4678
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4678
 
 #### xclaim(args)
 
@@ -29158,7 +29139,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4678
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4689
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4689
 
 #### xclaim(args)
 
@@ -29178,7 +29159,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4689
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4699
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4699
 
 #### xclaim(args)
 
@@ -29198,7 +29179,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4699
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4711
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4711
 
 #### xclaim(args)
 
@@ -29218,7 +29199,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4711
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4722
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4722
 
 #### xclaim(args)
 
@@ -29238,7 +29219,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4722
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4732
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4732
 
 #### xclaim(args)
 
@@ -29258,7 +29239,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4732
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4741
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4741
 
 #### xclaim(args)
 
@@ -29278,7 +29259,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4741
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4752
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4752
 
 #### xclaim(args)
 
@@ -29298,7 +29279,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4752
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4762
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4762
 
 #### xclaim(args)
 
@@ -29318,7 +29299,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4762
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4773
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4773
 
 #### xclaim(args)
 
@@ -29338,7 +29319,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4773
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4783
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4783
 
 #### xclaim(args)
 
@@ -29358,7 +29339,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4783
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4795
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4795
 
 #### xclaim(args)
 
@@ -29378,7 +29359,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4795
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4806
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4806
 
 #### xclaim(args)
 
@@ -29398,7 +29379,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4806
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4818
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4818
 
 #### xclaim(args)
 
@@ -29418,7 +29399,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4818
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4829
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4829
 
 #### xclaim(args)
 
@@ -29438,7 +29419,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4829
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4842
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4842
 
 #### xclaim(args)
 
@@ -29458,7 +29439,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4842
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4854
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4854
 
 #### xclaim(args)
 
@@ -29478,7 +29459,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4854
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4867
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4867
 
 #### xclaim(args)
 
@@ -29498,7 +29479,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4867
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4879
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4879
 
 #### xclaim(args)
 
@@ -29518,7 +29499,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4879
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4893
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4893
 
 #### xclaim(args)
 
@@ -29538,7 +29519,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4893
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4906
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4906
 
 #### xclaim(args)
 
@@ -29558,7 +29539,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4906
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4916
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4916
 
 #### xclaim(args)
 
@@ -29578,7 +29559,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4916
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4925
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4925
 
 #### xclaim(args)
 
@@ -29598,7 +29579,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4925
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4936
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4936
 
 #### xclaim(args)
 
@@ -29618,7 +29599,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4936
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4946
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4946
 
 #### xclaim(args)
 
@@ -29638,7 +29619,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4946
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4957
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4957
 
 #### xclaim(args)
 
@@ -29658,7 +29639,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4957
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4967
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4967
 
 #### xclaim(args)
 
@@ -29678,7 +29659,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4967
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4979
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4979
 
 #### xclaim(args)
 
@@ -29698,7 +29679,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4979
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:4990
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:4990
 
 #### xclaim(args)
 
@@ -29718,7 +29699,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:4990
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5002
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5002
 
 #### xclaim(args)
 
@@ -29738,7 +29719,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5002
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5013
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5013
 
 #### xclaim(args)
 
@@ -29758,7 +29739,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5013
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5026
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5026
 
 #### xclaim(args)
 
@@ -29778,7 +29759,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5026
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5038
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5038
 
 #### xclaim(args)
 
@@ -29798,7 +29779,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5038
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5051
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5051
 
 #### xclaim(args)
 
@@ -29818,7 +29799,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5051
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5063
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5063
 
 #### xclaim(args)
 
@@ -29838,7 +29819,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5063
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5077
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5077
 
 #### xclaim(args)
 
@@ -29858,7 +29839,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5077
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5090
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5090
 
 #### xclaim(args)
 
@@ -29878,7 +29859,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5090
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5102
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5102
 
 #### xclaim(args)
 
@@ -29898,7 +29879,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5102
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5113
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5113
 
 #### xclaim(args)
 
@@ -29918,7 +29899,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5113
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5126
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5126
 
 #### xclaim(args)
 
@@ -29938,7 +29919,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5126
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5138
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5138
 
 #### xclaim(args)
 
@@ -29958,7 +29939,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5138
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5151
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5151
 
 #### xclaim(args)
 
@@ -29978,7 +29959,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5151
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5163
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5163
 
 #### xclaim(args)
 
@@ -29998,7 +29979,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5163
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5177
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5177
 
 #### xclaim(args)
 
@@ -30018,7 +29999,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5177
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5190
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5190
 
 #### xclaim(args)
 
@@ -30038,7 +30019,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5190
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5204
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5204
 
 #### xclaim(args)
 
@@ -30058,7 +30039,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5204
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5217
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5217
 
 #### xclaim(args)
 
@@ -30078,7 +30059,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5217
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5232
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5232
 
 #### xclaim(args)
 
@@ -30098,7 +30079,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5232
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5246
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5246
 
 #### xclaim(args)
 
@@ -30118,7 +30099,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5246
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5261
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5261
 
 #### xclaim(args)
 
@@ -30138,7 +30119,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5261
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5275
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5275
 
 #### xclaim(args)
 
@@ -30158,7 +30139,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5275
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5291
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5291
 
 ***
 
@@ -30187,7 +30168,7 @@ Removes the specified entries from the stream. Returns the number of items actua
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5312
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5312
 
 #### xdel(args)
 
@@ -30207,7 +30188,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5312
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5317
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5317
 
 ***
 
@@ -30244,7 +30225,7 @@ Create a consumer group.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5324
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5324
 
 #### xgroup(subcommand, key, groupname, id, entriesReadToken, entriesRead, callback)
 
@@ -30276,7 +30257,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5324
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5325
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5325
 
 #### xgroup(subcommand, key, groupname, id, mkstream, callback)
 
@@ -30306,7 +30287,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5325
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5326
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5326
 
 #### xgroup(subcommand, key, groupname, id, mkstream, entriesReadToken, entriesRead, callback)
 
@@ -30340,7 +30321,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5326
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5327
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5327
 
 #### xgroup(subcommand, key, groupname, newId, callback)
 
@@ -30368,7 +30349,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5327
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5328
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5328
 
 #### xgroup(subcommand, key, groupname, newId, entriesReadToken, entriesRead, callback)
 
@@ -30400,7 +30381,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5328
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5329
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5329
 
 #### xgroup(subcommand, key, groupname, newId, mkstream, callback)
 
@@ -30430,7 +30411,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5329
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5330
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5330
 
 #### xgroup(subcommand, key, groupname, newId, mkstream, entriesReadToken, entriesRead, callback)
 
@@ -30464,7 +30445,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5330
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5331
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5331
 
 #### xgroup(subcommand, key, groupname, consumername, callback)
 
@@ -30497,7 +30478,7 @@ Create a consumer in a consumer group.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5338
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5338
 
 #### xgroup(subcommand, key, groupname, consumername, callback)
 
@@ -30530,7 +30511,7 @@ Delete a consumer from a consumer group.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5345
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5345
 
 #### xgroup(subcommand, key, groupname, callback)
 
@@ -30561,7 +30542,7 @@ Destroy a consumer group.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5352
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5352
 
 #### xgroup(subcommand, callback)
 
@@ -30588,7 +30569,7 @@ Show helpful text about the different subcommands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5359
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5359
 
 #### xgroup(subcommand, key, groupname, id, callback)
 
@@ -30621,7 +30602,7 @@ Set a consumer group to an arbitrary last delivered ID value.
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5366
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5366
 
 #### xgroup(subcommand, key, groupname, id, entriesReadToken, entriesRead, callback)
 
@@ -30653,7 +30634,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5366
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5367
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5367
 
 #### xgroup(subcommand, key, groupname, newId, callback)
 
@@ -30681,7 +30662,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5367
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5368
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5368
 
 #### xgroup(subcommand, key, groupname, newId, entriesReadToken, entriesRead, callback)
 
@@ -30713,7 +30694,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5368
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5369
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5369
 
 ***
 
@@ -30748,7 +30729,7 @@ List the consumers in a consumer group
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5376
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5376
 
 #### xinfo(subcommand, key, callback)
 
@@ -30777,7 +30758,7 @@ List the consumer groups of a stream
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5383
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5383
 
 #### xinfo(subcommand, callback)
 
@@ -30804,7 +30785,7 @@ Show helpful text about the different subcommands
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5390
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5390
 
 #### xinfo(subcommand, key, callback)
 
@@ -30833,7 +30814,7 @@ Get information about a stream
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5397
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5397
 
 #### xinfo(subcommand, key, fullToken, callback)
 
@@ -30859,7 +30840,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5397
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5398
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5398
 
 #### xinfo(subcommand, key, fullToken, countToken, count, callback)
 
@@ -30889,7 +30870,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5398
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5399
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5399
 
 ***
 
@@ -30918,7 +30899,7 @@ Return the number of entries in a stream
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5406
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5406
 
 ***
 
@@ -30951,7 +30932,7 @@ Return information and entries from a stream consumer group pending entries list
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5413
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5413
 
 #### xpending(key, group, start, end, count, callback)
 
@@ -30981,7 +30962,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5413
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5414
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5414
 
 #### xpending(key, group, start, end, count, consumer, callback)
 
@@ -31013,7 +30994,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5414
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5415
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5415
 
 #### xpending(key, group, minIdleTimeToken, minIdleTime, start, end, count, callback)
 
@@ -31047,7 +31028,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5415
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5416
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5416
 
 #### xpending(key, group, minIdleTimeToken, minIdleTime, start, end, count, consumer, callback)
 
@@ -31083,7 +31064,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5416
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5417
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5417
 
 ***
 
@@ -31118,7 +31099,7 @@ Return a range of elements in a stream, with IDs matching the specified IDs inte
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5424
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5424
 
 #### xrange(key, start, end, countToken, count, callback)
 
@@ -31148,7 +31129,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5424
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5426
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5426
 
 ***
 
@@ -31178,7 +31159,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5426
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5425
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5425
 
 #### xrangeBuffer(key, start, end, countToken, count, callback)
 
@@ -31208,7 +31189,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5425
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5427
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5427
 
 ***
 
@@ -31237,7 +31218,7 @@ Return never seen elements in multiple streams, with IDs greater than the ones r
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5434
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5434
 
 #### xread(args)
 
@@ -31257,7 +31238,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5434
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5456
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5456
 
 #### xread(args)
 
@@ -31277,7 +31258,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5456
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5464
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5464
 
 #### xread(args)
 
@@ -31297,7 +31278,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5464
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5490
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5490
 
 #### xread(args)
 
@@ -31317,7 +31298,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5490
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5508
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5508
 
 #### xread(args)
 
@@ -31337,7 +31318,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5508
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5534
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5534
 
 #### xread(args)
 
@@ -31357,7 +31338,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5534
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5552
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5552
 
 #### xread(args)
 
@@ -31377,7 +31358,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5552
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5582
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5582
 
 ***
 
@@ -31401,7 +31382,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5582
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5445
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5445
 
 #### xreadBuffer(args)
 
@@ -31421,7 +31402,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5445
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5460
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5460
 
 #### xreadBuffer(args)
 
@@ -31441,7 +31422,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5460
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5477
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5477
 
 #### xreadBuffer(args)
 
@@ -31461,7 +31442,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5477
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5499
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5499
 
 #### xreadBuffer(args)
 
@@ -31481,7 +31462,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5499
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5521
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5521
 
 #### xreadBuffer(args)
 
@@ -31501,7 +31482,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5521
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5543
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5543
 
 #### xreadBuffer(args)
 
@@ -31521,7 +31502,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5543
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5567
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5567
 
 #### xreadBuffer(args)
 
@@ -31541,7 +31522,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5567
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5593
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5593
 
 ***
 
@@ -31570,7 +31551,7 @@ Return new entries from a stream using a consumer group, or access the history o
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5610
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5610
 
 #### xreadgroup(args)
 
@@ -31590,7 +31571,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5610
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5618
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5618
 
 #### xreadgroup(args)
 
@@ -31610,7 +31591,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5618
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5625
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5625
 
 #### xreadgroup(args)
 
@@ -31630,7 +31611,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5625
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5634
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5634
 
 #### xreadgroup(args)
 
@@ -31650,7 +31631,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5634
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5642
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5642
 
 #### xreadgroup(args)
 
@@ -31670,7 +31651,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5642
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5652
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5652
 
 #### xreadgroup(args)
 
@@ -31690,7 +31671,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5652
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5661
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5661
 
 #### xreadgroup(args)
 
@@ -31710,7 +31691,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5661
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5672
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5672
 
 #### xreadgroup(args)
 
@@ -31730,7 +31711,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5672
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5682
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5682
 
 #### xreadgroup(args)
 
@@ -31750,7 +31731,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5682
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5692
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5692
 
 #### xreadgroup(args)
 
@@ -31770,7 +31751,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5692
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5701
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5701
 
 #### xreadgroup(args)
 
@@ -31790,7 +31771,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5701
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5712
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5712
 
 #### xreadgroup(args)
 
@@ -31810,7 +31791,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5712
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5722
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5722
 
 #### xreadgroup(args)
 
@@ -31830,7 +31811,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5722
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5734
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5734
 
 #### xreadgroup(args)
 
@@ -31850,7 +31831,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5734
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5745
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5745
 
 #### xreadgroup(args)
 
@@ -31870,7 +31851,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5745
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5758
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5758
 
 ***
 
@@ -31905,7 +31886,7 @@ Return a range of elements in a stream, with IDs matching the specified IDs inte
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5776
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5776
 
 #### xrevrange(key, end, start, countToken, count, callback)
 
@@ -31935,7 +31916,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5776
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5778
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5778
 
 ***
 
@@ -31965,7 +31946,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5778
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5777
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5777
 
 #### xrevrangeBuffer(key, end, start, countToken, count, callback)
 
@@ -31995,7 +31976,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5777
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5779
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5779
 
 ***
 
@@ -32028,7 +32009,7 @@ An internal command for replicating stream values
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5786
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5786
 
 #### xsetid(key, lastId, maxDeletedEntryIdToken, maxDeletedEntryId, callback)
 
@@ -32056,7 +32037,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5786
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5787
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5787
 
 #### xsetid(key, lastId, entriesAddedToken, entriesAdded, callback)
 
@@ -32084,7 +32065,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5787
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5788
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5788
 
 #### xsetid(key, lastId, entriesAddedToken, entriesAdded, maxDeletedEntryIdToken, maxDeletedEntryId, callback)
 
@@ -32116,7 +32097,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5788
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5789
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5789
 
 ***
 
@@ -32151,7 +32132,7 @@ Trims the stream to (approximately if '~' is passed) a certain size
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5796
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5796
 
 #### xtrim(key, maxlen, threshold, countToken, count, callback)
 
@@ -32181,7 +32162,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5796
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5797
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5797
 
 #### xtrim(key, maxlen, equal, threshold, callback)
 
@@ -32209,7 +32190,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5797
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5798
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5798
 
 #### xtrim(key, maxlen, equal, threshold, countToken, count, callback)
 
@@ -32241,7 +32222,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5798
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5799
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5799
 
 #### xtrim(key, maxlen, approximately, threshold, callback)
 
@@ -32269,7 +32250,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5799
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5800
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5800
 
 #### xtrim(key, maxlen, approximately, threshold, countToken, count, callback)
 
@@ -32301,7 +32282,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5800
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5801
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5801
 
 #### xtrim(key, minid, threshold, callback)
 
@@ -32327,7 +32308,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5801
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5802
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5802
 
 #### xtrim(key, minid, threshold, countToken, count, callback)
 
@@ -32357,7 +32338,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5802
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5803
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5803
 
 #### xtrim(key, minid, equal, threshold, callback)
 
@@ -32385,7 +32366,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5803
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5804
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5804
 
 #### xtrim(key, minid, equal, threshold, countToken, count, callback)
 
@@ -32417,7 +32398,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5804
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5805
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5805
 
 #### xtrim(key, minid, approximately, threshold, callback)
 
@@ -32445,7 +32426,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5805
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5806
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5806
 
 #### xtrim(key, minid, approximately, threshold, countToken, count, callback)
 
@@ -32477,7 +32458,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5806
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5807
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5807
 
 ***
 
@@ -32506,7 +32487,7 @@ Add one or more members to a sorted set, or update its score if it already exist
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5814
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5814
 
 #### zadd(args)
 
@@ -32526,7 +32507,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5814
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5819
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5819
 
 #### zadd(args)
 
@@ -32546,7 +32527,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5819
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5820
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5820
 
 #### zadd(args)
 
@@ -32566,7 +32547,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5820
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5832
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5832
 
 #### zadd(args)
 
@@ -32586,7 +32567,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5832
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5842
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5842
 
 #### zadd(args)
 
@@ -32606,7 +32587,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5842
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5848
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5848
 
 #### zadd(args)
 
@@ -32626,7 +32607,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5848
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5853
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5853
 
 #### zadd(args)
 
@@ -32646,7 +32627,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5853
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5867
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5867
 
 #### zadd(args)
 
@@ -32666,7 +32647,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5867
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5879
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5879
 
 #### zadd(args)
 
@@ -32686,7 +32667,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5879
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5885
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5885
 
 #### zadd(args)
 
@@ -32706,7 +32687,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5885
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5890
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5890
 
 #### zadd(args)
 
@@ -32726,7 +32707,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5890
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5904
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5904
 
 #### zadd(args)
 
@@ -32746,7 +32727,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5904
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5916
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5916
 
 #### zadd(args)
 
@@ -32766,7 +32747,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5916
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5923
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5923
 
 #### zadd(args)
 
@@ -32786,7 +32767,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5923
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5929
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5929
 
 #### zadd(args)
 
@@ -32806,7 +32787,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5929
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5945
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5945
 
 #### zadd(args)
 
@@ -32826,7 +32807,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5945
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5959
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5959
 
 #### zadd(args)
 
@@ -32846,7 +32827,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5959
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5965
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5965
 
 #### zadd(args)
 
@@ -32866,7 +32847,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5965
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5970
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5970
 
 #### zadd(args)
 
@@ -32886,7 +32867,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5970
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5984
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5984
 
 #### zadd(args)
 
@@ -32906,7 +32887,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5984
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5996
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5996
 
 #### zadd(args)
 
@@ -32926,7 +32907,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5996
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6003
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6003
 
 #### zadd(args)
 
@@ -32946,7 +32927,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6003
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6009
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6009
 
 #### zadd(args)
 
@@ -32966,7 +32947,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6009
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6025
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6025
 
 #### zadd(args)
 
@@ -32986,7 +32967,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6025
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6039
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6039
 
 #### zadd(args)
 
@@ -33006,7 +32987,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6039
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6045
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6045
 
 #### zadd(args)
 
@@ -33026,7 +33007,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6045
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6050
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6050
 
 #### zadd(args)
 
@@ -33046,7 +33027,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6050
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6064
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6064
 
 #### zadd(args)
 
@@ -33066,7 +33047,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6064
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6076
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6076
 
 #### zadd(args)
 
@@ -33086,7 +33067,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6076
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6083
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6083
 
 #### zadd(args)
 
@@ -33106,7 +33087,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6083
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6089
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6089
 
 #### zadd(args)
 
@@ -33126,7 +33107,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6089
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6105
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6105
 
 #### zadd(args)
 
@@ -33146,7 +33127,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6105
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6119
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6119
 
 #### zadd(args)
 
@@ -33166,7 +33147,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6119
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6126
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6126
 
 #### zadd(args)
 
@@ -33186,7 +33167,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6126
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6132
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6132
 
 #### zadd(args)
 
@@ -33206,7 +33187,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6132
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6148
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6148
 
 #### zadd(args)
 
@@ -33226,7 +33207,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6148
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6162
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6162
 
 #### zadd(args)
 
@@ -33246,7 +33227,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6162
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6170
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6170
 
 #### zadd(args)
 
@@ -33266,7 +33247,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6170
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6177
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6177
 
 #### zadd(args)
 
@@ -33286,7 +33267,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6177
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6195
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6195
 
 #### zadd(args)
 
@@ -33306,7 +33287,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6195
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6211
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6211
 
 #### zadd(args)
 
@@ -33326,7 +33307,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6211
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6218
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6218
 
 #### zadd(args)
 
@@ -33346,7 +33327,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6218
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6224
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6224
 
 #### zadd(args)
 
@@ -33366,7 +33347,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6224
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6240
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6240
 
 #### zadd(args)
 
@@ -33386,7 +33367,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6240
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6254
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6254
 
 #### zadd(args)
 
@@ -33406,7 +33387,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6254
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6262
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6262
 
 #### zadd(args)
 
@@ -33426,7 +33407,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6262
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6269
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6269
 
 #### zadd(args)
 
@@ -33446,7 +33427,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6269
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6287
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6287
 
 #### zadd(args)
 
@@ -33466,7 +33447,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6287
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6303
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6303
 
 #### zadd(args)
 
@@ -33486,7 +33467,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6303
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6309
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6309
 
 #### zadd(args)
 
@@ -33506,7 +33487,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6309
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6314
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6314
 
 #### zadd(args)
 
@@ -33526,7 +33507,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6314
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6328
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6328
 
 #### zadd(args)
 
@@ -33546,7 +33527,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6328
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6340
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6340
 
 #### zadd(args)
 
@@ -33566,7 +33547,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6340
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6347
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6347
 
 #### zadd(args)
 
@@ -33586,7 +33567,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6347
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6353
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6353
 
 #### zadd(args)
 
@@ -33606,7 +33587,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6353
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6369
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6369
 
 #### zadd(args)
 
@@ -33626,7 +33607,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6369
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6383
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6383
 
 #### zadd(args)
 
@@ -33646,7 +33627,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6383
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6390
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6390
 
 #### zadd(args)
 
@@ -33666,7 +33647,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6390
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6396
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6396
 
 #### zadd(args)
 
@@ -33686,7 +33667,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6396
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6412
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6412
 
 #### zadd(args)
 
@@ -33706,7 +33687,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6412
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6426
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6426
 
 #### zadd(args)
 
@@ -33726,7 +33707,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6426
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6434
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6434
 
 #### zadd(args)
 
@@ -33746,7 +33727,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6434
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6441
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6441
 
 #### zadd(args)
 
@@ -33766,7 +33747,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6441
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6459
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6459
 
 #### zadd(args)
 
@@ -33786,7 +33767,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6459
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6475
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6475
 
 #### zadd(args)
 
@@ -33806,7 +33787,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6475
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6482
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6482
 
 #### zadd(args)
 
@@ -33826,7 +33807,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6482
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6488
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6488
 
 #### zadd(args)
 
@@ -33846,7 +33827,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6488
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6504
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6504
 
 #### zadd(args)
 
@@ -33866,7 +33847,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6504
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6518
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6518
 
 #### zadd(args)
 
@@ -33886,7 +33867,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6518
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6526
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6526
 
 #### zadd(args)
 
@@ -33906,7 +33887,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6526
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6533
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6533
 
 #### zadd(args)
 
@@ -33926,7 +33907,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6533
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6551
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6551
 
 ***
 
@@ -33950,7 +33931,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6551
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5826
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5826
 
 #### zaddBuffer(args)
 
@@ -33970,7 +33951,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5826
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5837
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5837
 
 #### zaddBuffer(args)
 
@@ -33990,7 +33971,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5837
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5860
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5860
 
 #### zaddBuffer(args)
 
@@ -34010,7 +33991,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5860
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5873
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5873
 
 #### zaddBuffer(args)
 
@@ -34030,7 +34011,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5873
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5897
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5897
 
 #### zaddBuffer(args)
 
@@ -34050,7 +34031,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5897
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5910
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5910
 
 #### zaddBuffer(args)
 
@@ -34070,7 +34051,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5910
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5937
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5937
 
 #### zaddBuffer(args)
 
@@ -34090,7 +34071,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5937
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5952
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5952
 
 #### zaddBuffer(args)
 
@@ -34110,7 +34091,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5952
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5977
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5977
 
 #### zaddBuffer(args)
 
@@ -34130,7 +34111,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5977
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:5990
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:5990
 
 #### zaddBuffer(args)
 
@@ -34150,7 +34131,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:5990
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6017
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6017
 
 #### zaddBuffer(args)
 
@@ -34170,7 +34151,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6017
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6032
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6032
 
 #### zaddBuffer(args)
 
@@ -34190,7 +34171,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6032
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6057
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6057
 
 #### zaddBuffer(args)
 
@@ -34210,7 +34191,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6057
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6070
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6070
 
 #### zaddBuffer(args)
 
@@ -34230,7 +34211,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6070
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6097
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6097
 
 #### zaddBuffer(args)
 
@@ -34250,7 +34231,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6097
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6112
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6112
 
 #### zaddBuffer(args)
 
@@ -34270,7 +34251,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6112
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6140
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6140
 
 #### zaddBuffer(args)
 
@@ -34290,7 +34271,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6140
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6155
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6155
 
 #### zaddBuffer(args)
 
@@ -34310,7 +34291,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6155
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6186
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6186
 
 #### zaddBuffer(args)
 
@@ -34330,7 +34311,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6186
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6203
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6203
 
 #### zaddBuffer(args)
 
@@ -34350,7 +34331,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6203
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6232
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6232
 
 #### zaddBuffer(args)
 
@@ -34370,7 +34351,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6232
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6247
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6247
 
 #### zaddBuffer(args)
 
@@ -34390,7 +34371,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6247
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6278
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6278
 
 #### zaddBuffer(args)
 
@@ -34410,7 +34391,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6278
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6295
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6295
 
 #### zaddBuffer(args)
 
@@ -34430,7 +34411,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6295
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6321
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6321
 
 #### zaddBuffer(args)
 
@@ -34450,7 +34431,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6321
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6334
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6334
 
 #### zaddBuffer(args)
 
@@ -34470,7 +34451,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6334
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6361
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6361
 
 #### zaddBuffer(args)
 
@@ -34490,7 +34471,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6361
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6376
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6376
 
 #### zaddBuffer(args)
 
@@ -34510,7 +34491,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6376
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6404
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6404
 
 #### zaddBuffer(args)
 
@@ -34530,7 +34511,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6404
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6419
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6419
 
 #### zaddBuffer(args)
 
@@ -34550,7 +34531,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6419
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6450
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6450
 
 #### zaddBuffer(args)
 
@@ -34570,7 +34551,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6450
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6467
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6467
 
 #### zaddBuffer(args)
 
@@ -34590,7 +34571,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6467
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6496
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6496
 
 #### zaddBuffer(args)
 
@@ -34610,7 +34591,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6496
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6511
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6511
 
 #### zaddBuffer(args)
 
@@ -34630,7 +34611,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6511
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6542
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6542
 
 #### zaddBuffer(args)
 
@@ -34650,7 +34631,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6542
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6559
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6559
 
 ***
 
@@ -34679,7 +34660,7 @@ Get the number of members in a sorted set
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6573
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6573
 
 ***
 
@@ -34712,7 +34693,7 @@ Count the members in a sorted set with scores within the given values
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6580
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6580
 
 ***
 
@@ -34741,7 +34722,7 @@ Subtract multiple sorted sets
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6587
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6587
 
 #### zdiff(args)
 
@@ -34761,7 +34742,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6587
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6597
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6597
 
 #### zdiff(args)
 
@@ -34781,7 +34762,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6597
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6607
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6607
 
 #### zdiff(args)
 
@@ -34801,7 +34782,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6607
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6609
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6609
 
 #### zdiff(args)
 
@@ -34821,7 +34802,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6609
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6611
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6611
 
 #### zdiff(args)
 
@@ -34841,7 +34822,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6611
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6623
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6623
 
 #### zdiff(args)
 
@@ -34861,7 +34842,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6623
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6635
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6635
 
 #### zdiff(args)
 
@@ -34881,7 +34862,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6635
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6645
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6645
 
 ***
 
@@ -34905,7 +34886,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6645
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6592
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6592
 
 #### zdiffBuffer(args)
 
@@ -34925,7 +34906,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6592
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6602
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6602
 
 #### zdiffBuffer(args)
 
@@ -34945,7 +34926,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6602
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6608
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6608
 
 #### zdiffBuffer(args)
 
@@ -34965,7 +34946,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6608
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6610
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6610
 
 #### zdiffBuffer(args)
 
@@ -34985,7 +34966,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6610
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6617
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6617
 
 #### zdiffBuffer(args)
 
@@ -35005,7 +34986,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6617
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6629
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6629
 
 #### zdiffBuffer(args)
 
@@ -35025,7 +35006,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6629
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6640
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6640
 
 #### zdiffBuffer(args)
 
@@ -35045,7 +35026,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6640
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6650
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6650
 
 ***
 
@@ -35074,7 +35055,7 @@ Subtract multiple sorted sets and store the resulting sorted set in a new key
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6661
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6661
 
 #### zdiffstore(args)
 
@@ -35094,7 +35075,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6661
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6667
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6667
 
 #### zdiffstore(args)
 
@@ -35114,7 +35095,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6667
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6673
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6673
 
 #### zdiffstore(args)
 
@@ -35134,7 +35115,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6673
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6678
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6678
 
 ***
 
@@ -35167,7 +35148,7 @@ Increment the score of a member in a sorted set
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6685
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6685
 
 ***
 
@@ -35195,7 +35176,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6685
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6686
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6686
 
 ***
 
@@ -35224,7 +35205,7 @@ Intersect multiple sorted sets
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6693
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6693
 
 #### zinter(args)
 
@@ -35244,7 +35225,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6693
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6703
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6703
 
 #### zinter(args)
 
@@ -35264,7 +35245,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6703
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6713
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6713
 
 #### zinter(args)
 
@@ -35284,7 +35265,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6713
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6715
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6715
 
 #### zinter(args)
 
@@ -35304,7 +35285,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6715
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6717
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6717
 
 #### zinter(args)
 
@@ -35324,7 +35305,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6717
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6729
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6729
 
 #### zinter(args)
 
@@ -35344,7 +35325,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6729
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6741
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6741
 
 #### zinter(args)
 
@@ -35364,7 +35345,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6741
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6751
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6751
 
 #### zinter(args)
 
@@ -35384,7 +35365,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6751
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6761
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6761
 
 #### zinter(args)
 
@@ -35404,7 +35385,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6761
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6775
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6775
 
 #### zinter(args)
 
@@ -35424,7 +35405,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6775
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6789
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6789
 
 #### zinter(args)
 
@@ -35444,7 +35425,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6789
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6801
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6801
 
 #### zinter(args)
 
@@ -35464,7 +35445,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6801
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6813
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6813
 
 #### zinter(args)
 
@@ -35484,7 +35465,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6813
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6829
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6829
 
 #### zinter(args)
 
@@ -35504,7 +35485,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6829
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6845
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6845
 
 #### zinter(args)
 
@@ -35524,7 +35505,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6845
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6859
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6859
 
 #### zinter(args)
 
@@ -35544,7 +35525,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6859
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6873
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6873
 
 #### zinter(args)
 
@@ -35564,7 +35545,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6873
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6887
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6887
 
 #### zinter(args)
 
@@ -35584,7 +35565,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6887
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6901
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6901
 
 #### zinter(args)
 
@@ -35604,7 +35585,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6901
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6913
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6913
 
 #### zinter(args)
 
@@ -35624,7 +35605,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6913
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6925
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6925
 
 #### zinter(args)
 
@@ -35644,7 +35625,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6925
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6941
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6941
 
 #### zinter(args)
 
@@ -35664,7 +35645,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6941
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6957
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6957
 
 #### zinter(args)
 
@@ -35684,7 +35665,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6957
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6971
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6971
 
 #### zinter(args)
 
@@ -35704,7 +35685,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6971
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6985
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6985
 
 #### zinter(args)
 
@@ -35724,7 +35705,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6985
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6999
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6999
 
 #### zinter(args)
 
@@ -35744,7 +35725,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6999
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7013
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7013
 
 #### zinter(args)
 
@@ -35764,7 +35745,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7013
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7025
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7025
 
 #### zinter(args)
 
@@ -35784,7 +35765,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7025
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7037
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7037
 
 #### zinter(args)
 
@@ -35804,7 +35785,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7037
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7053
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7053
 
 #### zinter(args)
 
@@ -35824,7 +35805,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7053
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7069
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7069
 
 #### zinter(args)
 
@@ -35844,7 +35825,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7069
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7083
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7083
 
 #### zinter(args)
 
@@ -35864,7 +35845,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7083
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7097
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7097
 
 #### zinter(args)
 
@@ -35884,7 +35865,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7097
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7107
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7107
 
 #### zinter(args)
 
@@ -35904,7 +35885,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7107
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7109
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7109
 
 #### zinter(args)
 
@@ -35924,7 +35905,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7109
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7121
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7121
 
 #### zinter(args)
 
@@ -35944,7 +35925,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7121
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7131
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7131
 
 #### zinter(args)
 
@@ -35964,7 +35945,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7131
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7145
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7145
 
 #### zinter(args)
 
@@ -35984,7 +35965,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7145
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7157
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7157
 
 #### zinter(args)
 
@@ -36004,7 +35985,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7157
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7173
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7173
 
 #### zinter(args)
 
@@ -36024,7 +36005,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7173
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7187
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7187
 
 #### zinter(args)
 
@@ -36044,7 +36025,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7187
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7201
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7201
 
 #### zinter(args)
 
@@ -36064,7 +36045,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7201
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7213
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7213
 
 #### zinter(args)
 
@@ -36084,7 +36065,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7213
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7229
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7229
 
 #### zinter(args)
 
@@ -36104,7 +36085,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7229
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7243
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7243
 
 #### zinter(args)
 
@@ -36124,7 +36105,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7243
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7257
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7257
 
 #### zinter(args)
 
@@ -36144,7 +36125,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7257
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7269
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7269
 
 #### zinter(args)
 
@@ -36164,7 +36145,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7269
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7285
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7285
 
 ***
 
@@ -36188,7 +36169,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7285
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6698
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6698
 
 #### zinterBuffer(args)
 
@@ -36208,7 +36189,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6698
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6708
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6708
 
 #### zinterBuffer(args)
 
@@ -36228,7 +36209,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6708
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6714
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6714
 
 #### zinterBuffer(args)
 
@@ -36248,7 +36229,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6714
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6716
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6716
 
 #### zinterBuffer(args)
 
@@ -36268,7 +36249,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6716
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6723
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6723
 
 #### zinterBuffer(args)
 
@@ -36288,7 +36269,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6723
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6735
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6735
 
 #### zinterBuffer(args)
 
@@ -36308,7 +36289,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6735
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6746
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6746
 
 #### zinterBuffer(args)
 
@@ -36328,7 +36309,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6746
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6756
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6756
 
 #### zinterBuffer(args)
 
@@ -36348,7 +36329,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6756
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6768
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6768
 
 #### zinterBuffer(args)
 
@@ -36368,7 +36349,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6768
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6782
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6782
 
 #### zinterBuffer(args)
 
@@ -36388,7 +36369,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6782
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6795
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6795
 
 #### zinterBuffer(args)
 
@@ -36408,7 +36389,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6795
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6807
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6807
 
 #### zinterBuffer(args)
 
@@ -36428,7 +36409,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6807
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6821
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6821
 
 #### zinterBuffer(args)
 
@@ -36448,7 +36429,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6821
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6837
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6837
 
 #### zinterBuffer(args)
 
@@ -36468,7 +36449,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6837
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6852
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6852
 
 #### zinterBuffer(args)
 
@@ -36488,7 +36469,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6852
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6866
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6866
 
 #### zinterBuffer(args)
 
@@ -36508,7 +36489,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6866
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6880
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6880
 
 #### zinterBuffer(args)
 
@@ -36528,7 +36509,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6880
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6894
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6894
 
 #### zinterBuffer(args)
 
@@ -36548,7 +36529,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6894
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6907
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6907
 
 #### zinterBuffer(args)
 
@@ -36568,7 +36549,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6907
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6919
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6919
 
 #### zinterBuffer(args)
 
@@ -36588,7 +36569,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6919
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6933
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6933
 
 #### zinterBuffer(args)
 
@@ -36608,7 +36589,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6933
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6949
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6949
 
 #### zinterBuffer(args)
 
@@ -36628,7 +36609,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6949
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6964
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6964
 
 #### zinterBuffer(args)
 
@@ -36648,7 +36629,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6964
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6978
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6978
 
 #### zinterBuffer(args)
 
@@ -36668,7 +36649,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6978
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:6992
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:6992
 
 #### zinterBuffer(args)
 
@@ -36688,7 +36669,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:6992
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7006
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7006
 
 #### zinterBuffer(args)
 
@@ -36708,7 +36689,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7006
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7019
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7019
 
 #### zinterBuffer(args)
 
@@ -36728,7 +36709,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7019
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7031
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7031
 
 #### zinterBuffer(args)
 
@@ -36748,7 +36729,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7031
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7045
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7045
 
 #### zinterBuffer(args)
 
@@ -36768,7 +36749,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7045
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7061
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7061
 
 #### zinterBuffer(args)
 
@@ -36788,7 +36769,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7061
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7076
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7076
 
 #### zinterBuffer(args)
 
@@ -36808,7 +36789,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7076
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7090
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7090
 
 #### zinterBuffer(args)
 
@@ -36828,7 +36809,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7090
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7102
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7102
 
 #### zinterBuffer(args)
 
@@ -36848,7 +36829,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7102
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7108
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7108
 
 #### zinterBuffer(args)
 
@@ -36868,7 +36849,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7108
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7115
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7115
 
 #### zinterBuffer(args)
 
@@ -36888,7 +36869,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7115
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7126
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7126
 
 #### zinterBuffer(args)
 
@@ -36908,7 +36889,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7126
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7138
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7138
 
 #### zinterBuffer(args)
 
@@ -36928,7 +36909,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7138
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7151
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7151
 
 #### zinterBuffer(args)
 
@@ -36948,7 +36929,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7151
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7165
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7165
 
 #### zinterBuffer(args)
 
@@ -36968,7 +36949,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7165
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7180
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7180
 
 #### zinterBuffer(args)
 
@@ -36988,7 +36969,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7180
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7194
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7194
 
 #### zinterBuffer(args)
 
@@ -37008,7 +36989,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7194
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7207
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7207
 
 #### zinterBuffer(args)
 
@@ -37028,7 +37009,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7207
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7221
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7221
 
 #### zinterBuffer(args)
 
@@ -37048,7 +37029,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7221
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7236
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7236
 
 #### zinterBuffer(args)
 
@@ -37068,7 +37049,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7236
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7250
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7250
 
 #### zinterBuffer(args)
 
@@ -37088,7 +37069,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7250
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7263
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7263
 
 #### zinterBuffer(args)
 
@@ -37108,7 +37089,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7263
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7277
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7277
 
 #### zinterBuffer(args)
 
@@ -37128,7 +37109,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7277
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7292
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7292
 
 ***
 
@@ -37157,7 +37138,7 @@ Intersect multiple sorted sets and return the cardinality of the result
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7305
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7305
 
 #### zintercard(args)
 
@@ -37177,7 +37158,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7305
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7310
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7310
 
 #### zintercard(args)
 
@@ -37197,7 +37178,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7310
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7315
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7315
 
 #### zintercard(args)
 
@@ -37217,7 +37198,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7315
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7316
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7316
 
 #### zintercard(args)
 
@@ -37237,7 +37218,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7316
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7317
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7317
 
 #### zintercard(args)
 
@@ -37257,7 +37238,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7317
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7324
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7324
 
 #### zintercard(args)
 
@@ -37277,7 +37258,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7324
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7331
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7331
 
 #### zintercard(args)
 
@@ -37297,7 +37278,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7331
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7337
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7337
 
 ***
 
@@ -37326,7 +37307,7 @@ Intersect multiple sorted sets and store the resulting sorted set in a new key
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7349
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7349
 
 #### zinterstore(args)
 
@@ -37346,7 +37327,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7349
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7355
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7355
 
 #### zinterstore(args)
 
@@ -37366,7 +37347,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7355
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7361
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7361
 
 #### zinterstore(args)
 
@@ -37386,7 +37367,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7361
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7366
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7366
 
 #### zinterstore(args)
 
@@ -37406,7 +37387,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7366
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7367
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7367
 
 #### zinterstore(args)
 
@@ -37426,7 +37407,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7367
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7375
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7375
 
 #### zinterstore(args)
 
@@ -37446,7 +37427,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7375
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7383
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7383
 
 #### zinterstore(args)
 
@@ -37466,7 +37447,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7383
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7390
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7390
 
 #### zinterstore(args)
 
@@ -37486,7 +37467,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7390
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7397
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7397
 
 #### zinterstore(args)
 
@@ -37506,7 +37487,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7397
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7405
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7405
 
 #### zinterstore(args)
 
@@ -37526,7 +37507,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7405
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7413
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7413
 
 #### zinterstore(args)
 
@@ -37546,7 +37527,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7413
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7420
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7420
 
 #### zinterstore(args)
 
@@ -37566,7 +37547,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7420
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7427
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7427
 
 #### zinterstore(args)
 
@@ -37586,7 +37567,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7427
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7435
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7435
 
 #### zinterstore(args)
 
@@ -37606,7 +37587,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7435
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7443
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7443
 
 #### zinterstore(args)
 
@@ -37626,7 +37607,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7443
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7450
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7450
 
 #### zinterstore(args)
 
@@ -37646,7 +37627,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7450
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7457
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7457
 
 #### zinterstore(args)
 
@@ -37666,7 +37647,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7457
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7463
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7463
 
 #### zinterstore(args)
 
@@ -37686,7 +37667,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7463
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7468
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7468
 
 #### zinterstore(args)
 
@@ -37706,7 +37687,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7468
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7476
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7476
 
 #### zinterstore(args)
 
@@ -37726,7 +37707,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7476
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7483
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7483
 
 #### zinterstore(args)
 
@@ -37746,7 +37727,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7483
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7491
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7491
 
 #### zinterstore(args)
 
@@ -37766,7 +37747,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7491
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7498
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7498
 
 #### zinterstore(args)
 
@@ -37786,7 +37767,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7498
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7506
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7506
 
 ***
 
@@ -37819,7 +37800,7 @@ Count the number of members in a sorted set between a given lexicographical rang
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7519
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7519
 
 ***
 
@@ -37848,7 +37829,7 @@ Remove and return members with scores in a sorted set
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7526
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7526
 
 #### zmpop(args)
 
@@ -37868,7 +37849,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7526
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7532
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7532
 
 #### zmpop(args)
 
@@ -37888,7 +37869,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7532
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7538
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7538
 
 #### zmpop(args)
 
@@ -37908,7 +37889,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7538
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7539
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7539
 
 #### zmpop(args)
 
@@ -37928,7 +37909,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7539
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7540
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7540
 
 #### zmpop(args)
 
@@ -37948,7 +37929,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7540
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7548
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7548
 
 #### zmpop(args)
 
@@ -37968,7 +37949,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7548
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7556
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7556
 
 #### zmpop(args)
 
@@ -37988,7 +37969,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7556
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7563
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7563
 
 #### zmpop(args)
 
@@ -38008,7 +37989,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7563
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7570
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7570
 
 #### zmpop(args)
 
@@ -38028,7 +38009,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7570
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7576
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7576
 
 #### zmpop(args)
 
@@ -38048,7 +38029,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7576
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7582
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7582
 
 #### zmpop(args)
 
@@ -38068,7 +38049,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7582
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7583
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7583
 
 #### zmpop(args)
 
@@ -38088,7 +38069,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7583
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7584
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7584
 
 #### zmpop(args)
 
@@ -38108,7 +38089,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7584
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7592
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7592
 
 #### zmpop(args)
 
@@ -38128,7 +38109,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7592
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7600
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7600
 
 #### zmpop(args)
 
@@ -38148,7 +38129,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7600
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7607
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7607
 
 ***
 
@@ -38177,7 +38158,7 @@ Get the score associated with the given members in a sorted set
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7620
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7620
 
 #### zmscore(args)
 
@@ -38197,7 +38178,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7620
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7630
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7630
 
 #### zmscore(args)
 
@@ -38217,7 +38198,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7630
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7640
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7640
 
 #### zmscore(args)
 
@@ -38237,7 +38218,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7640
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7642
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7642
 
 ***
 
@@ -38261,7 +38242,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7642
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7625
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7625
 
 #### zmscoreBuffer(args)
 
@@ -38281,7 +38262,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7625
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7635
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7635
 
 #### zmscoreBuffer(args)
 
@@ -38301,7 +38282,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7635
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7641
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7641
 
 #### zmscoreBuffer(args)
 
@@ -38321,7 +38302,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7641
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7643
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7643
 
 ***
 
@@ -38352,7 +38333,7 @@ Remove and return members with the highest scores in a sorted set
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7650
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7650
 
 #### zpopmax(key, count, callback)
 
@@ -38376,7 +38357,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7650
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7652
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7652
 
 ***
 
@@ -38402,7 +38383,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7652
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7651
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7651
 
 #### zpopmaxBuffer(key, count, callback)
 
@@ -38426,7 +38407,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7651
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7653
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7653
 
 ***
 
@@ -38457,7 +38438,7 @@ Remove and return members with the lowest scores in a sorted set
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7660
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7660
 
 #### zpopmin(key, count, callback)
 
@@ -38481,7 +38462,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7660
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7662
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7662
 
 ***
 
@@ -38507,7 +38488,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7662
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7661
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7661
 
 #### zpopminBuffer(key, count, callback)
 
@@ -38531,7 +38512,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7661
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7663
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7663
 
 ***
 
@@ -38562,7 +38543,7 @@ Get one or multiple random elements from a sorted set
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7670
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7670
 
 #### zrandmember(key, count, callback)
 
@@ -38586,7 +38567,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7670
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7672
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7672
 
 #### zrandmember(key, count, withscores, callback)
 
@@ -38612,7 +38593,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7672
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7674
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7674
 
 ***
 
@@ -38638,7 +38619,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7674
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7671
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7671
 
 #### zrandmemberBuffer(key, count, callback)
 
@@ -38662,7 +38643,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7671
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7673
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7673
 
 #### zrandmemberBuffer(key, count, withscores, callback)
 
@@ -38688,7 +38669,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7673
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7675
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7675
 
 ***
 
@@ -38723,7 +38704,7 @@ Return a range of members in a sorted set
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7682
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7682
 
 #### zrange(key, min, max, withscores, callback)
 
@@ -38751,7 +38732,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7682
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7684
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7684
 
 #### zrange(key, min, max, offsetCountToken, offset, count, callback)
 
@@ -38783,7 +38764,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7684
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7686
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7686
 
 #### zrange(key, min, max, offsetCountToken, offset, count, withscores, callback)
 
@@ -38817,7 +38798,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7686
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7688
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7688
 
 #### zrange(key, min, max, rev, callback)
 
@@ -38845,7 +38826,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7688
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7690
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7690
 
 #### zrange(key, min, max, rev, withscores, callback)
 
@@ -38875,7 +38856,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7690
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7692
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7692
 
 #### zrange(key, min, max, rev, offsetCountToken, offset, count, callback)
 
@@ -38909,7 +38890,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7692
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7694
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7694
 
 #### zrange(key, min, max, rev, offsetCountToken, offset, count, withscores, callback)
 
@@ -38945,7 +38926,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7694
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7696
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7696
 
 #### zrange(key, min, max, byscore, callback)
 
@@ -38973,7 +38954,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7696
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7698
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7698
 
 #### zrange(key, min, max, byscore, withscores, callback)
 
@@ -39003,7 +38984,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7698
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7700
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7700
 
 #### zrange(key, min, max, byscore, offsetCountToken, offset, count, callback)
 
@@ -39037,7 +39018,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7700
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7702
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7702
 
 #### zrange(key, min, max, byscore, offsetCountToken, offset, count, withscores, callback)
 
@@ -39073,7 +39054,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7702
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7704
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7704
 
 #### zrange(key, min, max, byscore, rev, callback)
 
@@ -39103,7 +39084,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7704
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7706
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7706
 
 #### zrange(key, min, max, byscore, rev, withscores, callback)
 
@@ -39135,7 +39116,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7706
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7708
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7708
 
 #### zrange(key, min, max, byscore, rev, offsetCountToken, offset, count, callback)
 
@@ -39171,7 +39152,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7708
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7710
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7710
 
 #### zrange(key, min, max, byscore, rev, offsetCountToken, offset, count, withscores, callback)
 
@@ -39209,7 +39190,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7710
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7712
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7712
 
 #### zrange(key, min, max, bylex, callback)
 
@@ -39237,7 +39218,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7712
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7714
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7714
 
 #### zrange(key, min, max, bylex, withscores, callback)
 
@@ -39267,7 +39248,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7714
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7716
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7716
 
 #### zrange(key, min, max, bylex, offsetCountToken, offset, count, callback)
 
@@ -39301,7 +39282,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7716
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7718
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7718
 
 #### zrange(key, min, max, bylex, offsetCountToken, offset, count, withscores, callback)
 
@@ -39337,7 +39318,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7718
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7720
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7720
 
 #### zrange(key, min, max, bylex, rev, callback)
 
@@ -39367,7 +39348,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7720
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7722
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7722
 
 #### zrange(key, min, max, bylex, rev, withscores, callback)
 
@@ -39399,7 +39380,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7722
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7724
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7724
 
 #### zrange(key, min, max, bylex, rev, offsetCountToken, offset, count, callback)
 
@@ -39435,7 +39416,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7724
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7726
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7726
 
 #### zrange(key, min, max, bylex, rev, offsetCountToken, offset, count, withscores, callback)
 
@@ -39473,7 +39454,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7726
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7728
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7728
 
 ***
 
@@ -39503,7 +39484,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7728
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7683
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7683
 
 #### zrangeBuffer(key, min, max, withscores, callback)
 
@@ -39531,7 +39512,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7683
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7685
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7685
 
 #### zrangeBuffer(key, min, max, offsetCountToken, offset, count, callback)
 
@@ -39563,7 +39544,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7685
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7687
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7687
 
 #### zrangeBuffer(key, min, max, offsetCountToken, offset, count, withscores, callback)
 
@@ -39597,7 +39578,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7687
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7689
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7689
 
 #### zrangeBuffer(key, min, max, rev, callback)
 
@@ -39625,7 +39606,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7689
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7691
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7691
 
 #### zrangeBuffer(key, min, max, rev, withscores, callback)
 
@@ -39655,7 +39636,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7691
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7693
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7693
 
 #### zrangeBuffer(key, min, max, rev, offsetCountToken, offset, count, callback)
 
@@ -39689,7 +39670,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7693
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7695
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7695
 
 #### zrangeBuffer(key, min, max, rev, offsetCountToken, offset, count, withscores, callback)
 
@@ -39725,7 +39706,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7695
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7697
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7697
 
 #### zrangeBuffer(key, min, max, byscore, callback)
 
@@ -39753,7 +39734,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7697
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7699
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7699
 
 #### zrangeBuffer(key, min, max, byscore, withscores, callback)
 
@@ -39783,7 +39764,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7699
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7701
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7701
 
 #### zrangeBuffer(key, min, max, byscore, offsetCountToken, offset, count, callback)
 
@@ -39817,7 +39798,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7701
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7703
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7703
 
 #### zrangeBuffer(key, min, max, byscore, offsetCountToken, offset, count, withscores, callback)
 
@@ -39853,7 +39834,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7703
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7705
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7705
 
 #### zrangeBuffer(key, min, max, byscore, rev, callback)
 
@@ -39883,7 +39864,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7705
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7707
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7707
 
 #### zrangeBuffer(key, min, max, byscore, rev, withscores, callback)
 
@@ -39915,7 +39896,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7707
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7709
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7709
 
 #### zrangeBuffer(key, min, max, byscore, rev, offsetCountToken, offset, count, callback)
 
@@ -39951,7 +39932,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7709
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7711
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7711
 
 #### zrangeBuffer(key, min, max, byscore, rev, offsetCountToken, offset, count, withscores, callback)
 
@@ -39989,7 +39970,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7711
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7713
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7713
 
 #### zrangeBuffer(key, min, max, bylex, callback)
 
@@ -40017,7 +39998,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7713
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7715
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7715
 
 #### zrangeBuffer(key, min, max, bylex, withscores, callback)
 
@@ -40047,7 +40028,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7715
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7717
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7717
 
 #### zrangeBuffer(key, min, max, bylex, offsetCountToken, offset, count, callback)
 
@@ -40081,7 +40062,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7717
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7719
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7719
 
 #### zrangeBuffer(key, min, max, bylex, offsetCountToken, offset, count, withscores, callback)
 
@@ -40117,7 +40098,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7719
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7721
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7721
 
 #### zrangeBuffer(key, min, max, bylex, rev, callback)
 
@@ -40147,7 +40128,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7721
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7723
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7723
 
 #### zrangeBuffer(key, min, max, bylex, rev, withscores, callback)
 
@@ -40179,7 +40160,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7723
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7725
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7725
 
 #### zrangeBuffer(key, min, max, bylex, rev, offsetCountToken, offset, count, callback)
 
@@ -40215,7 +40196,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7725
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7727
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7727
 
 #### zrangeBuffer(key, min, max, bylex, rev, offsetCountToken, offset, count, withscores, callback)
 
@@ -40253,7 +40234,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7727
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7729
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7729
 
 ***
 
@@ -40288,7 +40269,7 @@ Return a range of members in a sorted set, by lexicographical range
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7736
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7736
 
 #### zrangebylex(key, min, max, offsetCountToken, offset, count, callback)
 
@@ -40320,7 +40301,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7736
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7738
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7738
 
 ***
 
@@ -40350,7 +40331,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7738
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7737
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7737
 
 #### zrangebylexBuffer(key, min, max, offsetCountToken, offset, count, callback)
 
@@ -40382,7 +40363,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7737
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7739
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7739
 
 ***
 
@@ -40417,7 +40398,7 @@ Return a range of members in a sorted set, by score
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7746
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7746
 
 #### zrangebyscore(key, min, max, offsetCountToken, offset, count, callback)
 
@@ -40449,7 +40430,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7746
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7748
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7748
 
 #### zrangebyscore(key, min, max, withscores, callback)
 
@@ -40477,7 +40458,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7748
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7750
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7750
 
 #### zrangebyscore(key, min, max, withscores, offsetCountToken, offset, count, callback)
 
@@ -40511,7 +40492,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7750
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7752
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7752
 
 ***
 
@@ -40541,7 +40522,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7752
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7747
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7747
 
 #### zrangebyscoreBuffer(key, min, max, offsetCountToken, offset, count, callback)
 
@@ -40573,7 +40554,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7747
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7749
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7749
 
 #### zrangebyscoreBuffer(key, min, max, withscores, callback)
 
@@ -40601,7 +40582,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7749
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7751
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7751
 
 #### zrangebyscoreBuffer(key, min, max, withscores, offsetCountToken, offset, count, callback)
 
@@ -40635,7 +40616,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7751
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7753
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7753
 
 ***
 
@@ -40672,7 +40653,7 @@ Store a range of members from sorted set into another key
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7760
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7760
 
 #### zrangestore(dst, src, min, max, offsetCountToken, offset, count, callback)
 
@@ -40706,7 +40687,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7760
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7761
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7761
 
 #### zrangestore(dst, src, min, max, rev, callback)
 
@@ -40736,7 +40717,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7761
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7762
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7762
 
 #### zrangestore(dst, src, min, max, rev, offsetCountToken, offset, count, callback)
 
@@ -40772,7 +40753,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7762
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7763
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7763
 
 #### zrangestore(dst, src, min, max, byscore, callback)
 
@@ -40802,7 +40783,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7763
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7764
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7764
 
 #### zrangestore(dst, src, min, max, byscore, offsetCountToken, offset, count, callback)
 
@@ -40838,7 +40819,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7764
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7765
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7765
 
 #### zrangestore(dst, src, min, max, byscore, rev, callback)
 
@@ -40870,7 +40851,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7765
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7766
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7766
 
 #### zrangestore(dst, src, min, max, byscore, rev, offsetCountToken, offset, count, callback)
 
@@ -40908,7 +40889,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7766
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7767
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7767
 
 #### zrangestore(dst, src, min, max, bylex, callback)
 
@@ -40938,7 +40919,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7767
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7768
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7768
 
 #### zrangestore(dst, src, min, max, bylex, offsetCountToken, offset, count, callback)
 
@@ -40974,7 +40955,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7768
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7769
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7769
 
 #### zrangestore(dst, src, min, max, bylex, rev, callback)
 
@@ -41006,7 +40987,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7769
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7770
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7770
 
 #### zrangestore(dst, src, min, max, bylex, rev, offsetCountToken, offset, count, callback)
 
@@ -41044,7 +41025,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7770
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7771
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7771
 
 ***
 
@@ -41075,7 +41056,7 @@ Determine the index of a member in a sorted set
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7778
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7778
 
 ***
 
@@ -41104,7 +41085,7 @@ Remove one or more members from a sorted set
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7785
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7785
 
 #### zrem(args)
 
@@ -41124,7 +41105,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7785
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7790
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7790
 
 #### zrem(args)
 
@@ -41144,7 +41125,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7790
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7795
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7795
 
 #### zrem(args)
 
@@ -41164,7 +41145,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7795
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7796
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7796
 
 ***
 
@@ -41197,7 +41178,7 @@ Remove all members in a sorted set between the given lexicographical range
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7803
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7803
 
 ***
 
@@ -41230,7 +41211,7 @@ Remove all members in a sorted set within the given indexes
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7810
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7810
 
 ***
 
@@ -41263,7 +41244,7 @@ Remove all members in a sorted set within the given scores
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7817
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7817
 
 ***
 
@@ -41298,7 +41279,7 @@ Return a range of members in a sorted set, by index, with scores ordered from hi
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7824
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7824
 
 #### zrevrange(key, start, stop, withscores, callback)
 
@@ -41326,7 +41307,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7824
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7826
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7826
 
 ***
 
@@ -41356,7 +41337,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7826
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7825
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7825
 
 #### zrevrangeBuffer(key, start, stop, withscores, callback)
 
@@ -41384,7 +41365,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7825
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7827
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7827
 
 ***
 
@@ -41419,7 +41400,7 @@ Return a range of members in a sorted set, by lexicographical range, ordered fro
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7834
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7834
 
 #### zrevrangebylex(key, max, min, offsetCountToken, offset, count, callback)
 
@@ -41451,7 +41432,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7834
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7836
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7836
 
 ***
 
@@ -41481,7 +41462,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7836
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7835
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7835
 
 #### zrevrangebylexBuffer(key, max, min, offsetCountToken, offset, count, callback)
 
@@ -41513,7 +41494,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7835
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7837
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7837
 
 ***
 
@@ -41548,7 +41529,7 @@ Return a range of members in a sorted set, by score, with scores ordered from hi
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7844
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7844
 
 #### zrevrangebyscore(key, max, min, offsetCountToken, offset, count, callback)
 
@@ -41580,7 +41561,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7844
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7846
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7846
 
 #### zrevrangebyscore(key, max, min, withscores, callback)
 
@@ -41608,7 +41589,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7846
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7848
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7848
 
 #### zrevrangebyscore(key, max, min, withscores, offsetCountToken, offset, count, callback)
 
@@ -41642,7 +41623,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7848
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7850
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7850
 
 ***
 
@@ -41672,7 +41653,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7850
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7845
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7845
 
 #### zrevrangebyscoreBuffer(key, max, min, offsetCountToken, offset, count, callback)
 
@@ -41704,7 +41685,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7845
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7847
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7847
 
 #### zrevrangebyscoreBuffer(key, max, min, withscores, callback)
 
@@ -41732,7 +41713,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7847
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7849
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7849
 
 #### zrevrangebyscoreBuffer(key, max, min, withscores, offsetCountToken, offset, count, callback)
 
@@ -41766,7 +41747,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7849
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7851
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7851
 
 ***
 
@@ -41797,7 +41778,7 @@ Determine the index of a member in a sorted set, with scores ordered from high t
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7858
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7858
 
 ***
 
@@ -41830,7 +41811,7 @@ Incrementally iterate sorted sets elements and associated scores
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7865
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7865
 
 #### zscan(key, cursor, countToken, count, callback)
 
@@ -41858,7 +41839,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7865
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7867
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7867
 
 #### zscan(key, cursor, patternToken, pattern, callback)
 
@@ -41886,7 +41867,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7867
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7869
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7869
 
 #### zscan(key, cursor, patternToken, pattern, countToken, count, callback)
 
@@ -41918,7 +41899,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7869
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7871
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7871
 
 ***
 
@@ -41946,7 +41927,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7871
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7866
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7866
 
 #### zscanBuffer(key, cursor, countToken, count, callback)
 
@@ -41974,7 +41955,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7866
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7868
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7868
 
 #### zscanBuffer(key, cursor, patternToken, pattern, callback)
 
@@ -42002,7 +41983,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7868
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7870
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7870
 
 #### zscanBuffer(key, cursor, patternToken, pattern, countToken, count, callback)
 
@@ -42034,7 +42015,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7870
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7872
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7872
 
 ***
 
@@ -42058,7 +42039,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7872
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:171
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:171
 
 ***
 
@@ -42082,7 +42063,7 @@ node\_modules/ioredis/built/Redis.d.ts:171
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:170
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:170
 
 ***
 
@@ -42113,7 +42094,7 @@ Get the score associated with the given member in a sorted set
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7879
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7879
 
 ***
 
@@ -42139,7 +42120,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7879
 
 #### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7880
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7880
 
 ***
 
@@ -42168,7 +42149,7 @@ Add multiple sorted sets
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7887
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7887
 
 #### zunion(args)
 
@@ -42188,7 +42169,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7887
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7897
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7897
 
 #### zunion(args)
 
@@ -42208,7 +42189,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7897
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7907
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7907
 
 #### zunion(args)
 
@@ -42228,7 +42209,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7907
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7909
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7909
 
 #### zunion(args)
 
@@ -42248,7 +42229,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7909
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7911
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7911
 
 #### zunion(args)
 
@@ -42268,7 +42249,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7911
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7923
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7923
 
 #### zunion(args)
 
@@ -42288,7 +42269,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7923
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7935
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7935
 
 #### zunion(args)
 
@@ -42308,7 +42289,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7935
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7945
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7945
 
 #### zunion(args)
 
@@ -42328,7 +42309,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7945
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7955
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7955
 
 #### zunion(args)
 
@@ -42348,7 +42329,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7955
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7969
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7969
 
 #### zunion(args)
 
@@ -42368,7 +42349,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7969
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7983
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7983
 
 #### zunion(args)
 
@@ -42388,7 +42369,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7983
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7995
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7995
 
 #### zunion(args)
 
@@ -42408,7 +42389,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7995
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8007
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8007
 
 #### zunion(args)
 
@@ -42428,7 +42409,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8007
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8023
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8023
 
 #### zunion(args)
 
@@ -42448,7 +42429,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8023
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8039
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8039
 
 #### zunion(args)
 
@@ -42468,7 +42449,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8039
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8053
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8053
 
 #### zunion(args)
 
@@ -42488,7 +42469,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8053
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8067
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8067
 
 #### zunion(args)
 
@@ -42508,7 +42489,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8067
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8081
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8081
 
 #### zunion(args)
 
@@ -42528,7 +42509,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8081
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8095
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8095
 
 #### zunion(args)
 
@@ -42548,7 +42529,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8095
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8107
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8107
 
 #### zunion(args)
 
@@ -42568,7 +42549,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8107
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8119
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8119
 
 #### zunion(args)
 
@@ -42588,7 +42569,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8119
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8135
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8135
 
 #### zunion(args)
 
@@ -42608,7 +42589,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8135
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8151
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8151
 
 #### zunion(args)
 
@@ -42628,7 +42609,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8151
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8165
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8165
 
 #### zunion(args)
 
@@ -42648,7 +42629,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8165
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8179
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8179
 
 #### zunion(args)
 
@@ -42668,7 +42649,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8179
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8193
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8193
 
 #### zunion(args)
 
@@ -42688,7 +42669,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8193
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8207
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8207
 
 #### zunion(args)
 
@@ -42708,7 +42689,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8207
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8219
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8219
 
 #### zunion(args)
 
@@ -42728,7 +42709,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8219
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8231
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8231
 
 #### zunion(args)
 
@@ -42748,7 +42729,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8231
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8247
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8247
 
 #### zunion(args)
 
@@ -42768,7 +42749,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8247
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8263
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8263
 
 #### zunion(args)
 
@@ -42788,7 +42769,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8263
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8277
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8277
 
 #### zunion(args)
 
@@ -42808,7 +42789,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8277
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8291
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8291
 
 #### zunion(args)
 
@@ -42828,7 +42809,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8291
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8301
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8301
 
 #### zunion(args)
 
@@ -42848,7 +42829,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8301
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8303
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8303
 
 #### zunion(args)
 
@@ -42868,7 +42849,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8303
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8315
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8315
 
 #### zunion(args)
 
@@ -42888,7 +42869,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8315
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8325
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8325
 
 #### zunion(args)
 
@@ -42908,7 +42889,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8325
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8339
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8339
 
 #### zunion(args)
 
@@ -42928,7 +42909,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8339
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8351
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8351
 
 #### zunion(args)
 
@@ -42948,7 +42929,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8351
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8367
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8367
 
 #### zunion(args)
 
@@ -42968,7 +42949,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8367
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8381
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8381
 
 #### zunion(args)
 
@@ -42988,7 +42969,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8381
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8395
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8395
 
 #### zunion(args)
 
@@ -43008,7 +42989,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8395
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8407
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8407
 
 #### zunion(args)
 
@@ -43028,7 +43009,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8407
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8423
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8423
 
 #### zunion(args)
 
@@ -43048,7 +43029,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8423
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8437
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8437
 
 #### zunion(args)
 
@@ -43068,7 +43049,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8437
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8451
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8451
 
 #### zunion(args)
 
@@ -43088,7 +43069,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8451
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8463
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8463
 
 #### zunion(args)
 
@@ -43108,7 +43089,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8463
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8479
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8479
 
 ***
 
@@ -43132,7 +43113,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8479
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7892
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7892
 
 #### zunionBuffer(args)
 
@@ -43152,7 +43133,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7892
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7902
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7902
 
 #### zunionBuffer(args)
 
@@ -43172,7 +43153,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7902
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7908
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7908
 
 #### zunionBuffer(args)
 
@@ -43192,7 +43173,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7908
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7910
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7910
 
 #### zunionBuffer(args)
 
@@ -43212,7 +43193,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7910
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7917
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7917
 
 #### zunionBuffer(args)
 
@@ -43232,7 +43213,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7917
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7929
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7929
 
 #### zunionBuffer(args)
 
@@ -43252,7 +43233,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7929
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7940
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7940
 
 #### zunionBuffer(args)
 
@@ -43272,7 +43253,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7940
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7950
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7950
 
 #### zunionBuffer(args)
 
@@ -43292,7 +43273,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7950
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7962
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7962
 
 #### zunionBuffer(args)
 
@@ -43312,7 +43293,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7962
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7976
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7976
 
 #### zunionBuffer(args)
 
@@ -43332,7 +43313,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7976
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:7989
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:7989
 
 #### zunionBuffer(args)
 
@@ -43352,7 +43333,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:7989
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8001
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8001
 
 #### zunionBuffer(args)
 
@@ -43372,7 +43353,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8001
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8015
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8015
 
 #### zunionBuffer(args)
 
@@ -43392,7 +43373,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8015
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8031
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8031
 
 #### zunionBuffer(args)
 
@@ -43412,7 +43393,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8031
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8046
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8046
 
 #### zunionBuffer(args)
 
@@ -43432,7 +43413,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8046
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8060
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8060
 
 #### zunionBuffer(args)
 
@@ -43452,7 +43433,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8060
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8074
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8074
 
 #### zunionBuffer(args)
 
@@ -43472,7 +43453,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8074
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8088
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8088
 
 #### zunionBuffer(args)
 
@@ -43492,7 +43473,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8088
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8101
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8101
 
 #### zunionBuffer(args)
 
@@ -43512,7 +43493,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8101
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8113
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8113
 
 #### zunionBuffer(args)
 
@@ -43532,7 +43513,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8113
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8127
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8127
 
 #### zunionBuffer(args)
 
@@ -43552,7 +43533,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8127
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8143
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8143
 
 #### zunionBuffer(args)
 
@@ -43572,7 +43553,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8143
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8158
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8158
 
 #### zunionBuffer(args)
 
@@ -43592,7 +43573,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8158
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8172
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8172
 
 #### zunionBuffer(args)
 
@@ -43612,7 +43593,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8172
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8186
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8186
 
 #### zunionBuffer(args)
 
@@ -43632,7 +43613,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8186
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8200
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8200
 
 #### zunionBuffer(args)
 
@@ -43652,7 +43633,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8200
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8213
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8213
 
 #### zunionBuffer(args)
 
@@ -43672,7 +43653,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8213
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8225
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8225
 
 #### zunionBuffer(args)
 
@@ -43692,7 +43673,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8225
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8239
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8239
 
 #### zunionBuffer(args)
 
@@ -43712,7 +43693,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8239
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8255
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8255
 
 #### zunionBuffer(args)
 
@@ -43732,7 +43713,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8255
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8270
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8270
 
 #### zunionBuffer(args)
 
@@ -43752,7 +43733,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8270
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8284
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8284
 
 #### zunionBuffer(args)
 
@@ -43772,7 +43753,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8284
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8296
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8296
 
 #### zunionBuffer(args)
 
@@ -43792,7 +43773,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8296
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8302
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8302
 
 #### zunionBuffer(args)
 
@@ -43812,7 +43793,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8302
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8309
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8309
 
 #### zunionBuffer(args)
 
@@ -43832,7 +43813,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8309
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8320
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8320
 
 #### zunionBuffer(args)
 
@@ -43852,7 +43833,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8320
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8332
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8332
 
 #### zunionBuffer(args)
 
@@ -43872,7 +43853,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8332
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8345
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8345
 
 #### zunionBuffer(args)
 
@@ -43892,7 +43873,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8345
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8359
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8359
 
 #### zunionBuffer(args)
 
@@ -43912,7 +43893,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8359
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8374
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8374
 
 #### zunionBuffer(args)
 
@@ -43932,7 +43913,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8374
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8388
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8388
 
 #### zunionBuffer(args)
 
@@ -43952,7 +43933,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8388
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8401
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8401
 
 #### zunionBuffer(args)
 
@@ -43972,7 +43953,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8401
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8415
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8415
 
 #### zunionBuffer(args)
 
@@ -43992,7 +43973,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8415
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8430
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8430
 
 #### zunionBuffer(args)
 
@@ -44012,7 +43993,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8430
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8444
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8444
 
 #### zunionBuffer(args)
 
@@ -44032,7 +44013,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8444
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8457
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8457
 
 #### zunionBuffer(args)
 
@@ -44052,7 +44033,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8457
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8471
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8471
 
 #### zunionBuffer(args)
 
@@ -44072,7 +44053,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8471
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8486
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8486
 
 ***
 
@@ -44101,7 +44082,7 @@ Add multiple sorted sets and store the resulting sorted set in a new key
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8499
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8499
 
 #### zunionstore(args)
 
@@ -44121,7 +44102,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8499
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8505
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8505
 
 #### zunionstore(args)
 
@@ -44141,7 +44122,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8505
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8511
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8511
 
 #### zunionstore(args)
 
@@ -44161,7 +44142,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8511
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8516
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8516
 
 #### zunionstore(args)
 
@@ -44181,7 +44162,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8516
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8517
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8517
 
 #### zunionstore(args)
 
@@ -44201,7 +44182,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8517
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8525
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8525
 
 #### zunionstore(args)
 
@@ -44221,7 +44202,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8525
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8533
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8533
 
 #### zunionstore(args)
 
@@ -44241,7 +44222,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8533
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8540
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8540
 
 #### zunionstore(args)
 
@@ -44261,7 +44242,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8540
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8547
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8547
 
 #### zunionstore(args)
 
@@ -44281,7 +44262,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8547
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8555
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8555
 
 #### zunionstore(args)
 
@@ -44301,7 +44282,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8555
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8563
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8563
 
 #### zunionstore(args)
 
@@ -44321,7 +44302,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8563
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8570
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8570
 
 #### zunionstore(args)
 
@@ -44341,7 +44322,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8570
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8577
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8577
 
 #### zunionstore(args)
 
@@ -44361,7 +44342,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8577
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8585
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8585
 
 #### zunionstore(args)
 
@@ -44381,7 +44362,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8585
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8593
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8593
 
 #### zunionstore(args)
 
@@ -44401,7 +44382,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8593
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8600
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8600
 
 #### zunionstore(args)
 
@@ -44421,7 +44402,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8600
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8607
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8607
 
 #### zunionstore(args)
 
@@ -44441,7 +44422,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8607
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8613
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8613
 
 #### zunionstore(args)
 
@@ -44461,7 +44442,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8613
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8618
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8618
 
 #### zunionstore(args)
 
@@ -44481,7 +44462,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8618
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8626
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8626
 
 #### zunionstore(args)
 
@@ -44501,7 +44482,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8626
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8633
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8633
 
 #### zunionstore(args)
 
@@ -44521,7 +44502,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8633
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8641
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8641
 
 #### zunionstore(args)
 
@@ -44541,7 +44522,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8641
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8648
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8648
 
 #### zunionstore(args)
 
@@ -44561,7 +44542,7 @@ node\_modules/ioredis/built/utils/RedisCommander.d.ts:8648
 
 ##### Defined in
 
-node\_modules/ioredis/built/utils/RedisCommander.d.ts:8656
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/utils/RedisCommander.d.ts:8656
 
 ***
 
@@ -44586,4 +44567,4 @@ This is the same as `new Redis()` but is included for compatibility with node-re
 
 #### Defined in
 
-node\_modules/ioredis/built/Redis.d.ts:41
+node\_modules/.pnpm/ioredis@5.4.1/node\_modules/ioredis/built/Redis.d.ts:41

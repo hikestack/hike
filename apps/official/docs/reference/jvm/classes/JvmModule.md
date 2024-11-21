@@ -26,7 +26,7 @@
 
 #### Defined in
 
-node\_modules/@nestjs/common/module-utils/interfaces/configurable-module-cls.interface.d.ts:12
+node\_modules/.pnpm/@nestjs+common@10.4.8\_reflect-metadata@0.2.2\_rxjs@7.8.1/node\_modules/@nestjs/common/module-utils/interfaces/configurable-module-cls.interface.d.ts:12
 
 ## Methods
 
@@ -48,7 +48,7 @@ node\_modules/@nestjs/common/module-utils/interfaces/configurable-module-cls.int
 
 #### Defined in
 
-[packages/jvm/src/jvm.module.ts:14](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/jvm/src/jvm.module.ts#L14)
+[packages/jvm/src/jvm.module.ts:14](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/jvm/src/jvm.module.ts#L14)
 
 ***
 
@@ -70,4 +70,4 @@ node\_modules/@nestjs/common/module-utils/interfaces/configurable-module-cls.int
 
 #### Defined in
 
-[packages/jvm/src/jvm.module.ts:20](https://github.com/hikestack/hike/blob/110006a71b16d35b8305bd3bea8f80d291c9c609/packages/jvm/src/jvm.module.ts#L20)
+[packages/jvm/src/jvm.module.ts:20](https://github.com/hikestack/hike/blob/c92ba77258ca8fade42047e4fbc66f1760864ed9/packages/jvm/src/jvm.module.ts#L20)
