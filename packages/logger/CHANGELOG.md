@@ -1,5 +1,11 @@
 # @hikestack/logger
 
+## 2.0.0
+
+### Major Changes
+
+- 150995c: Modify the formatting behavior of optional parameters
+
 ## 1.1.0
 
 ### Minor Changes
