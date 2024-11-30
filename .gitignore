@@ -35,6 +35,4 @@ env/*
 **/env/**
 
 .vscode
-apps/*  
-!apps/official/
-packages/client
+apps/*

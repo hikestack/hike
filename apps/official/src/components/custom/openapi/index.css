@@ -1,7 +1,0 @@
-.scalar-app {
-	--scalar-background-1: var(--rp-c-bg);
-	--refs-header-height: var(--rp-nav-height);
-	.darklight-reference {
-		display: none;
-	}
-}

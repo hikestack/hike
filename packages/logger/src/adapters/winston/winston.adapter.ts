@@ -10,15 +10,15 @@ export class WinstonAdapter implements ILogger {
 	}
 
 	log(message: any, ...optionalParams: any[]) {
-		this.logger.info(this.format(message, ...optionalParams));
+		this.logger.info(this.format(message), ...optionalParams);
 	}
 
 	error(message: any, ...optionalParams: any[]) {
-		this.logger.error(this.format(message, ...optionalParams));
+		this.logger.error(this.format(message), ...optionalParams);
 	}
 
 	warn(message: any, ...optionalParams: any[]) {
-		this.logger.warn(this.format(message, ...optionalParams));
+		this.logger.warn(this.format(message), ...optionalParams);
 	}
 
 	private format(...messages: unknown[]) {

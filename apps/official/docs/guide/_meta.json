@@ -1,9 +1,0 @@
-[
-	"introduction",
-	{ "type": "dir", "name": "libs", "label": "库" },
-	{ "type": "dir", "name": "modules", "label": "模块" },
-	{ "type": "dir", "name": "services", "label": "云服务" },
-	{ "type": "dir", "name": "components", "label": "组件" },
-	{ "type": "dir", "name": "hooks", "label": "hooks" },
-	{ "type": "dir", "name": "docs", "label": "原理" }
-]
