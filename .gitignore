@@ -36,3 +36,4 @@ env/*
 
 .vscode
 apps/*
+!apps/api
