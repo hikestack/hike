@@ -1,3 +1,5 @@
+import constants from '@/contants';
+import clusterize from '@hikestack/clusterize';
 import { LoggerService } from '@hikestack/logger';
 import { ConfigService } from '@nestjs/config';
 import { NestFactory } from '@nestjs/core';
@@ -23,4 +25,5 @@ async function main() {
     `);
   });
 }
-main();
+
+constants.isDev ? main() : clusterize(main);

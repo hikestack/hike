@@ -1,7 +1,7 @@
 {
-	"name": "nest-typescript-starter",
+	"name": "@elljs/api",
 	"private": true,
-	"version": "1.0.1",
+	"version": "0.1.0",
 	"description": "Nest TypeScript starter repository",
 	"license": "MIT",
 	"scripts": {
@@ -16,6 +16,7 @@
 		"node": ">=16.0.0"
 	},
 	"dependencies": {
+		"@hikestack/clusterize": "workspace:^",
 		"@hikestack/logger": "workspace:^",
 		"@nestjs/common": "^10.3.2",
 		"@nestjs/config": "^3.3.0",
@@ -53,19 +54,13 @@
 		"typescript": "^5.3.3"
 	},
 	"jest": {
-		"moduleFileExtensions": [
-			"js",
-			"json",
-			"ts"
-		],
+		"moduleFileExtensions": ["js", "json", "ts"],
 		"rootDir": "src",
 		"testRegex": ".*\\.spec\\.ts$",
 		"transform": {
 			"^.+\\.(t|j)s$": "ts-jest"
 		},
-		"collectCoverageFrom": [
-			"**/*.(t|j)s"
-		],
+		"collectCoverageFrom": ["**/*.(t|j)s"],
 		"coverageDirectory": "../coverage",
 		"testEnvironment": "node"
 	}
