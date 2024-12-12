@@ -1,8 +1,8 @@
 import { LoggerModule, WinstonAdapter } from '@hikestack/logger';
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { RouterModule } from '@nestjs/core';
+import { AdminModule } from './admin';
 import { configs } from './configs';
 
 @Module({
@@ -18,9 +18,14 @@ import { configs } from './configs';
       useFactory: (configService: ConfigService) => ({
         adapter: new WinstonAdapter(configService.get("logger")),
       }),
-    })
+    }),
+    AdminModule,
+    RouterModule.register([
+      {
+        path: 'admin',
+        module: AdminModule,
+      },
+    ]),
   ],
-  controllers: [AppController],
-  providers: [AppService],
 })
 export class AppModule { }

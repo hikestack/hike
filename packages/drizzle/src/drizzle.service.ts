@@ -11,14 +11,13 @@ import { MODULE_OPTIONS_TOKEN } from "./drizzle.module-definition";
 export class DrizzleService<
 	TClient extends DatabaseClient = "mysql2",
 	TSchema extends DatabaseConnectionOptions = any,
-> implements OnModuleInit
-{
+> implements OnModuleInit {
 	private client;
 
 	constructor(
 		@Inject(MODULE_OPTIONS_TOKEN)
 		private readonly options: DrizzleModuleOptions,
-	) {}
+	) { }
 
 	async onModuleInit() {
 		if (this.options.client) {

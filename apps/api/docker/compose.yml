@@ -17,8 +17,6 @@ services:
       - mysql-storage:/var/lib/mysql
       # 初始化数据库的脚本
       - ./init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
-      # 初始化Quartz数据库的脚本
-      - ./init-quartz.sql:/docker-entrypoint-initdb.d/init-quartz.sql
   
   # Redis 5.0 service
   redis:
@@ -29,45 +27,6 @@ services:
     networks:
       - ell
     command: redis-server --requirepass 123456
-  
-  # RecketMQ 5.0 service
-  namesrv:
-    image: apache/rocketmq:5.3.1
-    container_name: rmqnamesrv
-    ports:
-      - 9876:9876
-    networks:
-      - ell
-    command: sh mqnamesrv
-  broker:
-    image: apache/rocketmq:5.3.1
-    container_name: rmqbroker
-    ports:
-      - 10909:10909
-      - 10911:10911
-      - 10912:10912
-    environment:
-      - NAMESRV_ADDR=rmqnamesrv:9876
-    depends_on:
-      - namesrv
-    networks:
-      - ell
-    command: sh mqbroker
-  proxy:
-    image: apache/rocketmq:5.3.1
-    container_name: rmqproxy
-    networks:
-      - ell
-    depends_on:
-      - broker
-      - namesrv
-    ports:
-      - 8080:8080
-      - 8081:8081
-    restart: on-failure
-    environment:
-      - NAMESRV_ADDR=rmqnamesrv:9876
-    command: sh mqproxy
 
 networks:
   ell:
