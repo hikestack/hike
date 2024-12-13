@@ -392,6 +392,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Infrastructure
+**/.terraform
+
 =======
 # Local
 .env
