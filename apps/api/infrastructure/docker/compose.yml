@@ -28,9 +28,32 @@ services:
       - ell
     command: redis-server --requirepass 123456
 
+  # NATS service
+  nats:
+    image: nats:2.10.0
+    container_name: nats
+    ports:
+      - "4222:4222"  # 客户端端口
+      - "8222:8222"  # 监控和管理端口
+    networks:
+      - ell
+    command: "--js"  # 启用JetStream
+    volumes:
+      - nats-storage:/data
+
+  # Inngest service
+  inngest:
+    image: inngest/inngest:v1.3.2
+    container_name: inngest
+    ports:
+      - "8288:8288"
+    networks:
+      - ell
+    command: "inngest dev -u http://host.docker.internal:3000/api/inngest"
 networks:
   ell:
     driver: bridge
 
 volumes:
   mysql-storage:
+  nats-storage:

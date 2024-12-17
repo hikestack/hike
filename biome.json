@@ -39,7 +39,8 @@
 			"complexity": {
 				"noThisInStatic": "off",
 				"noBannedTypes": "off",
-				"noForEach": "off"
+				"noForEach": "off",
+				"noStaticOnlyClass": "off"
 			},
 			"correctness": {
 				"useExhaustiveDependencies": "off",
